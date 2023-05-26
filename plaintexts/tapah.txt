@@ -1,0 +1,893 @@
+1. GENERAL INFORMATION
+
+1.1. BASIC DATA
+Language/dialect :Tapah
+Number of the list :229b
+Mentioned in :NBG. 1920
+Name of investigator :van der Linde
+
+ 
+1.2. OTHER DETAILS
+1.2.2. This questionnaire consists of four lists:
+229a Simalur
+2296 Tapah
+229c Lêkon
+229d Salang and Sigule
+
+<wlist>
+1. badan
+2. oeloe
+3. bóbangon
+4. kalimah
+5. lalar oeloe
+6. b6 oeloe
+8. boeboeh boeboeh
+9. 0j6
+11. mata
+15. bó songôt
+17. owl mata
+18. 1hoeng
+20. ingd1
+21. asang
+22. babah
+25. bifil
+27. koemi soesoemboe-1
+28. djanggoe-1
+29. sibi
+30. djambè, sarak
+31. dilah
+32. langi langi
+33. ehen
+34. bangan
+35. ngèngèn
+37. longgoeng
+38. lengngêl
+41. ardb
+42. toetoe
+45. mata toetoe
+46. dwi toetoe
+48. mantoetoe
+50. sôt
+52. at]h
+53. bisil sebêl
+54. bisil
+56. 11mpöh
+57. maréw
+61. oechoe/poese
+62. tall oechoe
+63. têtè
+66. arifalang
+68. 1amang
+69. oetò tai/dalan tai
+70. oedjoeng soeroebiet
+72. mantai
+73. tai
+75. bêtoet
+76. afoeroeh
+77. hoeloeb
+78. tiê
+82. mahijeu
+83. ki-eu
+84. ka-eu
+86. ka-eu
+88. matan sa-a
+90. ahang
+91. bohoel
+93. bétis
+94. doeloeg, sot bétis
+95. kau
+97. ka-d
+99. pah
+100. sioe
+102. daloeag ka-ò
+105. ana' ka-d
+107. tênap
+108. alafen ka-ô
+109. itoetoeroe
+115. sôt
+116. dala
+117. is1
+118. lor
+121. 0161
+122. bó
+123. bó
+124. ating ating
+125. iloel
+126. machais
+127. aseng aseng
+128. mangan
+129. malahal
+130. manginôm
+131. mafoe
+132. asêld
+133. afêsoel
+134. afêkoeng, afêsoel
+137. nifoeteu
+138. mêreu'
+139. menihi
+144. oemideu
+145. loemala-ôh <1>
+146. ajak ajak
+147. êbak-êbak, mahajan
+148. miting miting
+149. toemata-eung
+150. bêseld, silah melajoe
+151. magheuab
+152. oengkang oengkang
+153. loemangbih
+154. doemê
+156. gagöh
+158. léng
+159. parau
+160. oemau
+161. oemighêm
+163. oemêng]h
+166. asêld oemasêng
+167. mantjiloel
+169. bahan <2>
+170. töhò
+172. sêloetên
+173. bêtêghên
+174. mafoea
+176. matoelai
+177. angó
+182. ôrip
+183. matal
+184. matai
+188. mai
+191. djirat
+192. nifoenoeh
+194. artò poesakò
+196. ballên
+197. Intja, bêtó
+198. malintah
+199. akdlh
+200. akoih
+202. badoe akdih
+203. afaleu
+205. marêpên
+207. aköih bistl
+209. sirit
+210. katombo-an
+214. kököih, bah
+219. aköih oeloe
+220. aköih sot
+222. takoeroeng
+223. ménaha
+228. paka
+229. afoeta
+231. djoeling
+234. dôn
+235. bidan
+236. ata
+237. ata
+238. ata
+239. kahan
+240. kahan
+241. silai
+242. silafai
+243. silai
+244. silai, singèl
+245. silafal
+246. silafai
+248. <3>
+250. ana silai, sitòtöh
+252. ana silafai
+255. ajah
+256. inah
+257. ana' si-a-a
+258. ana' siebdh
+261. ana' silai
+262. ana' silafai
+263. nēnèh
+264. nènèh
+266. móJang
+267. ata sémónan
+268. saudara
+269. saudara
+270. kawdh
+271. kawôh
+272. kanga
+273. kanga
+274. moemboeh
+277. toed
+278. têngah, pantjoe
+279. mêmawdh,mêmanga
+280. 1böh
+283. mêmawdh
+284. mêmant joe
+285. mêmawöh
+286. iboh
+287. <4>
+289. <4>
+291. malachi
+293. malach1
+297/298. simatön
+299. amên
+300. amen
+302/303. ana tiri
+304. ajah, inah
+305. ana tiri
+306-309. toemoedò, achoen <5>
+310/314. toemoedò
+315. akrab
+316. aba-at
+317. laï
+318. lavéné
+320. malafin
+324. moevoecha
+326. band
+327. kampong
+329. sênêboe
+330. bangsò
+332. hadjimat
+339. hantoe
+340. mod mari-ien
+341. mod, tjoman tJoman
+345. allah, nabi
+351. soerat
+352. hoeroeb
+353. karatas
+354. soerat
+355. kitab
+359. nanga², nandong² <6>
+367. marí-in akalné
+368. mahan akalné
+369. hharam
+370. beri mé-1
+371. têngkoe
+374. massihit
+375. banò kramat
+377. soerau
+378. radjd
+382. band oeta oetie
+386. dato
+389. ata matoe-ang
+390. ana pêparangan
+391. oentoeng
+392. roegi
+396. adat
+397. ata mahau
+399. manghoekoem
+401. sasi
+404. kandoeri ata si matai
+407/408. hawil
+410. nitala
+411. djanamoe
+412. djandfi
+413. malanag
+414. bidan
+415. bêrakan, bêkoekó
+416. maldih, ahêmê
+419. bioela
+420. sangkadoe, soel1m
+421. tamboer
+422. kêdang/kêndang
+423. gambang
+424. sanang, angkoem
+428. bêsile,manari
+432. mêlajam lajam
+433. g@sing
+437. loemah
+438. Jaboer
+439. bangkawan
+440. têpó têpó
+441/442. taloep
+446. asau
+449. bientoe
+451. tinkap
+452. soedoe-1
+453. loeha-an
+454. aleran
+456. la-ôt boeloe
+457. la-ôt ahan ahan
+458. dinding ahan ahan
+459. dinding boeloe
+461. toengga' sêbê1
+464. koeraboe
+465. banò oemêreu
+468. töhö1
+469. bantal
+470. band toemata-eung
+472/473. ala
+474. afoe
+475. ah61
+476. toetoeng
+477. drip ahi
+478. moefoenoeh ahói
+482. tébê1
+483. ahêng-lal
+484. awoe-in
+485. tandong aladoe
+486. foenoeh aladoe
+487. ardb loemah
+488. koeraboe
+493. kansah, balang bêsi
+494. balang lantJah
+495. borish têmbagò
+496. boriöh lantjah
+497. ingkan
+498. boe-ai
+499. sóloeg
+501. kangsò
+502. kangsò sitö
+505. bisoe, sirawi
+506. kalobang
+507. karis
+508. sirawi
+509. patöh
+510. sodd
+511. sêdò*
+513. mangabih Öwí
+514. kating
+515. aladoe
+516. tênêng
+517. soeloe
+519. salappa
+520. hoedai sèbêl
+522. kasch
+525-527. mansah
+528. sanggal
+530. nitoetoeng
+534. djoeadah
+535. dhoeadah bêlandjò
+536. alênan
+537. koellh
+539. bantai
+540. bantal si mata-a
+541. nai
+544. boralh
+545. laJab
+546. ahal
+547. koechoeau
+549. boeradang
+550. lêsoeng
+551. alau
+555. di héling
+561. handJi
+562. lada
+563. asila
+565. enên kêdang
+567. saloetoeng
+569/570. bâdoe
+571/572. bèrèpoe, Ôndong ondong
+573. sol
+576. sinsim, tjintJim
+577. beritawa
+579. teula teula
+580. kariang
+583. soebang <7>
+586. salêndang
+588. oeping
+589. ênên
+590. soetô
+600. manarawang
+601. mangöjôt
+602. tali
+603. bênang
+604. mafênd
+605/606. taung, anga
+608. kalobang aseh, bêdang
+609. saboeng
+611. tômba', kapa'
+612. soempí
+617. parisai
+620. bêdi1
+621. oefat bêdil
+622. ana bêdil
+623. manêmba
+624. omban
+626. prang
+627. moesoeh
+628. mariam
+630. dai de-in
+631. kôtò
+635. mênang
+636. ata di radah
+637. ata niroeron
+639. djakat
+640. belasting
+642. badja
+643. mata badja
+644. sike
+648. pangkoer, sangkoel
+649. sadôb
+650. rêmbe
+651. toewai, sadöb
+652. sangkoel
+653. ladang
+654/655. tivana
+656. toefoeng toefoeng
+657. boera
+659. aloe
+660. tanêmên
+662/663. manêmên
+664. tanêmên
+665. manêmên
+668. manas, manai
+669. bahai, manai
+671/672. mamatí
+674. djangkoeng
+677. kasang
+679. antimon
+681. bahoeng
+682. têpoe
+683. kasang
+684. bawang
+685. bangkala
+686. kalède
+688. kalede
+690. sipil1
+691. bônô1
+692. <8>
+695. anau
+701. sagar
+702. toengkoel
+703. doembiöh
+704. batoep
+705. ênên
+706. карё
+707. pandan
+708. mangg1, balêm
+709. anasah
+710. ramboetan
+711. toerian
+712. djamboe
+713. lansat
+716-718. kaul
+722. alimau
+723. kop1 <9>
+726. gambir
+728. a-oel
+729. dil
+731. oewai
+732. boeloe
+733. raboeng
+734. awa
+737. manëh
+739/740. 11ang
+742/744. dlor
+746. boeloeng
+748. oeloet
+750. w1 awa
+752. bon1
+753. 1fan
+754. soeroefa
+755. soeroefa
+758. bini boengò
+759. boh
+761. bib1 b§h
+763. k6
+764. 1s1
+766. lana
+770. ballh1
+771. ballh1
+772. 11alang
+773. sachoe
+774. binatang
+775. ana'
+778. 1Joe
+779. ka-eu
+780. tapah
+781. anilah
+786. ambih
+787. bó
+789. sonör
+790. anteu
+794. eudeung
+797. moerêm
+799. kabing
+800-802. kêbau
+805. êmbé
+806. mal6-ah
+807. koedò <9>
+811. asoe
+812. mafau
+813. majal
+814. mi-au
+824. bölêm, oenai
+825. ak
+826. mansh
+830. mandh singèl
+835. kêhe
+836. aêhit dêhit, lajang lajang
+840. baloeng
+843. <10>
+844. manda
+845. toepai
+846. bênggi
+851. tioe
+852. tie sebêl
+854. loetoeng <11>
+861. délah
+865. sawali
+866. oetoe
+870. oetoe
+871. kóhoeng
+872. dalda, ngaleu
+877. lis <12>
+878. alifambang
+879. bangal
+881. lêng
+884. lalatoe
+885. <13>
+886. sawa <14>
+888. alian
+891. lahalêng
+892. orang
+893. langko <15>
+894. kauhau, chimò
+896. bêla
+899. beawa'
+900. bôja
+901. noh
+902. nondbong
+905. 1êngkoel
+906. mata balal
+907. longköfen mata balal
+908. bawa
+910. bawa <16>
+911. nitangkò ra-oe
+912. bintoen <17>
+917. lêpoel
+919. òlòl
+920. oewoel
+921. inalik
+923. tioeng
+924. elas
+927. linon
+928. angèm
+929. badai
+930. Owi
+931. lor
+932. masoeroet, tìh
+934. loolfó
+935. bakad
+936. mahaka
+937. ló'
+938. bala
+939. haroes
+940. afófau
+941. batoe karang
+942/943. angkal
+944. oelau
+945. gênting
+947. dêlòq
+948. dêlòq
+950. manoeroen
+951. padang padang
+952. padang padang
+955. dotan
+957. alali, sêmòk
+958. safoen
+959. dalan
+960. madali
+961. lar
+962. atossan
+963. loean
+964. títi
+965. oeloe
+966. aǐ
+967. matandwi
+968. safàl
+969. batoe
+970. lantjah
+971. bala
+973. bêsi
+974. tambagd
+976. dial
+977. boelawan
+978. téblah
+979. téblah
+981. toekang bêsi
+982. abon
+984. sé-al
+985. toetò' bêsi
+986. landas
+987. singkip
+989. diroeloek
+993. bêrdamai
+995. nahoeda
+999. alè
+1000. ata mandling
+1001. kêdai
+1002. kêdai
+1003. saudagar
+1004. mênêkat
+1005. déloem
+1007. ateu
+1008. labóné
+1009. roegi
+1010. vêli
+1011. mahal
+1012. moerah
+1013. oetang
+1015. mamajar
+1016. angafan
+1017/1018. niralin
+1019. nilflig
+1020. tidau
+1025. dasing
+1026. sioe <18>
+1027. arih <19>
+1026-1028. timbang
+1029/1030. kapal
+1031. kapal ahó1
+1032. samboh
+1033. bile, Jaloer
+1035. tyang
+1037. malai-al
+1038. amoeri
+1040. solan
+1043. mansölan
+1049. sa-öh
+1050. raki
+1051. ló'
+1052. matoembeu
+1053. ata miraboe-1
+1058. ata niradah
+1060. nilala
+1061. sebê1
+1062. itò 1t8
+1063. atari
+1064. têheur
+1065/1066. afitoe bitoe
+1067/1068. mopôrít
+1070. manèhè nèhê
+1071. mahénong
+1072-1074. matafeu
+1076. kêntoes
+1079. maiêrop
+1080/1081. bêk1
+1082. a-eu foe-a-oe
+1083/1084. afaha
+1085/1086. afófau
+1087. atas
+1088. atêloe têloe
+1089. matòlòg
+1090. magé-o
+1096. malaja
+1098. ma-arêng
+1101. mala
+1102. rahò
+1104/1105. manas, manai
+1106/1107. marêpên
+1109/1110. boelè
+1112. ampè sagi
+1113. avêla
+1115. sampìh
+1116. avêla'
+1117. mali
+1118. marahò dahò
+1119. malawan
+1121. panjagên
+1125. mata-a
+1127. afaseu
+1130. marí-ìn
+1132-1135. marí-ìn
+1136-1139. machau
+1142. badoe ísí
+1143. manòh
+1146/1147. tagòh
+1150. matoeang
+1152. mangoera ngoera
+1153. afaloe
+1154. mìsêkin
+1155. kajò
+1156. asèlò
+1159. bingòn bingòn
+1160. sêdì
+1161. mamès
+1162. masêm
+1163. maréw
+1166. masin
+1167. dding
+1168. Itêm
+1169. afala
+1170. afala
+1171. koenèng
+1172. idjau
+1173. idjau
+1174. machawal
+1175. dapêh
+1176. moeba
+1179. abih
+1180. mangabih
+1193. dêdêm
+1194. píkír
+1195. nilah
+1196. mêrdêman
+1197. maliboe
+1198. patidah
+1199. mangakoe
+1200. mênêng
+1202. bitjard
+1203. nanga nanga
+1206. ongan alèdia
+1210. karadfö
+1211. mangkoedê, mangantain
+1212. mandoen
+1213. magêbîh
+1214. niawi
+1216. sìngkìp
+1220. manítí
+1221. nititi aròb
+1222-1224. afajoe
+1225. niséheu
+1227. enggêl
+1228. êna'
+1229. angkéw
+1233. sèrêk
+1234. mansingöl
+1236/1237. manangkeu
+1239. bantji
+1245. mamoe-ai
+1246. longköp
+1251. angia-na
+1253-1255. ma-intih
+1259. ni intjit nilifit
+1260/1261. n1 oni
+1262/1263. matôt
+1264. la-oet
+1265/1266. nifoenèn
+1267. toetoe
+1268. eu
+1269. manidau
+1272. doestò
+1277. manoetoeng
+1278. manöb
+1284. bêsang
+1286. mamdlêng
+1291. mangêntoe, djôs
+1293. <20>
+1294. <21>
+1295. <22>
+1296. <23>
+1297. <24>
+1298. <25>
+1299. <26>
+1300. <27>
+1301. <28>
+1302. <29>
+1303. <30>
+1304. <31>
+1305. <32>
+1310. <33>
+1311. <34>
+1312. <35>
+1313. <36>
+1315. <37>
+1316. <38>
+1317. <39>
+1318. <40>
+1319. <41>
+1323. <42>
+1324. <43>
+1325. <44>
+1326. satêngah
+1328. sahoeli
+1329. dôhdli
+1330/1331. sénga oenên²
+1332/1333. sénga dôhòl1
+1338. ovil
+1339. avêl
+1340. ehi éhí
+1341. édêta
+1347. méhai
+1350. masaré
+1356. satêpi'
+1357. dè oe
+1358. dirieng oe
+1359. diò
+1362. di tah
+1363. do-i
+1365. dê oe
+1364/1367/1368. ditah
+1369/1370. dê e inambóné
+1373/1374. diò 1nambóné
+1375/1376. disê inambóné
+1379. étaja
+1380. araja
+1382. étaja
+1383. èrê
+1385. 1Jè
+1386. è ède
+1388. meria <45>
+1389. mè ròi, mè 1
+1394. balal <46>
+1398. tandong
+1402. bêngi
+1406. tahoen
+1407. moesin
+1408. moema-ar
+1409. ba-al
+1411. inang êrè
+1412/1413. me amon
+1416. nansioe
+1418. sori valal
+1419. sidd vongi
+1420. balal èrè
+1422. dêman
+1423. dovôngí
+1427. êngkan
+1428. ngang
+1429. bahai
+1431. oetard
+1432. sêlatan
+1433. timoe/timò/djati
+1434. barat têpat
+1435. ibílang
+1436. anawan
+1437. èdèta
+1439. mèdèta
+1440. mè-oen
+1441. mè-oen
+1442/1443. tèdò ngangja lêntoe
+1447. lêntoe'
+1450. ébaha
+1452. akên akên
+1453. arau
+1454. nilingkar
+1460. omai
+1461. oeboen
+1465. arabali
+1466. têheur
+1467. sahi-ai
+1469. alê
+1470. alè
+1471. ba
+1472. nga
+1474. tè-èn
+1475. béri
+1478. auleung
+1486. badoe eureu
+</wlist>
+<notes>
+1. to go away: koemoedoeng ; to walk backwards: mè oeri
+2. to blow one's nose: mangsingòl
+3. sitötöh, sipih, gadies
+4. kawöh, kanga, kantjoe, kalböh
+5. toemoedò: older ; achoen: younger
+6. nanga²: with biola ; nandong²: with kendang
+7. s@seung oejoe, sêngoejoe
+8. poepoeh, balaloe, bônd1
+9. not native to Simalur
+10. majang, langaun, langkéwan
+11. black monkey
+12. sandfly: namò
+13. small white ant: anai anai ; large white ant: batêl
+14. black snake: sawa itêm ; boa-constrictor: sawa namboe ; flying snake: sawa irang-irang ; green snake: sawa le-oel
+15. lobster: lanès
+16. same as the Muhammedan months
+17. bíntoen eudeung, bíntoen itoefôh, bíntoen pantjoeri, bíntoen banjak
+18. 1 satiloeng is 2 sioe ; 1 sangawan is 4 sloe ; 1 sakajoe is 12 sangawan ; 1 sakódi is 20 kajoe ; distance between the fingertips <of the left and right hand> when the arms are stretched sidewards: sarêpah ; distance between the tip of the thumb and the 3rd finger: angoeroeng ; width of the palm of the hand : satampoh ; one foot : satapah ; one finger-width : sadjari ; distance between the tip of the thumb and the outside of the little finger, when making a fist with the thumb straight: samaseti ; one thumb-width : sau alavengkau
+19. bamboo (to measure rice, salt, pepper, .etc.) ; 1 soeloeg is 2 vêla ; 2 soeloeg is 1/2 arih ;  1 sanal1 1s 16 arîh ; 1 sakoentjô is 10 nali
+20. people: mésa ; animals: sara ; obiects: sau
+21. people: darò; animals: doea sicha; objects: doevò
+22. people: datêloe/têloe; animals: têlo sicha; objects: têloevò
+23. people: dahat têloe; animals: aka sicha; objects: atau
+24. people: dalima; animals: 1ima sicha; objects: 11mavò
+25. people: danêm; animals; nêmmga sicha; objects; nêmmavò
+26. people: da-itoe; animals: Itoe nga sicha; objects: itoevò
+27. people: sûlapan; animals: sêlapan nga sicha; objects: sêlapan
+28. people: sûmbilan; animals: sêmbilan nga sicha; objects: sêmbilan
+29. people: sêpoeloeh; animals: sêpoeloeh nga sicha; objects: sêpoeloeh
+30. people: sabalè; animals: sabalè nga sicha; objects: sabalè
+31. people: doeò balè; animals: doeò balè nga sicha; objects: doed balè
+32. people: tigò bale; animals: tigò balê nga sicha; objects: tigò balê
+33. people: sêlapan balè; animals: sêlapan balè nga sicha; objects: sêlapan balè
+34. people: sêmbilan bale; animals: sêmbilan bale nga sicha; objects: sêmbilan balè
+35. people: doed poeloeh; animals: doed poeloeh; objects: doeò poeloeh
+36. people: doed poeloeh mésa/aso; animals: doeò poeloeh sara nga sicha; objects: doeò poeloeh asò
+37. people: doeò poeloeh limò; animals: doeò poeloeh limò nga sicha; obiects: doed poeloeh 11mò
+38. people: tigò poeloeh; animals: tigò poeloeh nga sicha; objects: tigò poeloen
+39. people: ampè poeloeh; animals: ampè poeloeh nga sicha; objects: ampè poeloeh
+40. people: limò poeloeh; animals: 11m poeloeh nga sicha; objects: 11mò poeloeh
+41. people: anêm poeloeh; animals: anêm poeloeh nga sicha; objects: anêm poeloeh
+42. people: saratoe-1; animals: saratoe-i/lató-1 nga sicha: objects saratoe-1
+43. people: sariboe; animals: sariboe nga sicha; objects: sariboe
+44. people: s@laksò; animals: sêlaksò nga sicha; objects: sêlaksò
+45. (this way)
+46. sênajan, s@lassa, raboeh, hami /chame, dima-at, saptoe, ahad
+</notes>
+
