@@ -99,67 +99,67 @@ Name of investigator: van der Linde
 127. aseng aseng
 128. mangan
 129. malahal
-130. manginôm
-131. mafoe
-132. asêld
+130. manginòm
+131. mafoe'
+132. asêlò
 133. afêsoel
 134. afêkoeng, afêsoel
 137. nifoeteu
 138. mêreu'
 139. menihi
 144. oemideu
-145. loemala-ôh <1>
+145. loemala-òh <1>
 146. ajak ajak
 147. êbak-êbak, mahajan
-148. miting miting
+148. mítìng mítìng
 149. toemata-eung
-150. bêseld, silah melajoe
+150. bêsélò, silah melajoe
 151. magheuab
 152. oengkang oengkang
-153. loemangbih
-154. doemê
-156. gagöh
+153. loemangoìh
+154. doemè
+156. gagòh
 158. léng
 159. parau
 160. oemau
 161. oemighêm
-163. oemêng]h
-166. asêld oemasêng
+163. oemêngìh
+166. asêlò oemasêng
 167. mantjiloel
 169. bahan <2>
-170. töhò
+170. tòhò
 172. sêloetên
 173. bêtêghên
 174. mafoea
 176. matoelai
 177. angó
-182. ôrip
-183. matal
+182. òrip
+183. matai
 184. matai
 188. mai
 191. djirat
 192. nifoenoeh
 194. artò poesakò
-196. ballên
-197. Intja, bêtó
+196. baǐlên
+197. intja, bêtó
 198. malintah
-199. akdlh
-200. akoih
-202. badoe akdih
+199. akòih
+200. akòih
+202. badoe akòih
 203. afaleu
 205. marêpên
-207. aköih bistl
-209. sirit
+207. akòih bìsìl
+209. sìrìt
 210. katombo-an
-214. kököih, bah
-219. aköih oeloe
-220. aköih sot
+214. kòkòih, bahó
+219. akòih oeloe
+220. akòih sòt
 222. takoeroeng
 223. ménaha
 228. paka
 229. afoeta
 231. djoeling
-234. dôn
+234. dòn
 235. bidan
 236. ata
 237. ata
@@ -170,43 +170,43 @@ Name of investigator: van der Linde
 242. silafai
 243. silai
 244. silai, singèl
-245. silafal
+245. silafai
 246. silafai
 248. <3>
-250. ana silai, sitòtöh
+250. ana silai, sitòtòh
 252. ana silafai
 255. ajah
 256. inah
 257. ana' si-a-a
-258. ana' siebdh
+258. ana' siebòh
 261. ana' silai
 262. ana' silafai
-263. nēnèh
+263. nènèh
 264. nènèh
-266. móJang
+266. mójang
 267. ata sémónan
 268. saudara
 269. saudara
-270. kawdh
-271. kawôh
+270. kawòh
+271. kawòh
 272. kanga
 273. kanga
 274. moemboeh
-277. toed
+277. toeò
 278. têngah, pantjoe
-279. mêmawdh,mêmanga
-280. 1böh
-283. mêmawdh
-284. mêmant joe
-285. mêmawöh
+279. mêmawòh,mêmanga
+280. ibòh
+283. mêmawòh
+284. mêmantjoe
+285. mêmawòh
 286. iboh
 287. <4>
 289. <4>
 291. malachi
-293. malach1
-297/298. simatön
-299. amên
-300. amen
+293. malachi
+297/298. simatòn
+299. amèn
+300. amèn
 302/303. ana tiri
 304. ajah, inah
 305. ana tiri
@@ -214,18 +214,18 @@ Name of investigator: van der Linde
 310/314. toemoedò
 315. akrab
 316. aba-at
-317. laï
+317. laǐ
 318. lavéné
 320. malafin
 324. moevoecha
-326. band
+326. banò
 327. kampong
-329. sênêboe
+329. sênèboe
 330. bangsò
 332. hadjimat
 339. hantoe
-340. mod mari-ien
-341. mod, tjoman tJoman
+340. mòd mari-ien
+341. mòd, tjòman tjòman
 345. allah, nabi
 351. soerat
 352. hoeroeb
@@ -236,13 +236,13 @@ Name of investigator: van der Linde
 367. marí-in akalné
 368. mahan akalné
 369. hharam
-370. beri mé-1
+370. beri mé-i
 371. têngkoe
 374. massihit
 375. banò kramat
 377. soerau
-378. radjd
-382. band oeta oetie
+378. radjò
+382. banò oeta oetie
 386. dato
 389. ata matoe-ang
 390. ana pêparangan
@@ -256,134 +256,134 @@ Name of investigator: van der Linde
 407/408. hawil
 410. nitala
 411. djanamoe
-412. djandfi
-413. malanag
+412. djandji
+413. malanaq
 414. bidan
 415. bêrakan, bêkoekó
-416. maldih, ahêmê
+416. malòih, ahêmè
 419. bioela
-420. sangkadoe, soel1m
+420. sangkadoe, söelim
 421. tamboer
 422. kêdang/kêndang
 423. gambang
 424. sanang, angkoem
-428. bêsile,manari
+428. bêsilè,manari
 432. mêlajam lajam
-433. g@sing
+433. gêsing
 437. loemah
-438. Jaboer
+438. jaboer
 439. bangkawan
 440. têpó têpó
 441/442. taloep
 446. asau
 449. bientoe
-451. tinkap
-452. soedoe-1
+451. tìnkap
+452. soedoe-i
 453. loeha-an
-454. aleran
-456. la-ôt boeloe
-457. la-ôt ahan ahan
-458. dinding ahan ahan
-459. dinding boeloe
-461. toengga' sêbê1
+454. aǐeran
+456. la-òt boeloe
+457. la-òt ahan ahan
+458. díndíng ahan ahan
+459. díndíng boeloe
+461. toengga' sèbêl
 464. koeraboe
 465. banò oemêreu
-468. töhö1
+468. tòhòl
 469. bantal
-470. band toemata-eung
+470. banò toemata-eung
 472/473. ala
 474. afoe
-475. ah61
+475. ahói
 476. toetoeng
-477. drip ahi
+477. òrip ahói
 478. moefoenoeh ahói
-482. tébê1
+482. tébêl
 483. ahêng-lal
-484. awoe-in
+484. awoe-ín
 485. tandong aladoe
 486. foenoeh aladoe
-487. ardb loemah
+487. aròb loemah
 488. koeraboe
 493. kansah, balang bêsi
-494. balang lantJah
-495. borish têmbagò
-496. boriöh lantjah
+494. balang lantjah
+495. boriòh têmbagò
+496. boriòh lantjah
 497. ingkan
 498. boe-ai
-499. sóloeg
+499. sóloeq
 501. kangsò
-502. kangsò sitö
-505. bisoe, sirawi
+502. kangsò sitò
+505. bísoe, sirawi
 506. kalobang
 507. karis
 508. sirawi
-509. patöh
-510. sodd
-511. sêdò*
-513. mangabih Öwí
+509. patòh
+510. sòdò
+511. sêdò'
+513. mangabìh òwí
 514. kating
 515. aladoe
-516. tênêng
+516. tènêng
 517. soeloe
 519. salappa
 520. hoedai sèbêl
-522. kasch
+522. kasòh
 525-527. mansah
 528. sanggal
 530. nitoetoeng
 534. djoeadah
 535. dhoeadah bêlandjò
-536. alênan
-537. koellh
+536. alènan
+537. koelìh
 539. bantai
-540. bantal si mata-a
+540. bantai si mata-a
 541. nai
-544. boralh
-545. laJab
-546. ahal
+544. bóraih
+545. lajab
+546. ahaǐ
 547. koechoeau
 549. boeradang
 550. lêsoeng
 551. alau
 555. di héling
-561. handJi
+561. handji
 562. lada
 563. asila
-565. enên kêdang
+565. enèn kêdang
 567. saloetoeng
-569/570. bâdoe
-571/572. bèrèpoe, Ôndong ondong
+569/570. bàdoe
+571/572. bèrèpoe, òndong òndong
 573. sol
-576. sinsim, tjintJim
+576. sìnsìm, tjìntjìm
 577. beritawa
 579. teula teula
 580. kariang
 583. soebang <7>
-586. salêndang
+586. salèndang
 588. oeping
-589. ênên
-590. soetô
+589. ènèn
+590. soetò
 600. manarawang
-601. mangöjôt
+601. mangòjòt
 602. tali
 603. bênang
-604. mafênd
+604. mafênò
 605/606. taung, anga
-608. kalobang aseh, bêdang
+608. kalobang aséh, bêdang
 609. saboeng
-611. tômba', kapa'
+611. tòmba', kapa'
 612. soempí
 617. parisai
-620. bêdi1
+620. bêdil
 621. oefat bêdil
 622. ana bêdil
-623. manêmba
-624. omban
+623. manèmba
+624. òmban
 626. prang
 627. moesoeh
 628. mariam
 630. dai de-in
-631. kôtò
+631. kòtò
 635. mênang
 636. ata di radah
 637. ata niroeron
@@ -391,11 +391,11 @@ Name of investigator: van der Linde
 640. belasting
 642. badja
 643. mata badja
-644. sike
+644. sikè
 648. pangkoer, sangkoel
-649. sadôb
-650. rêmbe
-651. toewai, sadöb
+649. sadòb
+650. rèmbè
+651. toewai, sadòb
 652. sangkoel
 653. ladang
 654/655. tivana
@@ -417,20 +417,20 @@ Name of investigator: van der Linde
 683. kasang
 684. bawang
 685. bangkala
-686. kalède
-688. kalede
-690. sipil1
-691. bônô1
+686. kalèdè
+688. kalèdè
+690. sipili
+691. bònòl
 692. <8>
 695. anau
 701. sagar
 702. toengkoel
-703. doembiöh
+703. doembiòh
 704. batoep
-705. ênên
-706. карё
+705. ènèn
+706. карè
 707. pandan
-708. mangg1, balêm
+708. manggi, balêm
 709. anasah
 710. ramboetan
 711. toerian
@@ -438,99 +438,99 @@ Name of investigator: van der Linde
 713. lansat
 716-718. kaul
 722. alimau
-723. kop1 <9>
+723. kòpi <9>
 726. gambir
 728. a-oel
-729. dil
+729. òdil
 731. oewai
 732. boeloe
 733. raboeng
 734. awa
-737. manëh
-739/740. 11ang
-742/744. dlor
+737. manèh
+739/740. liang
+742/744. òlòr
 746. boeloeng
 748. oeloet
-750. w1 awa
-752. bon1
-753. 1fan
+750. òwi awa
+752. bòni
+753. ifan
 754. soeroefa
 755. soeroefa
 758. bini boengò
-759. boh
-761. bib1 b§h
-763. k6
-764. 1s1
+759. bòh
+761. bìbì bòh
+763. kó
+764. isí
 766. lana
-770. ballh1
-771. ballh1
-772. 11alang
-773. sachoe
+770. balihi
+771. balihi
+772. ilalang
+773. sòchoe
 774. binatang
 775. ana'
-778. 1Joe
+778. ijoe
 779. ka-eu
 780. tapah
 781. anilah
-786. ambih
+786. ambìh
 787. bó
-789. sonör
+789. sònòr
 790. anteu
 794. eudeung
 797. moerêm
 799. kabing
 800-802. kêbau
-805. êmbé
-806. mal6-ah
+805. êmbè
+806. maló-ah
 807. koedò <9>
 811. asoe
 812. mafau
 813. majal
 814. mi-au
-824. bölêm, oenai
+824. bòlêm, oenai
 825. ak
-826. mansh
-830. mandh singèl
-835. kêhe
-836. aêhit dêhit, lajang lajang
+826. manòh
+830. manòh singèl
+835. kèhè
+836. dêhit dêhit, lajang lajang
 840. baloeng
 843. <10>
-844. manda
+844. manòq
 845. toepai
-846. bênggi
+846. bênggí
 851. tioe
-852. tie sebêl
+852. tie sèbêl
 854. loetoeng <11>
 861. délah
 865. sawali
 866. oetoe
 870. oetoe
 871. kóhoeng
-872. dalda, ngaleu
+872. dalòq, ngaleu
 877. lis <12>
 878. alifambang
-879. bangal
+879. bangai
 881. lêng
 884. lalatoe
 885. <13>
 886. sawa <14>
 888. alian
 891. lahalêng
-892. orang
+892. oerang
 893. langko <15>
 894. kauhau, chimò
 896. bêla
 899. beawa'
-900. bôja
-901. noh
-902. nondbong
-905. 1êngkoel
+900. bòja
+901. nòh
+902. nònòbong
+905. lêngkoel
 906. mata balal
-907. longköfen mata balal
+907. lòngkòfen mata balal
 908. bawa
 910. bawa <16>
 911. nitangkò ra-oe
-912. bintoen <17>
+912. bíntoen <17>
 917. lêpoel
 919. òlòl
 920. oewoel
@@ -540,7 +540,7 @@ Name of investigator: van der Linde
 927. linon
 928. angèm
 929. badai
-930. Owi
+930. òwi
 931. lor
 932. masoeroet, tìh
 934. loolfó
@@ -559,7 +559,7 @@ Name of investigator: van der Linde
 950. manoeroen
 951. padang padang
 952. padang padang
-955. dotan
+955. dòtan
 957. alali, sêmòk
 958. safoen
 959. dalan
@@ -567,16 +567,16 @@ Name of investigator: van der Linde
 961. lar
 962. atossan
 963. loean
-964. títi
+964. títí
 965. oeloe
 966. aǐ
-967. matandwi
+967. matanòwí
 968. safàl
 969. batoe
 970. lantjah
 971. bala
 973. bêsi
-974. tambagd
+974. tambagò
 976. dial
 977. boelawan
 978. téblah
@@ -586,12 +586,12 @@ Name of investigator: van der Linde
 984. sé-al
 985. toetò' bêsi
 986. landas
-987. singkip
+987. sìngkìp
 989. diroeloek
 993. bêrdamai
 995. nahoeda
 999. alè
-1000. ata mandling
+1000. ata manòlòng
 1001. kêdai
 1002. kêdai
 1003. saudagar
@@ -606,47 +606,47 @@ Name of investigator: van der Linde
 1013. oetang
 1015. mamajar
 1016. angafan
-1017/1018. niralin
-1019. nilflig
+1017/1018. niralín
+1019. nilílìq
 1020. tidau
 1025. dasing
 1026. sioe <18>
 1027. arih <19>
 1026-1028. timbang
 1029/1030. kapal
-1031. kapal ahó1
+1031. kapal ahói
 1032. samboh
-1033. bile, Jaloer
-1035. tyang
+1033. biloe, jaloer
+1035. týang
 1037. malai-al
 1038. amoeri
-1040. solan
-1043. mansölan
-1049. sa-öh
+1040. sòlan
+1043. mansòlan
+1049. sa-òh
 1050. raki
 1051. ló'
 1052. matoembeu
-1053. ata miraboe-1
+1053. ata miraboe-i
 1058. ata niradah
 1060. nilala
-1061. sebê1
-1062. itò 1t8
+1061. sèbêl
+1062. itò itò
 1063. atari
 1064. têheur
 1065/1066. afitoe bitoe
-1067/1068. mopôrít
-1070. manèhè nèhê
+1067/1068. mòpòrít
+1070. manèhè nèhè
 1071. mahénong
 1072-1074. matafeu
 1076. kêntoes
 1079. maiêrop
-1080/1081. bêk1
+1080/1081. bêki
 1082. a-eu foe-a-oe
 1083/1084. afaha
 1085/1086. afófau
 1087. atas
 1088. atêloe têloe
-1089. matòlòg
+1089. matòlòq
 1090. magé-o
 1096. malaja
 1098. ma-arêng
