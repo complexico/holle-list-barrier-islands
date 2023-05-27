@@ -1,10 +1,11 @@
+<metadata>
 1. GENERAL INFORMATION
 
 1.1. BASIC DATA
-Language/dialect :Tapah
-Number of the list :229b
-Mentioned in :NBG. 1920
-Name of investigator :van der Linde
+Language/dialect: Tapah
+Number of the list: 229b
+Mentioned in: NBG. 1920
+Name of investigator: van der Linde
 
  
 1.2. OTHER DETAILS
@@ -12,7 +13,8 @@ Name of investigator :van der Linde
 229a Simalur
 2296 Tapah
 229c Lêkon
-229d Salang and Sigule
+229d Salang and Sigulè
+</metadata>
 
 <wlist>
 1. badan
@@ -20,75 +22,75 @@ Name of investigator :van der Linde
 3. bóbangon
 4. kalimah
 5. lalar oeloe
-6. b6 oeloe
+6. bó oeloe
 8. boeboeh boeboeh
-9. 0j6
+9. ojó
 11. mata
-15. bó songôt
-17. owl mata
-18. 1hoeng
-20. ingd1
+15. bó sòngòt
+17. owil mata
+18. ihoeng
+20. ingòl
 21. asang
 22. babah
-25. bifil
-27. koemi soesoemboe-1
-28. djanggoe-1
-29. sibi
+25. bĩfĩl
+27. koemi soesoemboe-i
+28. djanggoe-i
+29. síbi
 30. djambè, sarak
-31. dilah
+31. dílah
 32. langi langi
-33. ehen
+33. èhèn
 34. bangan
 35. ngèngèn
 37. longgoeng
-38. lengngêl
-41. ardb
+38. lèngngêl
+41. aròb
 42. toetoe
 45. mata toetoe
-46. dwi toetoe
+46. òwi toetoe
 48. mantoetoe
-50. sôt
-52. at]h
-53. bisil sebêl
-54. bisil
-56. 11mpöh
+50. sòt
+52. atìh
+53. bìsìl sèbêl
+54. bìsìl
+56. limpòh
 57. maréw
-61. oechoe/poese
+61. oechoe/poesè
 62. tall oechoe
-63. têtè
+63. tètè
 66. arifalang
-68. 1amang
-69. oetò tai/dalan tai
+68. lamang
+69. oetò taǐ/dalan taǐ
 70. oedjoeng soeroebiet
 72. mantai
 73. tai
 75. bêtoet
 76. afoeroeh
 77. hoeloeb
-78. tiê
+78. tiè
 82. mahijeu
 83. ki-eu
 84. ka-eu
 86. ka-eu
 88. matan sa-a
 90. ahang
-91. bohoel
+91. bóhoel
 93. bétis
-94. doeloeg, sot bétis
+94. doeloeq, sòt bétis
 95. kau
-97. ka-d
+97. ka-ò
 99. pah
 100. sioe
-102. daloeag ka-ò
-105. ana' ka-d
-107. tênap
-108. alafen ka-ô
+102. daloeaq ka-ò
+105. ana' ka-ò
+107. tènap
+108. alafēn ka-ò
 109. itoetoeroe
-115. sôt
+115. sòt
 116. dala
-117. is1
-118. lor
-121. 0161
+117. isí
+118. òlòr
+121. bìbì
 122. bó
 123. bó
 124. ating ating
