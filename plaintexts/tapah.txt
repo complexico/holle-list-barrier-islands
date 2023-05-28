@@ -682,19 +682,19 @@ Name of investigator: van der Linde
 1161. mamès
 1162. masêm
 1163. maréw
-1166. masin
-1167. dding
-1168. Itêm
+1166. masìn
+1167. òding
+1168. itêm
 1169. afala
 1170. afala
 1171. koenèng
 1172. idjau
 1173. idjau
 1174. machawal
-1175. dapêh
+1175. dapèh
 1176. moeba
-1179. abih
-1180. mangabih
+1179. abìh
+1180. mangabìh
 1193. dêdêm
 1194. píkír
 1195. nilah
@@ -703,13 +703,13 @@ Name of investigator: van der Linde
 1198. patidah
 1199. mangakoe
 1200. mênêng
-1202. bitjard
+1202. bitjarō
 1203. nanga nanga
-1206. ongan alèdia
-1210. karadfö
-1211. mangkoedê, mangantain
+1206. òngan alèdia
+1210. karadjò
+1211. mangkoedè, mangantain
 1212. mandoen
-1213. magêbîh
+1213. magêbìh
 1214. niawi
 1216. sìngkìp
 1220. manítí
@@ -717,19 +717,19 @@ Name of investigator: van der Linde
 1222-1224. afajoe
 1225. niséheu
 1227. enggêl
-1228. êna'
+1228. èna'
 1229. angkéw
-1233. sèrêk
-1234. mansingöl
+1233. sèrèk
+1234. mansingòl
 1236/1237. manangkeu
 1239. bantji
 1245. mamoe-ai
-1246. longköp
+1246. lòngkòp
 1251. angia-na
-1253-1255. ma-intih
+1253-1255. ma-ìntìh
 1259. ni intjit nilifit
-1260/1261. n1 oni
-1262/1263. matôt
+1260/1261. ni òni
+1262/1263. matòt
 1264. la-oet
 1265/1266. nifoenèn
 1267. toetoe
@@ -737,10 +737,10 @@ Name of investigator: van der Linde
 1269. manidau
 1272. doestò
 1277. manoetoeng
-1278. manöb
+1278. manòb
 1284. bêsang
-1286. mamdlêng
-1291. mangêntoe, djôs
+1286. mamòlêng
+1291. mangêntoe, òjòs
 1293. <20>
 1294. <21>
 1295. <22>
@@ -766,55 +766,55 @@ Name of investigator: van der Linde
 1323. <42>
 1324. <43>
 1325. <44>
-1326. satêngah
+1326. satèngah
 1328. sahoeli
-1329. dôhdli
-1330/1331. sénga oenên²
-1332/1333. sénga dôhòl1
-1338. ovil
+1329. dòhòli
+1330/1331. sénga oenèn²
+1332/1333. sénga dòhòli
+1338. òvìl
 1339. avêl
 1340. ehi éhí
-1341. édêta
+1341. édèta
 1347. méhai
 1350. masaré
 1356. satêpi'
 1357. dè oe
 1358. dirieng oe
 1359. diò
-1362. di tah
-1363. do-i
-1365. dê oe
-1364/1367/1368. ditah
-1369/1370. dê e inambóné
-1373/1374. diò 1nambóné
-1375/1376. disê inambóné
+1362. dí tah
+1363. dò-i
+1365. dè oe
+1364/1367/1368. dítah
+1369/1370. dè e inambóné
+1373/1374. diò inambóné
+1375/1376. disè inambóné
 1379. étaja
 1380. araja
 1382. étaja
-1383. èrê
-1385. 1Jè
-1386. è ède
+1383. èrè
+1385. ijè
+1386. è èdè
 1388. meria <45>
-1389. mè ròi, mè 1
+1389. mè ròi, mè i
 1394. balal <46>
 1398. tandong
 1402. bêngi
 1406. tahoen
-1407. moesin
+1407. moesìn
 1408. moema-ar
 1409. ba-al
-1411. inang êrè
+1411. inang èrè
 1412/1413. me amon
 1416. nansioe
-1418. sori valal
-1419. sidd vongi
+1418. sòri valal
+1419. sidò vòngi
 1420. balal èrè
 1422. dêman
-1423. dovôngí
-1427. êngkan
+1423. dòvòngí
+1427. èngkan
 1428. ngang
 1429. bahai
-1431. oetard
+1431. oetarò
 1432. sêlatan
 1433. timoe/timò/djati
 1434. barat têpat
