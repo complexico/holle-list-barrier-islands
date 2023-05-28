@@ -1,10 +1,10 @@
 SIMALUR
 1. GENERAL INFORMATION
 1.1. BASIC DATA
-Language/dialect : Simalur
-Number of the list : 229a
-Mentioned in : NBG. 1920
-Name of investigator : van der Linde
+Language/dialect: Simalur
+Number of the list: 229a
+Mentioned in: NBG. 1920
+Name of investigator: van der Linde
 
 1.2. OTHER DETAILS
 1.2.1. In addition, there are wordlists compiled on Simalur island by Mr Westenenk and Lt Hotz.
@@ -847,45 +847,45 @@ Name of investigator : van der Linde
 1486. badoemon, ba-amon
 </wlist>
 <notes>
-1. to walk away: koemoedoeng ; to walk backwards: nisoeroe-i
-2. to blow one's nose: mangsingòl
-3. ajah/ajang oe ; inah/inang oe
-4. toemoedoe: older ; erang oe: younger
-5. not native to Simalur
-6. black monkey
-7. sandfly: namò
-8. see Tapah note nr. 13
-9. see Tapah note nr. 14
-10. lobster: lanès
-11. have the names of the Muhammedan months
-12. see Tapah note nr. 17
-13. see Tapah note nr. 18
-14. see Tapah note nr. 19
-15. see Tapah note nr. 20
-16. see Tapah note nr. 21
-17. see Tapah note nr. 22
-18. see Tapah note nr. 23
-19. see Tapah note nr. 24
-20. see Tapah note nr. 25
-21. see Tapah note nr. 26
-22. see Tapah note nr. 27
-23. see Tapah note nr. 28
-24. see Tapah note nr. 29
-25. see Tapah note nr. 30
-26. see Tapah note nr. 31
-27. see Tapah note nr. 32
-28. see Tapah note nr. 33
-29. see Tapah note nr. 34
-30. see Tapah note nr. 35
-31. see Tapah note nr. 36
-32. see Tapah note nr. 37
-33. see Tapah note nr. 38
-34. see Tapah note nr. 39
-35. see Tapah note nr. 40
-36. see Tapah note nr. 41
-37. see Tapah note nr. 42
-38. see Tapah note nr. 43
-39. see Tapah note nr. 44
-40. (hither)
-41. see Tapah note nr. 46
+1. <n><eng>to walk away</eng>: <form>koemoedoeng</form></n> ; <n><eng>to walk backwards</eng>: <form>nisoeroe-i</form></n>
+2. <n><eng>to blow one's nose</eng>: <form>mangsingòl</form></n>
+3. <n><form>ajah/ajang oe</form></n> ; <n><form>inah/inang oe</form></n>
+4. <n><form>toemoedoe</form>: <eng>older</eng></n> ; <n><form>erang oe</form>: <eng>younger</eng></n>
+5. <n><comment>not native to Simalur</comment></n>
+6. <n><eng>black monkey</eng></n>
+7. <n><eng>sandfly</eng>: <form>namò</form></n>
+8. <n>see Tapah note nr. <nxrefid>13</nxrefid></n>
+9. <n>see Tapah note nr. <nxrefid>14</nxrefid></n>
+10. <n><eng>lobster</eng>: <form>lanès</form></n>
+11. <n><comment>have the names of the Muhammedan months</comment></n>
+12. <n>see Tapah note nr. <nxrefid>17</nxrefid></n>
+13. <n>see Tapah note nr. <nxrefid>18</nxrefid></n>
+14. <n>see Tapah note nr. <nxrefid>19</nxrefid></n>
+15. <n>see Tapah note nr. <nxrefid>20</nxrefid></n>
+16. <n>see Tapah note nr. <nxrefid>21</nxrefid></n>
+17. <n>see Tapah note nr. <nxrefid>22</nxrefid></n>
+18. <n>see Tapah note nr. <nxrefid>23</nxrefid></n>
+19. <n>see Tapah note nr. <nxrefid>24</nxrefid></n>
+20. <n>see Tapah note nr. <nxrefid>25</nxrefid></n>
+21. <n>see Tapah note nr. <nxrefid>26</nxrefid></n>
+22. <n>see Tapah note nr. <nxrefid>27</nxrefid></n>
+23. <n>see Tapah note nr. <nxrefid>28</nxrefid></n>
+24. <n>see Tapah note nr. <nxrefid>29</nxrefid></n>
+25. <n>see Tapah note nr. <nxrefid>30</nxrefid></n>
+26. <n>see Tapah note nr. <nxrefid>31</nxrefid></n>
+27. <n>see Tapah note nr. <nxrefid>32</nxrefid></n>
+28. <n>see Tapah note nr. <nxrefid>33</nxrefid></n>
+29. <n>see Tapah note nr. <nxrefid>34</nxrefid></n>
+30. <n>see Tapah note nr. <nxrefid>35</nxrefid></n>
+31. <n>see Tapah note nr. <nxrefid>36</nxrefid></n>
+32. <n>see Tapah note nr. <nxrefid>37</nxrefid></n>
+33. <n>see Tapah note nr. <nxrefid>38</nxrefid></n>
+34. <n>see Tapah note nr. <nxrefid>39</nxrefid></n>
+35. <n>see Tapah note nr. <nxrefid>40</nxrefid></n>
+36. <n>see Tapah note nr. <nxrefid>41</nxrefid></n>
+37. <n>see Tapah note nr. <nxrefid>42</nxrefid></n>
+38. <n>see Tapah note nr. <nxrefid>43</nxrefid></n>
+39. <n>see Tapah note nr. <nxrefid>44</nxrefid></n>
+40. <n><eng>(hither)</eng></n>
+41. <n>see Tapah note nr. <nxrefid>46</nxrefid></n>
 </notes>
