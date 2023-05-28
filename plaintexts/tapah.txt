@@ -11,7 +11,7 @@ Name of investigator: van der Linde
 1.2. OTHER DETAILS
 1.2.2. This questionnaire consists of four lists:
 229a Simalur
-2296 Tapah
+229b Tapah
 229c Lêkon
 229d Salang and Sigulè
 </metadata>
@@ -845,51 +845,51 @@ Name of investigator: van der Linde
 1486. badoe eureu
 </wlist>
 <notes>
-1. to go away: koemoedoeng ; to walk backwards: mè oeri
-2. to blow one's nose: mangsingòl
-3. sitòtòh, sípìh, gadies
-4. kawòh, kanga, kantjoe, kaibòh
-5. toemoedò: older ; achoen: younger
-6. nanga²: with biola ; nandong²: with kendang
-7. sêseung oejoe, sêngoejoe
-8. poepoeh, balaloe, bònòl
-9. not native to Simalur
-10. majang, langaun, langkéwan
-11. black monkey
-12. sandfly: namò
-13. small white ant: anai anai ; large white ant: batêl
-14. black snake: sàwa itêm ; boa-constrictor: sawa namboe ; flying snake: sawa irang-irang ; green snake: sawa le-oel
-15. lobster: lanès
-16. same as the Muhammedan months
-17. bíntoen eudeung, bíntoen itoefòh, bíntoen pantjoeri, bíntoen banjak
-18. 1 satiloeng is 2 sioe ; 1 sangawan is 4 sloe ; 1 sakajoe is 12 sangawan ; 1 sakódi is 20 kajoe ; distance between the fingertips (of the left and right hand) when the arms are stretched sidewards: sarêpah ; distance between the tip of the thumb and the 3rd finger: angoeroeng ; width of the palm of the hand: satampòh ; one foot: satapah ; one finger-width: sadjari ; distance between the tip of the thumb and the outside of the little finger, when making a fist with the thumb straight: samasêti ; one thumb-width: sau alavéngkau
-19. bamboo (to measure rice, salt, pepper, .etc.) ; 1 soeloeg is 2 vêla ; 2 soeloeg is 1/2 arih ;  1 sanali is 16 arìh ; 1 sakoentjò is 10 nali
-20. people: mésa ; animals: sara ; objects: sau
-21. people: darò; animals: doea sicha; objects: doevò
-22. people: datêloe/têloe; animals: têlo sicha; objects: têloevò
-23. people: dahat têloe; animals: aka sicha; objects: atau
-24. people: dalima; animals: lima sicha; objects: limavò
-25. people: danêm; animals; nêmmga sicha; objects; nêmmavò
-26. people: da-itoe; animals: itoe nga sicha; objects: itoevò
-27. people: sêlapan; animals: sêlapan nga sicha; objects: sêlapan
-28. people: sêmbilan; animals: sêmbilan nga sicha; objects: sêmbilan
-29. people: sêpoeloeh; animals: sêpoeloeh nga sicha; objects: sêpoeloeh
-30. people: sabalè; animals: sabalè nga sicha; objects: sabalè
-31. people: doeò balè; animals: doeò balè nga sicha; objects: doeò balè
-32. people: tigò balè; animals: tigò balè nga sicha; objects: tigò balè
-33. people: sêlapan balè; animals: sêlapan balè nga sicha; objects: sêlapan balè
-34. people: sêmbilan balè; animals: sêmbilan balè nga sicha; objects: sêmbilan balè
-35. people: doeò poeloeh; animals: doeò poeloeh; objects: doeò poeloeh
-36. people: doeò poeloeh mésa/asò; animals: doeò poeloeh sara nga sicha; objects: doeò poeloeh asò
-37. people: doeò poeloeh limò; animals: doeò poeloeh limò nga sicha; obiects: doeò poeloeh limò
-38. people: tigò poeloeh; animals: tigò poeloeh nga sicha; objects: tigò poeloeh
-39. people: ampè poeloeh; animals: ampè poeloeh nga sicha; objects: ampè poeloeh
-40. people: limò poeloeh; animals: limò poeloeh nga sicha; objects: limò poeloeh
-41. people: anêm poeloeh; animals: anêm poeloeh nga sicha; objects: anêm poeloeh
-42. people: saratoe-i; animals: saratoe-i/lató-i nga sicha: objects saratoe-i
-43. people: sariboe; animals: sariboe nga sicha; objects: sariboe
-44. people: sêlaksò; animals: sêlaksò nga sicha; objects: sêlaksò
-45. (this way)
-46. sênajan, sêlassa, raboeh, hami/chamè, dima-at, saptoe, ahad
+1. <n><eng>to go away</eng>: <form>koemoedoeng</form></n> ; <n><eng>to walk backwards</eng>: <form>mè oeri</form></n>
+2. <n><eng>to blow one's nose</eng>: <form>mangsingòl</form></n>
+3. <n><form>sitòtòh, sípìh, gadies</form></n>
+4. <n><form>kawòh, kanga, kantjoe, kaibòh</form></n>
+5. <n><form>toemoedò</form>: <eng>older</eng></n> ; <n><form>achoen</form>: <eng>younger</eng></n>
+6. <n><form>nanga²</form>: <eng>with biola</eng></n> ; <n><form>nandong²</form>: <eng>with kendang</eng></n>
+7. <n><form>sêseung oejoe, sêngoejoe</form></n>
+8. <n><form>poepoeh, balaloe, bònòl</form></n>
+9. <n><comment>not native to Simalur</comment></n>
+10. <n><form>majang, langaun, langkéwan</form></n>
+11. <n><eng>black monkey</eng></n>
+12. <n><eng>sandfly</eng>: <form>namò</form></n>
+13. <n><eng>small white ant</eng>: <form>anai anai</form></n> ; <n><eng>large white ant</eng>: <form>batêl</form></n>
+14. <n><eng>black snake</eng>: <form>sàwa itêm</form></n> ; <n><eng>boa-constrictor</eng>: <form>sawa namboe</form></n> ; <n><eng>flying snake</eng>: <form>sawa irang-irang</form></n> ; <n><eng>green snake</eng>: <form>sawa le-oel</form></n>
+15. <n><eng>lobster</eng>: <form>lanès</form></n>
+16. <n><comment>same as the Muhammedan months</comment></n>
+17. <n><form>bíntoen eudeung, bíntoen itoefòh, bíntoen pantjoeri, bíntoen banjak</form></n>
+18. <p><form>1 satiloeng is 2 sioe</form></p> ; <n><form>1 sangawan is 4 sloe</form></n> ; <n><form>1 sakajoe is 12 sangawan</form></n> ; <n><form>1 sakódi is 20 kajoe</form></n> ; <n><eng>distance between the fingertips (of the left and right hand) when the arms are stretched sidewards</eng>: <form>sarêpah</form></n> ; <n><eng>distance between the tip of the thumb and the 3rd finger</eng>: <form>angoeroeng</form></n> ; <n><eng>width of the palm of the hand</eng>: <form>satampòh</form></n> ; <n><eng>one foot</eng>: <form>satapah</form></n> ; <n><eng>one finger-width</eng>: <form>sadjari</form></n> ; <n><eng>distance between the tip of the thumb and the outside of the little finger, when making a fist with the thumb straight</eng>: <form>samasêti</form></n> ; <n><eng>one thumb-width</eng>: <form>sau alavéngkau</form></n>
+19. <n><eng>bamboo (to measure rice, salt, pepper, .etc.)</eng></n> ; <n><form>1 soeloeg is 2 vêla</form></n> ; <n><form>2 soeloeg is 1/2 arih</form></n> ;  <n><form>1 sanali is 16 arìh</form></n> ; <n><form>1 sakoentjò is 10 nali</form></n>
+20. <n><comment>people</comment>: <form>mésa</form></p> ; <n><comment>animals</comment>: <form>sara</form></n> ; <n><comment>objects</comment>: <form>sau</form></n>
+21. <n><comment>people</comment>: <form>darò</form></n>; <n><comment>animals</comment>: <form>doea sicha</form></n>; <n><comment>objects</comment>: <form>doevò</form></n>
+22. <n><comment>people</comment>: <form>datêloe/têloe</form></n>; <n><comment>animals</comment>: <form>têlo sicha</form></n>; <n><comment>objects</comment>: <form>têloevò</form></n>
+23. <n><comment>people</comment>: <form>dahat têloe</form></n>; <n><comment>animals</comment>: <form>aka sicha</form></n>; <n><comment>objects</comment>: <form>atau</form></n>
+24. <n><comment>people</comment>: <form>dalima</form></n>; <n><comment>animals</comment>: <form>lima sicha</form></n>; <n><comment>objects</comment>: <form>limavò</form></n>
+25. <n><comment>people</comment>: <form>danêm</form></n>; <n><comment>animals</comment>: <form>nêmmga sicha</form></n>; <n><comment>objects</comment>: <form>nêmmavò</form></n>
+26. <n><comment>people</comment>: <form>da-itoe</form></n>; <n><comment>animals</comment>: <form>itoe nga sicha</form></n>; <n><comment>objects</comment>: <form>itoevò</form></n>
+27. <n><comment>people</comment>: <form>sêlapan</form></n>; <n><comment>animals</comment>: <form>sêlapan nga sicha</form></n>; <n><comment>objects</comment>: <form>sêlapan</form></n>
+28. <n><comment>people</comment>: <form>sêmbilan</form></n>; <n><comment>animals</comment>: <form>sêmbilan nga sicha</form></n>; <n><comment>objects</comment>: <form>sêmbilan</form></n>
+29. <n><comment>people</comment>: <form>sêpoeloeh</form></n>; <n><comment>animals</comment>: <form>sêpoeloeh nga sicha</form></n>; <n><comment>objects</comment>: <form>sêpoeloeh</form></n>
+30. <n><comment>people</comment>: <form>sabalè</form></n>; <n><comment>animals</comment>: <form>sabalè nga sicha</form></n>; <n><comment>objects</comment>: <form>sabalè</form></n>
+31. <n><comment>people</comment>: <form>doeò balè</form></n>; <n><comment>animals</comment>: <form>doeò balè nga sicha</form></n>; <n><comment>objects</comment>: <form>doeò balè</form></n>
+32. <n><comment>people</comment>: <form>tigò balè</form></n>; <n><comment>animals</comment>: <form>tigò balè nga sicha</form></n>; <n><comment>objects</comment>: <form>tigò balè</form></n>
+33. <n><comment>people</comment>: <form>sêlapan balè</form></n>; <n><comment>animals</comment>: <form>sêlapan balè nga sicha</form></n>; <n><comment>objects</comment>: <form>sêlapan balè</form></n>
+34. <n><comment>people</comment>: <form>sêmbilan balè</form></n>; <n><comment>animals</comment>: <form>sêmbilan balè nga sicha</form></n>; <n><comment>objects</comment>: <form>sêmbilan balè</form></n>
+35. <n><comment>people</comment>: <form>doeò poeloeh</form></n>; <n><comment>animals</comment>: <form>doeò poeloeh</form></n>; <n><comment>objects</comment>: <form>doeò poeloeh</form></n>
+36. <n><comment>people</comment>: <form>doeò poeloeh mésa/asò</form></n>; <n><comment>animals</comment>: <form>doeò poeloeh sara nga sicha</form></n>; <n><comment>objects</comment>: <form>doeò poeloeh asò</form></n>
+37. <n><comment>people</comment>: <form>doeò poeloeh limò</form></n>; <n><comment>animals</comment>: <form>doeò poeloeh limò nga sicha</form></n>; obiects: doeò poeloeh limò
+38. <n><comment>people</comment>: <form>tigò poeloeh</form></n>; <n><comment>animals</comment>: <form>tigò poeloeh nga sicha</form></n>; <n><comment>objects</comment>: <form>tigò poeloeh</form></n>
+39. <n><comment>people</comment>: <form>ampè poeloeh</form></n>; <n><comment>animals</comment>: <form>ampè poeloeh nga sicha</form></n>; <n><comment>objects</comment>: <form>ampè poeloeh</form></n>
+40. <n><comment>people</comment>: <form>limò poeloeh</form></n>; <n><comment>animals</comment>: <form>limò poeloeh nga sicha</form></n>; <n><comment>objects</comment>: <form>limò poeloeh</form></n>
+41. <n><comment>people</comment>: <form>anêm poeloeh</form></n>; <n><comment>animals</comment>: <form>anêm poeloeh nga sicha</form></n>; <n><comment>objects</comment>: <form>anêm poeloeh</form></n>
+42. <n><comment>people</comment>: <form>saratoe-i</form></n>; <n><comment>animals</comment>: <form>saratoe-i/lató-i nga sicha</form></n>; <n><comment>objects</comment>: <form>saratoe-i</form></n>
+43. <n><comment>people</comment>: <form>sariboe</form></n>; <n><comment>animals</comment>: <form>sariboe nga sicha</form></n>; <n><comment>objects</comment>: <form>sariboe</form></n>
+44. <n><comment>people</comment>: <form>sêlaksò</form></n>; <n><comment>animals</comment>: <form>sêlaksò nga sicha</form></n>; <n><comment>objects</comment>: <form>sêlaksò</form></n>
+45. <n><eng>(this way)</eng></n>
+46. <n><form>sênajan, sêlassa, raboeh, hami/chamè, dima-at, saptoe, ahad</form></n>
 </notes>
 
