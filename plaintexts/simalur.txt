@@ -1,3 +1,4 @@
+<metadata>
 SIMALUR
 1. GENERAL INFORMATION
 1.1. BASIC DATA
@@ -13,6 +14,7 @@ Name of investigator: van der Linde
 229b Tapah
 229c Lêkon
 229d Salang and Sigulè
+</metadata>
 
 2. THE SIMALUR LIST
 <wlist>
