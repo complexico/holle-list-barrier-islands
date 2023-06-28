@@ -847,24 +847,14 @@ Name of investigator: van der Linde
 <notes>
 1. <n><eng>whiskers</eng>: <form>djambè</form></n>
 2. <n><form>amangó tiri</form>: <eng>father</eng></n> ; <n><form>inangó tiri</form>: <eng>mother</eng></n>
-3. dried fish: naï sénga, nisinal
-4. bolêm it@m: dark grey bol@m anding: white
-5. sandfly: namò
-6. lobster: lanês
-7. same as the Muhammedan names
-8. 1 depah: sarepah (see Tapah note nr. 18)
-Tangoeroeng: angoeroeng
-T satampôh: sau raloe-ap
-one foot: sau lar
-1 finger-width: sara ana' ka-ò
-9. distance between the tip of the 3rd finger and the elbow: sa sioe (see. Tapah note nr. 19)
-4 sloe is 1 sangawan
-12 sangawan is 1 sakajoe for foodstuffs: sareh
-1 vêla is } êkal
-4 vêla are 1 arêh sanali 1s 16 sarêh
-10 nali are 1 sakoentjo
-10 koentjo is called hoeloe koentjo
-10. people: mésa; animals: sara; objects: sa-ò
+3. <n><eng>dried fish</eng>: <form>naǐ sénga, nisinal</form></n>
+4. <n><form>bolêm itêm</form>: <eng>dark grey</eng></n> ; <n><form>bolêm ònding</form>: <eng>white</eng></n>
+5. <n><eng>sandfly</eng>: <form>namò</form></n>
+6. <n><eng>lobster</eng>: <form>lanès</form></n>
+7. <n><comment>same as the Muhammedan names</comment></n>
+8. <n><form>1 depah: sarepah</form> (<xr>see Tapah note nr. 18</xr>)</n>; <n><form>T angoeroeng: angoeroeng</form></n> ; <n><form>T satampòh: sau raloe-ap</form></n> ; <n><eng>one foot</eng>: <form>sau lar</form></n>; <n><eng>1 finger-width</eng>: <form>sara ana' ka-ò</form></n>
+9. <n><eng>distance between the tip of the 3rd finger and the elbow</eng>: <form>sa sioe</form> (<xr>see. Tapah note nr. 19</xr>)</n> ; <n><form>4 sioe = 1 sangawan</form></n> ; <n><form>12 sangawan = 1 sakajoe</form></n> ; <n><comment>for foodstuffs</comment>: <form>sareh</form></n> ; <n><form>1 vêla = 1/2 êkal</form></n>; <n><form>4 vêla = 1 arèh</form></n> ; <n><form>sanali = 16 sarèh</form></n> ; <n><form>10 nali = 1 sakoentjò</form></n> ; <n><form>10 koentjo = hoeloe koentjo</form></n>
+10. <n><comment>people</comment>: <form>mésa</form></n>; <n><comment>animals</comment>: <form>sara</form></n>; <n><comment>objects</comment>: <form>sa-ò</form></n>
 11. people: darò; animals: doea; objects: doevd
 12. people: datêloe; animals: têloe; objects: têloevò
 13. people: dahat; animals: a-at; objects: atavò
