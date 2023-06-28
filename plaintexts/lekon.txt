@@ -509,42 +509,42 @@ Name of investigator: van der Linde
 871. bêngai
 872. dalòq
 877. lis <5>
-878. ramöhramôh
+878. ramòhramòh
 879. tali ó-oer
 881. êlêng
 884. sichêm
 886. sawa
 888. alihan-tali foea
 891. lachêleng
-892. orang <6>
+892. oerang <6>
 894. soeroeng soeroeng, aiereu
 896. bêla
 899. bawaja
-900. bôja
-901. nônôbong
+900. bòja
+901. nònòbong
 902. noeh
 905. lêngkool
 906. mata balal
-907. rêdd
+907. rêdò
 908. bawa
 910. bawa <7>
 911. nian rahokap
-912. bintoen
+912. bíntoen
 917. lêpool
-919. д-ô1
+919. Ò-òl
 920. oewool
 921. inalik
 923. soenit
 924. êlas
 927. linon
-928. angên
-929. angên hêbêi
-930. Öwì
+928. angèn
+929. angèn hèbêl
+930. òwì
 931. lor
 932. êti
-934. 18 êfoe
+934. lò èfoe
 935. amêlah
-937. 16
+937. ló
 938. awa alai
 939. haroes
 941. batoe
@@ -552,15 +552,15 @@ Name of investigator: van der Linde
 944. oelau
 945. moetoes
 946. mata noeroeng
-947. dêldg
-948. dêlôg itò it8
+947. dêlòq
+948. dêlòq itò itò
 950. toeroen
 951. alali
 952. alali
-955. dôtan
-957. saso
+955. dòtan
+957. sasò
 959. dalan
-960. marali
+960. maralí
 961. lar
 962. atossan
 963. loean
@@ -572,7 +572,7 @@ Name of investigator: van der Linde
 969. batoe
 970. lêpool
 971. bala
-973. bês1
+973. bêsi
 974. têmbaga
 976. pérak
 977. boelawan
@@ -580,9 +580,9 @@ Name of investigator: van der Linde
 981. toekang bêsi
 982. ambon
 984. ahé
-985. tótó
+985. tótó'
 986. landas
-987. singkip
+987. singkìp
 989. asa
 993. bêrdamai
 995. nachoeda
@@ -595,21 +595,21 @@ Name of investigator: van der Linde
 1007. ateu
 1008. labòh
 1009. roegi
-1010. mamêl1
+1010. mamêli
 1011. mahal
 1012. moerah
 1013. oetang
 1015. mamajar
 1016. angafan
 1017/1018. mèralin
-1019. mêngasilflichau
+1019. mêngasilílíchau
 1020. oetiendo
 1021. galar
 1025. dasing
 1026. <8>
 1026-1028. <9>
 1029/1030. kapal
-1031. kapal apoe-1
+1031. kapal apoe-i
 1032. sambò
 1033. biloe, fògìh
 1035. tihang
@@ -623,7 +623,7 @@ Name of investigator: van der Linde
 1051. ló
 1052. machocho
 1053. ata si mêrêboet
-1061. afdfd
+1061. afòfò
 1062. itò itò
 1063/1064. ataré
 1065/1066. afiteu
