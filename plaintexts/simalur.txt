@@ -856,38 +856,38 @@ Name of investigator: van der Linde
 5. <n><comment>not native to Simalur</comment></n>
 6. <n><eng>black monkey</eng></n>
 7. <n><eng>sandfly</eng>: <form>namò</form></n>
-8. <n>see Tapah note nr. <nxrefid>13</nxrefid></n>
-9. <n>see Tapah note nr. <nxrefid>14</nxrefid></n>
+8. <n><xr>see Tapah note nr. <ptr>13</ptr></xr></n>
+9. <n><xr>see Tapah note nr. <ptr>14</ptr></xr></n>
 10. <n><eng>lobster</eng>: <form>lanès</form></n>
 11. <n><comment>have the names of the Muhammedan months</comment></n>
-12. <n>see Tapah note nr. <nxrefid>17</nxrefid></n>
-13. <n>see Tapah note nr. <nxrefid>18</nxrefid></n>
-14. <n>see Tapah note nr. <nxrefid>19</nxrefid></n>
-15. <n>see Tapah note nr. <nxrefid>20</nxrefid></n>
-16. <n>see Tapah note nr. <nxrefid>21</nxrefid></n>
-17. <n>see Tapah note nr. <nxrefid>22</nxrefid></n>
-18. <n>see Tapah note nr. <nxrefid>23</nxrefid></n>
-19. <n>see Tapah note nr. <nxrefid>24</nxrefid></n>
-20. <n>see Tapah note nr. <nxrefid>25</nxrefid></n>
-21. <n>see Tapah note nr. <nxrefid>26</nxrefid></n>
-22. <n>see Tapah note nr. <nxrefid>27</nxrefid></n>
-23. <n>see Tapah note nr. <nxrefid>28</nxrefid></n>
-24. <n>see Tapah note nr. <nxrefid>29</nxrefid></n>
-25. <n>see Tapah note nr. <nxrefid>30</nxrefid></n>
-26. <n>see Tapah note nr. <nxrefid>31</nxrefid></n>
-27. <n>see Tapah note nr. <nxrefid>32</nxrefid></n>
-28. <n>see Tapah note nr. <nxrefid>33</nxrefid></n>
-29. <n>see Tapah note nr. <nxrefid>34</nxrefid></n>
-30. <n>see Tapah note nr. <nxrefid>35</nxrefid></n>
-31. <n>see Tapah note nr. <nxrefid>36</nxrefid></n>
-32. <n>see Tapah note nr. <nxrefid>37</nxrefid></n>
-33. <n>see Tapah note nr. <nxrefid>38</nxrefid></n>
-34. <n>see Tapah note nr. <nxrefid>39</nxrefid></n>
-35. <n>see Tapah note nr. <nxrefid>40</nxrefid></n>
-36. <n>see Tapah note nr. <nxrefid>41</nxrefid></n>
-37. <n>see Tapah note nr. <nxrefid>42</nxrefid></n>
-38. <n>see Tapah note nr. <nxrefid>43</nxrefid></n>
-39. <n>see Tapah note nr. <nxrefid>44</nxrefid></n>
+12. <n><xr>see Tapah note nr. <ptr>17</ptr></xr></n>
+13. <n><xr>see Tapah note nr. <ptr>18</ptr></xr></n>
+14. <n><xr>see Tapah note nr. <ptr>19</ptr></xr></n>
+15. <n><xr>see Tapah note nr. <ptr>20</ptr></xr></n>
+16. <n><xr>see Tapah note nr. <ptr>21</ptr></xr></n>
+17. <n><xr>see Tapah note nr. <ptr>22</ptr></xr></n>
+18. <n><xr>see Tapah note nr. <ptr>23</ptr></xr></n>
+19. <n><xr>see Tapah note nr. <ptr>24</ptr></xr></n>
+20. <n><xr>see Tapah note nr. <ptr>25</ptr></xr></n>
+21. <n><xr>see Tapah note nr. <ptr>26</ptr></xr></n>
+22. <n><xr>see Tapah note nr. <ptr>27</ptr></xr></n>
+23. <n><xr>see Tapah note nr. <ptr>28</ptr></xr></n>
+24. <n><xr>see Tapah note nr. <ptr>29</ptr></xr></n>
+25. <n><xr>see Tapah note nr. <ptr>30</ptr></xr></n>
+26. <n><xr>see Tapah note nr. <ptr>31</ptr></xr></n>
+27. <n><xr>see Tapah note nr. <ptr>32</ptr></xr></n>
+28. <n><xr>see Tapah note nr. <ptr>33</ptr></xr></n>
+29. <n><xr>see Tapah note nr. <ptr>34</ptr></xr></n>
+30. <n><xr>see Tapah note nr. <ptr>35</ptr></xr></n>
+31. <n><xr>see Tapah note nr. <ptr>36</ptr></xr></n>
+32. <n><xr>see Tapah note nr. <ptr>37</ptr></xr></n>
+33. <n><xr>see Tapah note nr. <ptr>38</ptr></xr></n>
+34. <n><xr>see Tapah note nr. <ptr>39</ptr></xr></n>
+35. <n><xr>see Tapah note nr. <ptr>40</ptr></xr></n>
+36. <n><xr>see Tapah note nr. <ptr>41</ptr></xr></n>
+37. <n><xr>see Tapah note nr. <ptr>42</ptr></xr></n>
+38. <n><xr>see Tapah note nr. <ptr>43</ptr></xr></n>
+39. <n><xr>see Tapah note nr. <ptr>44</ptr></xr></n>
 40. <n><eng>(hither)</eng></n>
-41. <n>see Tapah note nr. <nxrefid>46</nxrefid></n>
+41. <n><xr>see Tapah note nr. <ptr>46</ptr></xr></n>
 </notes>
