@@ -855,32 +855,29 @@ Name of investigator: van der Linde
 8. <n><form>1 depah: sarepah</form> (<xr>see Tapah note nr. <ptr>18</ptr></xr>)</n>; <n><form>T angoeroeng: angoeroeng</form></n> ; <n><form>T satampòh: sau raloe-ap</form></n> ; <n><eng>one foot</eng>: <form>sau lar</form></n>; <n><eng>1 finger-width</eng>: <form>sara ana' ka-ò</form></n>
 9. <n><eng>distance between the tip of the 3rd finger and the elbow</eng>: <form>sa sioe</form> (<xr>see. Tapah note nr. <ptr>19</ptr></xr>)</n> ; <n><form>4 sioe = 1 sangawan</form></n> ; <n><form>12 sangawan = 1 sakajoe</form></n> ; <n><comment>for foodstuffs</comment>: <form>sareh</form></n> ; <n><form>1 vêla = 1/2 êkal</form></n>; <n><form>4 vêla = 1 arèh</form></n> ; <n><form>sanali = 16 sarèh</form></n> ; <n><form>10 nali = 1 sakoentjò</form></n> ; <n><form>10 koentjo = hoeloe koentjo</form></n>
 10. <n><comment>people</comment>: <form>mésa</form></n>; <n><comment>animals</comment>: <form>sara</form></n>; <n><comment>objects</comment>: <form>sa-ò</form></n>
-11. people: darò; animals: doea; objects: doevd
-12. people: datêloe; animals: têloe; objects: têloevò
-13. people: dahat; animals: a-at; objects: atavò
-14. people: dalima; animals: lima; obj@cts: 11mavò
-15. people: danêm; animals: ênêm; objects: nêmavò
-16. people: da itoe; animals: itoe; objects: itoevd
-17. people: da wòloe ; animals: òloe ; objects: òloevò
-18. people: da sioe-a; animals: sioe-a; objects: sioe-avò
-19. people: dahoeloe; animals: hoeloe; objects: ban
-20. people: sara IlIn; animals: sara flin; objects: sara flin
-21. people: dô flIn; animals: do Ilin; objects: dò Ilin
-22. people: têlò flin; animals: têlò flin; objects: têlò flin
-23. people: 818 IlIn; animals: d1d Ilin; objects: dl0 Ilìn
-24. people: sioe-a ilin; animals: sioe-a flin; objects: sioe-a flin
-25. people: do hoeloe; animals: dò hoeloe; objects: dò hoeloe
-26. people: do hoeloe ansara; animals: dò hoeloe ansara; objects: dò
-hoeloe ansara
-27. people: dì hoeloe anlima; animals: dì hoeloe anlima; objects: dà
-hoeloe anlima
-28. people: têld hoeloe; animals: têlò hoeloe; objects: têlò hoeloe
-29. people: aka hoeloe; animals: aka hoeloe; objects: aka hoeloe
-30. people: lima hoeloe; animals: lima hoeloe; objects: lima hoeloe
-31. people: nêmmênga hoeloe; animals: nêmmênga hoeloe; objects:
-nêmmênga hoeloe
-32. people: saratoe-1; animals: saratoe-i; objects: saratoe-1
-33. people: lifoe; animals: lifoe; objects: lifoe
-34. people: salasò; animals: salasò; objects: salasò
-35. sênajan, sêlassa, raboeh, hami/chamè, dima-at, saptoe, ahad
+11. <n><comment>people</comment>: <form>darò</form></n>; <n><comment>animals</comment>: <form>doea</form></n>; <n><comment>objects</comment>: <form>doevò</form></n>
+12. <n><comment>people</comment>: <form>datêloe</form></n>; <n><comment>animals</comment>: <form>têloe</form></n>; <n><comment>objects</comment>: <form>têloevò</form></n>
+13. <n><comment>people</comment>: <form>dahat</form></n>; <n><comment>animals</comment>: <form>a-at</form></n>; <n><comment>objects</comment>: <form>atavò</form></n>
+14. <n><comment>people</comment>: <form>dalima</form></n>; <n><comment>animals</comment>: <form>lima</form></n>; <n><comment>objects</comment>: <form>limavò</form></n>
+15. <n><comment>people</comment>: <form>danêm</form></n>; <n><comment>animals</comment>: <form>ênêm</form></n>; <n><comment>objects</comment>: <form>nêmavò</form></n>
+16. <n><comment>people</comment>: <form>da itoe</form></n>; <n><comment>animals</comment>: <form>itoe</form></n>; <n><comment>objects</comment>: <form>itoevò</form></n>
+17. <n><comment>people</comment>: <form>da wòloe</form></n> ; <n><comment>animals</comment>: <form>òloe</form></n> ; <n><comment>objects</comment>: <form>òloevò</form></n>
+18. <n><comment>people</comment>: <form>da sioe-a</form></n>; <n><comment>animals</comment>: <form>sioe-a</form></n>; <n><comment>objects</comment>: <form>sioe-avò</form></n>
+19. <n><comment>people</comment>: <form>dahoeloe</form></n>; <n><comment>animals</comment>: <form>hoeloe</form></n>; <n><comment>objects</comment>: <form>ban</form></n>
+20. <n><comment>people</comment>: <form>sara ílǐn</form></n>; <n><comment>animals</comment>: <form>sara ílìn</form></n>; <n><comment>objects</comment>: <form>sara ílìn</form></n>
+21. <n><comment>people</comment>: <form>dò ílǐn</form></n>; <n><comment>animals</comment>: <form>dò ílìn</form></n>; <n><comment>objects</comment>: <form>dò ílìn</form></n>
+22. <n><comment>people</comment>: <form>têlò ílǐn</form></n>; <n><comment>animals</comment>: <form>têlò ílìn</form></n>; <n><comment>objects</comment>: <form>têlò ílìn</form></n>
+23. <n><comment>people</comment>: <form>òlò ílǐn</form></n>; <n><comment>animals</comment>: <form>òlò ílìn</form></n>; <n><comment>objects</comment>: <form>òlò ílìn</form></n>
+24. <n><comment>people</comment>: <form>sioe-a ìlǐn</form></n>; <n><comment>animals</comment>: <form>sioe-a ílìn</form></n>; <n><comment>objects</comment>: <form>sioe-a ílìn</form></n>
+25. <n><comment>people</comment>: <form>dò hoeloe</form></n>; <n><comment>animals</comment>: <form>dò hoeloe</form></n>; <n><comment>objects</comment>: <form>dò hoeloe</form></n>
+26. <n><comment>people</comment>: <form>dò hoeloe ansara</form></n>; <n><comment>animals</comment>: <form>dò hoeloe ansara</form></n>; <n><comment>objects</comment>: <form>dò hoeloe ansara</form></n>
+27. <n><comment>people</comment>: <form>dò hoeloe anlima</form></n>; <n><comment>animals</comment>: <form>dò hoeloe anlima</form></n>; <n><comment>objects</comment>: <form>dò hoeloe anlima</form></n>
+28. <n><comment>people</comment>: <form>têlò hoeloe</form></n>; <n><comment>animals</comment>: <form>têlò hoeloe</form></n>; <n><comment>objects</comment>: <form>têlò hoeloe</form></n>
+29. <n><comment>people</comment>: <form>aka hoeloe</form></n>; <n><comment>animals</comment>: <form>aka hoeloe</form></n>; <n><comment>objects</comment>: <form>aka hoeloe</form></n>
+30. <n><comment>people</comment>: <form>lima hoeloe</form></n>; <n><comment>animals</comment>: <form>lima hoeloe</form></n>; <n><comment>objects</comment>: <form>lima hoeloe</form></n>
+31. <n><comment>people</comment>: <form>nêmmênga hoeloe</form></n>; <n><comment>animals</comment>: <form>nêmmênga hoeloe</form></n>; <n><comment>objects</comment>: <form>nêmmênga hoeloe</form></n>
+32. <n><comment>people</comment>: <form>saratoe-i</form></n>; <n><comment>animals</comment>: <form>saratoe-i</form></n>; <n><comment>objects</comment>: <form>saratoe-i</form></n>
+33. <n><comment>people</comment>: <form>lifoe</form></n>; <n><comment>animals</comment>: <form>lífoe</form></n>; <n><comment>objects</comment>: <form>lífoe</form></n>
+34. <n><comment>people</comment>: <form>salasò</form></n>; <n><comment>animals</comment>: <form>salasò</form></n>; <n><comment>objects</comment>: <form>salasò</form></n>
+35. <n><form>sênajan, sêlassa, raboeh, hami/chamè, dima-at, saptoe, ahad</form></n>
 </notes>
