@@ -218,3 +218,56 @@ txts1[[6]] |>
   str_split("__") |> 
   unlist() |> 
   sort()
+
+### p. 7 =====
+txts1[[7]] <- txts1[[7]] |> 
+  (\(l) l[-1])() |> 
+  (\(l) l[nzchar(l)])() |> 
+  str_replace("\\b770\\/", "") |> 
+  str_replace("\\(\\(1l", "770/771") |> 
+  str_replace("1 f\\= VCO ROBLACE OS", "772. toeroetoeroe") |> 
+  str_replace("\\(1\\)\\.\\ssot$", "775. <51>") |> 
+  str_replace("^716\\-\\s\\(+", "777") |> 
+  str_replace("^(718)(?=\\.\\sbago\\s778)", "716-\\1") |> 
+  str_replace("^.\\s(?=736\\.\\s\\<49\\>)", "") |> 
+  str_replace("^739\\/\\s", "") |> 
+  str_replace("^(740)(?=\\.\\srand\\b)", "739/\\1") |> 
+  str_replace("\\((91)(?=\\.\\smoeateloe\\b)", "7\\1") |> 
+  str_replace("^Hi,", "742-744.") |> 
+  str_replace("(?<=792\\.\\s)pangepker", "pangepkep") |> 
+  str_replace("(?<=793\\.\\s)titi", 'ti"ti') |> 
+  str_replace("\\(Ft\\.\\s+\\<3e", "797. <52>") |> 
+  str_replace("^750\\/\\s(?=800\\.)", "") |> 
+  str_replace("^(751)(?=\\.\\sekket)", "750/\\1") |> 
+  str_replace("\\s800\\-$", "") |> 
+  str_replace("(?<=moenooe\\s)802(?=\\.\\skabaoe\\, djawi)", "800-802") |> 
+  str_replace("\\s(?=[0-9]+([\\/\\-][0-9]+)?\\.)", "__") |> 
+  str_split("__") |> 
+  unlist() |> 
+  sort() |> 
+  str_trim("both")
+
+### p. 8 ============
+txts1[[8]] <- txts1[[8]] |> 
+  (\(l) l[nzchar(l)])() |> 
+  (\(l) l[-1])() |> 
+  str_replace("^803\\/\\s", "") |>
+  str_replace("^804(?=\\.\\sdjawi)", "803/804") |> 
+  str_replace("^\\$", "") |> 
+  str_replace("^(3(?=860)|3(?=813))", "") |> 
+  str_replace("^(S(?=46)|S(?=41))", "8") |> 
+  str_replace(" | ", " ") |> 
+  str_replace("(?<=^833\\.\\s)bebe\\!", "bébe'")
+
+### p. 9 =============
+txts1[[9]] <- txts1[[9]] |> 
+  (\(l) l[-1])() |> 
+  (\(l) l[nzchar(l)])() |> 
+  str_replace("^O(?=44\\b)", "9") |> 
+  str_replace("^O(?=47\\b)", "9") |> 
+  str_replace("\\s\\)$", "") |> 
+  str_replace("(?<=oetak\\,\\s)rere", "rēre") |> 
+  str_replace("rére", "rēre") |> 
+  str_replace("(?<=972\\.\\s)onal$", "onai") |> 
+  str_replace("(?<=986\\.\\s)asaan", "asaän") |> 
+  str_replace("(?<=^938\\.\\s)bebe", "bëbe")
