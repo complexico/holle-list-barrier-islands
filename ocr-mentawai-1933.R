@@ -271,3 +271,36 @@ txts1[[9]] <- txts1[[9]] |>
   str_replace("(?<=972\\.\\s)onal$", "onai") |> 
   str_replace("(?<=986\\.\\s)asaan", "asaän") |> 
   str_replace("(?<=^938\\.\\s)bebe", "bëbe")
+
+txts1[[10]] |> 
+  (\(l) l[-1])() |> 
+  str_replace("(?<=\\b1104)\\/$", "/1105. roket, maroket") |> 
+  str_subset("^1106\\/$", TRUE) |> 
+  str_replace("\\sIe\\.\\sORCL.+$", "") |> 
+  str_replace("(1107\\.)", "1106/\\1") |> 
+  str_replace("^19ee", "1065/1066") |> 
+  str_replace("\\bbitd\\.", "1115.") |> 
+  str_replace("^1067\\/\\s", "") |> 
+  str_replace("^1068", "1067/1068") |> 
+  str_replace("(?<=^1072\\.\\s)tabel", "tabei") |> 
+  str_replace("(?<=^1073\\.\\s)tabeli", "tabei") |> 
+  str_replace("\\bli2l", "1121") |> 
+  str_replace("\\bllé2ee", "1122") |> 
+  str_replace("1li23", "1123") |> 
+  str_replace("\\#(?=boe\\s1124)", '"') |> # syllable boundary (?) of [CV̈] (see the note in Stokhof 1980)
+  str_replace("^1080\\/\\s", "") |> 
+  str_replace("^1081", "1080/1081") |> 
+  str_replace("llieéy", "1127") |> 
+  str_replace("^1053", "1083") |> 
+  str_replace("mago\\&goek\\=go\\&goek", "magoe\"goek=goe\"goek") |> 
+  str_replace("\\s1132\\-?$", "") |> 
+  str_replace("\\b1134", "1132-1134") |> 
+  str_replace("\\béEroe\\b", "ēroe") |>
+  str_replace("\\bP1535", "1132-1135") |> 
+  (\(l) l[nzchar(l)])() |> 
+  str_replace("\\s(?=[0-9]+([\\/\\-][0-9]+)?\\.)", "__") |> 
+  str_split("__") |> 
+  unlist() |> 
+  sort() |> 
+  str_trim("both")
+  
