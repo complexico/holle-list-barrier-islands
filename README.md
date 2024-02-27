@@ -8,18 +8,24 @@ of Oxford, UK and Universitas Udayana, Indonesia
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
+
+[![Project Status: WIP – Initial development is in progress, but there
+has not yet been a stable, usable release suitable for the
+public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+
 <!-- badges: end -->
 
 ## Overview
 
-A repository hosting the digitised and curated dataset of the Holle List
-vocabularies of languages off the west coast of Sumatra, Indonesia
-([Stokhof and Almanar 1987](#ref-1885-144589); [Stokhof
-1980](#ref-holleli1980)). The goal is to allow computational matching
-between the vocabularies of these languages with the master, digitised
-Holle List ([Rajeg 2023](#ref-rajeg2023)). The matching will provide the
-English, Dutch, and Indonesian translations for these vocabularies that
-are carried over from the master, digitised Holle List.
+A repository hosting (a work-in-progress for) the digitised and curated
+dataset of the Holle List vocabularies of languages off the west coast
+of Sumatra, Indonesia ([Stokhof and Almanar 1987](#ref-1885-144589);
+[Stokhof 1980](#ref-holleli1980)). The goal is to allow computational
+matching between the vocabularies of these languages with the master,
+digitised Holle List ([Rajeg 2023](#ref-rajeg2023)). The matching will
+provide the English, Dutch, and Indonesian translations for these
+vocabularies that are carried over from the master, digitised Holle
+List.
 
 ### References
 
