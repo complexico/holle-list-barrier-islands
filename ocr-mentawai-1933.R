@@ -257,7 +257,12 @@ txts1[[8]] <- txts1[[8]] |>
   str_replace("^(3(?=860)|3(?=813))", "") |> 
   str_replace("^(S(?=46)|S(?=41))", "8") |> 
   str_replace(" | ", " ") |> 
-  str_replace("(?<=^833\\.\\s)bebe\\!", "bébe'")
+  str_replace("(?<=^833\\.\\s)bebe\\!", "bébe'") |> 
+  str_replace("\\s(?=[0-9]+([\\/\\-][0-9]+)?\\.)", "__") |> 
+  str_split("__") |> 
+  unlist() |> 
+  sort() |> 
+  str_trim("both")
 
 ### p. 9 =============
 txts1[[9]] <- txts1[[9]] |> 
@@ -270,7 +275,12 @@ txts1[[9]] <- txts1[[9]] |>
   str_replace("rére", "rēre") |> 
   str_replace("(?<=972\\.\\s)onal$", "onai") |> 
   str_replace("(?<=986\\.\\s)asaan", "asaän") |> 
-  str_replace("(?<=^938\\.\\s)bebe", "bëbe")
+  str_replace("(?<=^938\\.\\s)bebe", "bëbe") |> 
+  str_replace("\\s(?=[0-9]+([\\/\\-][0-9]+)?\\.)", "__") |> 
+  str_split("__") |> 
+  unlist() |> 
+  sort() |> 
+  str_trim("both")
 
 txts1[[10]] |> 
   (\(l) l[-1])() |> 
