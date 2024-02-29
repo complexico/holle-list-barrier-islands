@@ -282,7 +282,7 @@ txts1[[9]] <- txts1[[9]] |>
   sort() |> 
   str_trim("both")
 
-txts1[[10]] |> 
+txts1[[10]] <- txts1[[10]] |> 
   (\(l) l[-1])() |> 
   str_replace("(?<=\\b1104)\\/$", "/1105. roket, maroket") |> 
   str_subset("^1106\\/$", TRUE) |> 
