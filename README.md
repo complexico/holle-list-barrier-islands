@@ -27,6 +27,13 @@ provide the English, Dutch, and Indonesian translations for these
 vocabularies that are carried over from the master, digitised Holle
 List.
 
+The digitisation process for the lists of Mentawai, Nias (1905 and
+1911), Salang and Sigule, Sigulei and Salang, and Seumalur is being
+conducted by my students at the English Lexicology and Lexicography
+course in the Bachelor of English Literature, Faculty of Humanities,
+Udayana University. This is part of a class project to introduce WeSay
+app to the students.
+
 ### References
 
 <div id="refs" class="references csl-bib-body hanging-indent">
