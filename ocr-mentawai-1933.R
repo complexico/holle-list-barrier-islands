@@ -199,7 +199,7 @@ txts1[[5]] <- txts1[[5]] |>
   sort()
 
 ### p. 6 ======
-txts1[[6]] |> 
+txts1[[6]] <- txts1[[6]] |> 
   (\(l) l[-1])() |> 
   (\(l) l[nzchar(l)])() |> 
   str_replace("\\s605\\/", "") |> 
@@ -314,4 +314,25 @@ txts1[[10]] <- txts1[[10]] |>
   unlist() |> 
   sort() |> 
   str_trim("both")
-  
+
+### p. 11 =============
+# txts1[[11]] |> 
+#   (\(x) x[-1])() |> 
+#   (\(x) x[nzchar(x)])() |> 
+#   write_lines("to-edit/mentawai-11.txt")
+txts1[[11]] <- read_lines("to-edit/mentawai-11.txt") |> 
+  str_trim("both")
+
+### p. 12 =============
+# txts1[[12]] |>
+#   (\(x) x[-1])() |>
+#   (\(x) x[nzchar(x)])() |>
+#   write_lines("to-edit/mentawai-12.txt")
+txts1[[12]] <- read_lines("to-edit/mentawai-12.txt") |> 
+  str_trim("both")
+
+### p. 13 =============
+# txts1[[13]] |>
+#   (\(x) x[-1])() |>
+#   (\(x) x[nzchar(x)])() |>
+#   write_lines("to-edit/mentawai-13.txt")
