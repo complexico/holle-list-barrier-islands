@@ -336,3 +336,29 @@ txts1[[12]] <- read_lines("to-edit/mentawai-12.txt") |>
 #   (\(x) x[-1])() |>
 #   (\(x) x[nzchar(x)])() |>
 #   write_lines("to-edit/mentawai-13.txt")
+txts1[[13]] <- read_lines("to-edit/mentawai-13.txt") |> 
+  str_trim("both")
+
+### p. 14 =============
+# txts1[[14]] |>
+#   (\(x) x[-1])() |>
+#   (\(x) x[nzchar(x)])() |>
+#   write_lines("to-edit/mentawai-14.txt")
+txts1[[14]] <- read_lines("to-edit/mentawai-14.txt") |>
+  str_trim("both")
+
+### p. 15 =============
+# txts1[[15]] |>
+#   (\(x) x[-1])() |>
+#   (\(x) x[nzchar(x)])() |>
+#   write_lines("to-edit/mentawai-15.txt")
+txts1[[15]] <- read_lines("to-edit/mentawai-15.txt") |>
+  str_trim("both")
+
+### p. 16 =============
+# txts1[[16]] |>
+#   (\(x) x[-1])() |>
+#   (\(x) x[nzchar(x)])() |>
+#   write_lines("to-edit/mentawai-16.txt")
+txts1[[16]] <- read_lines("to-edit/mentawai-16.txt") |>
+  str_trim("both")
