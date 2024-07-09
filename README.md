@@ -19,20 +19,37 @@ public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostat
 
 A repository hosting (a work-in-progress for) the digitised and curated
 dataset of the Holle List vocabularies of languages off the west coast
-of Sumatra, Indonesia ([Stokhof and Almanar 1987](#ref-1885-144589);
+of Sumatra, Indonesia ([Stokhof and Almanar 1987](#ref-holle1987);
 [Stokhof 1980](#ref-holleli1980)). The goal is to allow computational
-matching between the vocabularies of these languages with the master,
-digitised Holle List ([Rajeg 2023](#ref-rajeg2023)). The matching will
-provide the English, Dutch, and Indonesian translations for these
-vocabularies that are carried over from the master, digitised Holle
-List.
+matching between the vocabularies of these languages with the [main,
+digitised Holle
+List](https://engganolang.github.io/digitised-holle-list/) ([Rajeg
+2023](#ref-rajeg2023)). The matching will provide the English, Dutch,
+and Indonesian translations for these vocabularies that are carried over
+from the main Holle List.
 
-The digitisation process for the lists of Mentawai, Nias (1905 and
-1911), Salang and Sigule, Sigulei and Salang, and Seumalur is being
-conducted by my students at the English Lexicology and Lexicography
-course in the Bachelor of English Literature, Faculty of Humanities,
-Udayana University. This is part of a class project to introduce WeSay
-app to the students.
+### Notes
+
+- Files in the `plaintexts` directory that are (nearly) done are:
+
+  - lekon.txt (✅)
+
+  - simalur.txt (✅)
+
+  - tapah.txt (✅)
+
+  - (*in-progress* ⚠) mentawai1933.txt
+
+- The digitisation process for the lists of Mentawai (not the “1933”
+  one), Nias (1905 and 1911), Salang and Sigule, Sigulei and Salang, and
+  Seumalur is being conducted by my students at the English Lexicology
+  and Lexicography course in the Bachelor of English Literature, Faculty
+  of Humanities, Udayana University. This is part of a class project to
+  introduce WeSay app to the students.
+
+  - UPDATE: The digitisation of the above languages via WeSay has been
+    finished. The .sfm files from the WeSay projects are to be further
+    processed (particularly matching the main word list with the notes)
 
 ### References
 
@@ -55,7 +72,7 @@ School of Pacific Studies, The Australian National University.
 
 </div>
 
-<div id="ref-1885-144589" class="csl-entry">
+<div id="ref-holle1987" class="csl-entry">
 
 Stokhof, W. A. L., and Alma E. Almanar. 1987. *Holle Lists, Vocabularies
 in Languages of Indonesia, Vol. 10/3: Islands Off the West Coast of

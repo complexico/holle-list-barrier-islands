@@ -362,3 +362,10 @@ txts1[[15]] <- read_lines("to-edit/mentawai-15.txt") |>
 #   write_lines("to-edit/mentawai-16.txt")
 txts1[[16]] <- read_lines("to-edit/mentawai-16.txt") |>
   str_trim("both")
+
+
+## save the plain text workflow ====
+## REMEMBER to ADJUST THE LAST INDEX NUMBER CORRESPONDING TO THE PAGE FINISHED BEING CHECKED!
+txts1[1:16] |> 
+  unlist() |> 
+  write_lines("plaintexts/mentawai1933.txt")
