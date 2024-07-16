@@ -1134,3 +1134,45 @@ ll. <n><form>oetah</form></n> ; <n><form>gelek</form></n> ; <n><form>moeoetah</f
 51. <n><form>togat gooe gooe</form></n>; <n><form>togat saina</form> = <form_variant>sakoko</form_variant></n>; <n><form>togat sigeta</form> = <form_variant>djodjo</form_variant></n>
 52. <n><idn>ajam</idn>: <form>pangepkep</form></n>; <n><idn>babi</idn>: <form>moeroemoen</form></n>; <n><idn>andjing</idn>: <form>moetoga</form></n>
 53. <n><comment>datangnja dari omong Melajoe</comment></n>
+54. <n><form>djodja</form> <idn>pandjang akar (ekor?)</idn></n>
+54. <n><form>simakoboe</form> <idn>pendek ekor</idn></n>
+54. <n><form>obakamone</form></n>; <n><form>bilooe</form></n>; <n><form>simaoeilam</form></n>
+55. <n><form>ngoroet</form>: <idn>boeroeng dara</idn></n>
+55. <n><form>limeardeoe</form>: <idn>poenei</idn></n>
+55. <n><form>kiaibok , mainong</form>: <idn>beo</idn></n>
+55. <n><form>seggoei</form>: <idn>pianggang</idn></n>
+56. <n><form>teina</form>: <idn>peroetnja</idn></n>
+56. <n><form>poeti</form> <idn>ekornja</idn></n>
+57. <n><form>papakpak</form></n> ; <n><form>moetapi</form></n> ; <n><form>loeloeloep</form></n> ; <n><form>moesesere</form></n> ; <n><form>pepekka</form></n>
+58. <n><form>moeiba</form></n> ; <n><form>moedjaring</form></n> ; <n><form>moedjalo</form></n> ; <n><form>mangabili</form></n> ; <n><form>mamanoe</form></n>
+59. <n><idn>djala</idn></n> ; <n><idn>djaring</idn></n> ; <n><form>panoe</form></n> ; <n><form>soebba</form></n>
+60. <n><form>pasesengaoe</form> = <form_variant>bara²</form_variant> = <idn>gaboes</idn></n>
+60. <n><form>kanasai</form> = <idn>gambalo</idn></n>
+60. <n><form>mansoeit</form> = <idn>pinang²</idn></n>
+60. <n><form>sagaoe</form> = <idn>teter</idn></n>
+60. <n><form>silekboek</form> = <idn>ikan babi</idn></n>
+60. <n><form>boeloek</form> = <idn>ikan pari</idn></n>
+61. <n><form>sigep</form> = <idn>semoet ketjil</idn></n>
+61. <n><form>berekei</form> = <idn>semoet besar</idn></n>
+61. <n><form>silo</form> = <idn>semoet item besar</idn></n>
+62. <n><form>pepekdak</form> = <idn>oelar itam</idn></n>; <n><form>takooehoelaoe</form> = <idn>oelar belang</idn></n>
+63. <n><form>kaira</form></n> ; <n><form>sipoesoe</form></n> ; <n><form>simalina</form></n>
+64. <n><form>painan sipatoake</form>: <idn>bintang pagi²</idn></n>
+64. <n><form>painan sibaloe</form>: <idn>bintang jang banjak²</idn></n>
+64. <n><form>painan sikateteloe</form>: <idn>bintang jang tiga</idn></n>
+65. <n><form>teteoe</form></n>, <n><form>djoedjoe</form></n>, <n><form>sigegeoegeoe</form></n>
+66. <n><form>pana"sa</form></n>, <n><form>kaoeloe</form></n>, <n><form>katiri</form></n>
+67. <n><form>boekoe</form></n>, <n><idn>batoe</idn></n>, <n><form>lagai</form></n>, <n><form>poero</form></n>
+68. <n><comment>menoeroet bahasa Melajoe</comment></n>
+69. <n><form>abak</form>: <idn>prahu</idn></n>
+69. <n><form>abak oendoei</form>: <idn>prahu ketjil</idn></n>
+69. <n><form>kalabba</form>: <idn>prahu besar</idn></n>
+70. <n><form>malatta</form></n>, <n><form>maaran</form>=<form_variant>aran</form_variant></n>, <n><form>makalakka</form></n>
+71. <n><form>sikatai</form>: <idn>orang djelek</idn></n>
+71. <n><form>simaligo</form>: <idn>orang djelek</idn></n>
+72. = <n><idn>ikat</idn></n>
+73. <n><form>loemang</form> = <form_variant>maloemang</form_variant></n>
+73. <n><form>siloemang</form></n>, <n><form>tamakajo</form></n>
+74. <n><form>boeboet</form> = <form_variant>boelaoe</form_variant></n>
+74. <n><form>maboeboet</form> = <form_variant>maboelaoe</form_variant></n>
+74. <n><form>mapoesoeet</form></n>
