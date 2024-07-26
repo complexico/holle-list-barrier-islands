@@ -1176,3 +1176,45 @@ ll. <n><form>oetah</form></n> ; <n><form>gelek</form></n> ; <n><form>moeoetah</f
 74. <n><form>boeboet</form> = <form_variant>boelaoe</form_variant></n>
 74. <n><form>maboeboet</form> = <form_variant>maboelaoe</form_variant></n>
 74. <n><form>mapoesoeet</form></n>
+75. = <n><idn>merah sedikit</idn></n>
+76. <n><form>abit</form></n>, <n><form>oeka</form></n>, <n><form>noni</form></n>
+76. <n><form>abit kaet</form></n>
+76. <n><form>oeka kaet</form>, <idn>bawa kesana</idn></n>
+76. <n><form>noni kaet</form></n>
+77. <n><form>baraake</form></n>, <n><form>segeake</form></n>, <n><form>abit kaini</form></n>, <n><form>ake kaini</form></n>
+78. <n><form>pasilainang akai</form></n>
+78. <n><form>pasilina akai</form></n>
+78. <n><form>lainang</form> = <idn>litjin</idn></n>
+78. <n><form>lina</form> = <idn>litjin</idn></n>
+79. <n><form>poiliat</form> = <idn>terangkan</idn></n>
+80. <n><form>manibo</form></n>, <n><form>tibotjet</form></n>, <n><form>moelaibo</form></n>, <n><form>nganga</form></n>
+81. = <n><idn>bawa dipoenggoeng</idn></n>
+82. <n><form>djoeroet</form> = <idn>ketjap</idn></n>
+82. <n><form>menoeroet</form> = <idn>mengetjap</idn></n>
+83. <n><form>pasiboeka</form></n>; <n><form>pasinganga</form></n>; <n><form>posiboila</form></n>
+83. <n><form>nga'nga, baila</form> = <idn>boeka</idn></n>
+84. <n><form>tamba</form></n>, <n><form>pasitamba</form></n>, <n><form>menambak</form></n>
+85. <n><form>sere</form> = <form_variant>sereake</form_variant> = <idn>ikat</idn></n>
+85. <n><form>pasisere</form> = <idn>menambat</idn></n>
+85. <n><form>sere</form> = <idn>ikat</idn></n>
+86. <n><form>nooenooe</form></n>, <n><form>rere</form></n>, <n><form>pasinooe</form></n>, <n><form>pasirere</form></n>
+87. <n><form>bokoi</form> = <idn>doesta</idn></n>
+88. <n><form>gigikngake</form> = <idn>boeangkan</idn></n>
+89. <n><form>ribbaiake</form> = <idn>lemparkan</idn></n>
+90. = <n><idn>koempoel</idn></n>
+91. <n><form>bo"bo</form> = <idn>poekoel</idn></n>
+91. <p><form>pasibobo</form> = <idn>memoekoel</idn></p>
+92. <n><form>doeangatoe</form></n>, <n><form>teloengatoe</form></n>
+93. <n><form>mitja</form> = <idn>kali</idn></n>
+94. <n><form>katoekapoelat, sikateitei</form> = <idn>jang belakangan</idn></n>
+94. <n><form>kalepaka</form> = <idn>kesoedahan</idn></n>
+95. <n><form>matjepnanie</form> = <idn>pagi ini</idn></n>
+96. <n><form>simatjep</form>: <idn>tadi pagi</idn></n>
+96. a oempama
+96. <n><form>alepaan</form> = <idn>soedah habis</idn></n>
+96. <n><form>asoepperoengan</form> = <idn>soedah habis</idn></n>
+96. <n><form>sappoeroe</form> = <idn>habis</idn></n>
+96. <n><form>tapei</form> = <idn>habis</idn></n>
+97. <n><form>pasikoilip, pasikoiloep</form> = <idn>berkeliling</idn></n>
+98. <n><form>angoi</form></n>, <n><form>aponaoi</form></n>, <n><form>apoiot</form></n>
+99. <n><form>sarania</form></n>, <n><form>malegere</form></n>, <n><form>bebe</form></n>

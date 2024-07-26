@@ -363,9 +363,38 @@ txts1[[15]] <- read_lines("to-edit/mentawai-15.txt") |>
 txts1[[16]] <- read_lines("to-edit/mentawai-16.txt") |>
   str_trim("both")
 
+### p. 17 =============
+# txts1[[17]] |>
+#   (\(x) x[-1])() |>
+#   (\(x) x[nzchar(x)])() |>
+#   write_lines("to-edit/mentawai-17.txt")
+txts1[[17]] <- read_lines("to-edit/mentawai-17.txt") |>
+  str_trim("both")
+
+### p. 18 =============
+# txts1[[18]] |>
+#   (\(x) x[-1])() |>
+#   (\(x) x[nzchar(x)])() |>
+#   write_lines("to-edit/mentawai-18.txt")
+txts1[[18]] <- read_lines("to-edit/mentawai-18.txt") |>
+  str_trim("both")
+
 
 ## save the plain text workflow ====
 ## REMEMBER to ADJUST THE LAST INDEX NUMBER CORRESPONDING TO THE PAGE FINISHED BEING CHECKED!
-txts1[1:16] |> 
+txts1[1:18] |> 
   unlist() |> 
   write_lines("plaintexts/mentawai1933.txt")
+
+
+## Trial code to handle notes ====
+library(tidyverse)
+x <- read_lines("/Users/Primahadi/Library/CloudStorage/OneDrive-Nexus365/Documents/Research/barrier-island-Holle-list-2023-05-24/to-edit/mentawai-17.txt")
+x %>% 
+  str_subset("<n") %>% 
+  tibble(dt = .) %>% 
+  separate_wider_regex(dt, 
+                        patterns = c(id = "^[0-9]+", "\\.\\s", notes = "\\<n\\>.+")) %>% 
+  mutate(notessplit = str_split(notes, "[^ ]\\s+(?=\\<n\\>)")) %>% 
+  select(id, notessplit) %>% 
+  unnest_longer(col = notessplit)
