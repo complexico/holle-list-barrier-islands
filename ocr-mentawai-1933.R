@@ -379,6 +379,23 @@ txts1[[17]] <- read_lines("to-edit/mentawai-17.txt") |>
 txts1[[18]] <- read_lines("to-edit/mentawai-18.txt") |>
   str_trim("both")
 
+### p. 19 =============
+# txts1[[19]] |>
+#   (\(x) x[-1])() |>
+#   (\(x) x[nzchar(x)])() |>
+#   write_lines("to-edit/mentawai-19.txt")
+txts1[[19]] <- read_lines("to-edit/mentawai-19.txt") |>
+  str_trim("both") # |> 
+  # (\(x) str_subset(x, "^(100|101)\\."))() # the remaining lines are answers to a questionnaires
+
+### p. 20 =============
+# txts1[[20]] |>
+#   (\(x) x[-1])() |>
+#   (\(x) x[nzchar(x)])() |>
+#   write_lines("to-edit/mentawai-20.txt")
+txts1[[20]] <- read_lines("to-edit/mentawai-20.txt") |>
+  str_trim("both")
+
 
 ## save the plain text workflow ====
 ## REMEMBER to ADJUST THE LAST INDEX NUMBER CORRESPONDING TO THE PAGE FINISHED BEING CHECKED!
