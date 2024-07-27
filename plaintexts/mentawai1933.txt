@@ -1233,23 +1233,33 @@ ll. <n><form>oetah</form></n> ; <n><form>gelek</form></n> ; <n><form>moeoetah</f
 5.5.2. The Sikereis (medicine-men) use words and terms in their formulas which are not used in the daily language.
 5.5.3. None
 5.6. The teeth are filed down until they have a triangular shape <graphic url="mentawai1933/5-6-gum.png"></graphic>
-5.8. <span><orth>a</orth> <lbl>somewhat longer than in <m>dak</m></lbl> <[<pron>a</pron>]></span>
-5.8. <span><orth>e</orth> <lbl>open as in <m>nek</m></lbl> <[<pron>ɛ</pron>]></span>
-5.8. <span><orth>oe</orth> <lbl>as in <m>koekoek</m></lbl> <[<pron>u</pron>]></span>
-5.8. <span><orth>i</orth> <lbl>as in <m>piet</m></lbl> <[<pron>i</pron>]></span>
-5.8. <span><orth>aoe</orth> <lbl>slightly longer than in <m>pauw</m></lbl> <[<pron>au</pron>]></span>
-5.8. <span><orth>ooe</orth> <lbl>slightly longer than in <m>rouw</m></lbl> <[<pron>ou</pron>]></span>
-5.8. <span><orth>ei</orth> <lbl>slightly longer than in <m>reis</m></lbl> <[<pron>ei̪</pron>]></span>
-5.8. <span><orth>g</orth> <lbl>as in English <m>good</m></lbl> <[<pron>g</pron>]></span>
-5.8. <span><orth>k</orth> <lbl>as in <m>koekoek</m></lbl> <[<pron>k</pron>]></span>
-5.8. <span><orth>b</orth> <lbl>as in <m>boer</m></lbl> <[<pron>b</pron>]></span>
-5.8. <span><orth>d</orth> <lbl>as in <m>deur</m></lbl> <[<pron>d</pron>]></span>
-5.8. <span><orth>h</orth> <lbl>as in <m>huis</m></lbl> <[<pron>h</pron>]></span>
-5.8. <span><orth>l</orth> <lbl>as in <m>lang</m></lbl> <[<pron>l</pron>]></span>
-5.8. <span><orth>m</orth> <lbl>as in <m>mal</m></lbl> <[<pron>m</pron>]></span>
-5.8. <span><orth>n</orth> <lbl>as in <m>nog</m></lbl> <[<pron>n</pron>]></span>
-5.8. <span><orth>p</orth> <lbl>as in <m>pier</m></lbl> <[<pron>p</pron>]></span>
-5.8. <span><orth>r</orth> <lbl>as in <m>reis</m></lbl> <[<pron>r</pron>]></span>
-5.8. <span><orth>s</orth> <lbl>as in <m>sier</m></lbl> <[<pron>s</pron>]></span>
-5.8. <span><orth>t</orth> <lbl>as in <m>tocht</m></lbl> <[<pron>t</pron>]></span>
-5.8. <span><orth>ch</orth> <lbl>as in <m>guur</m></lbl> <[<pron>x</pron>]></span>
+5.8. <span><c>a</c> <lbl>somewhat longer than in <m>dak</m></lbl> <[<pron>a</pron>]></span>
+5.8. <span><c>e</c> <lbl>open as in <m>nek</m></lbl> <[<pron>ɛ</pron>]></span>
+5.8. <span><c>oe</c> <lbl>as in <m>koekoek</m></lbl> <[<pron>u</pron>]></span>
+5.8. <span><c>i</c> <lbl>as in <m>piet</m></lbl> <[<pron>i</pron>]></span>
+5.8. <span><c>aoe</c> <lbl>slightly longer than in <m>pauw</m></lbl> <[<pron>au</pron>]></span>
+5.8. <span><c>ooe</c> <lbl>slightly longer than in <m>rouw</m></lbl> <[<pron>ou</pron>]></span>
+5.8. <span><c>ei</c> <lbl>slightly longer than in <m>reis</m></lbl> <[<pron>ei̪</pron>]></span>
+5.8. <span><c>g</c> <lbl>as in English <m>good</m></lbl> <[<pron>g</pron>]></span>
+5.8. <span><c>k</c> <lbl>as in <m>koekoek</m></lbl> <[<pron>k</pron>]></span>
+5.8. <span><c>b</c> <lbl>as in <m>boer</m></lbl> <[<pron>b</pron>]></span>
+5.8. <span><c>d</c> <lbl>as in <m>deur</m></lbl> <[<pron>d</pron>]></span>
+5.8. <span><c>h</c> <lbl>as in <m>huis</m></lbl> <[<pron>h</pron>]></span>
+5.8. <span><c>l</c> <lbl>as in <m>lang</m></lbl> <[<pron>l</pron>]></span>
+5.8. <span><c>m</c> <lbl>as in <m>mal</m></lbl> <[<pron>m</pron>]></span>
+5.8. <span><c>n</c> <lbl>as in <m>nog</m></lbl> <[<pron>n</pron>]></span>
+5.8. <span><c>p</c> <lbl>as in <m>pier</m></lbl> <[<pron>p</pron>]></span>
+5.8. <span><c>r</c> <lbl>as in <m>reis</m></lbl> <[<pron>r</pron>]></span>
+5.8. <span><c>s</c> <lbl>as in <m>sier</m></lbl> <[<pron>s</pron>]></span>
+5.8. <span><c>t</c> <lbl>as in <m>tocht</m></lbl> <[<pron>t</pron>]></span>
+5.8. <span><c>ch</c> <lbl>as in <m>guur</m></lbl> <[<pron>x</pron>]></span>
+5.9. <span><c corresp="ie">i̠</c> <[<pron>i</pron>]></span>
+5.9. <span><c corresp="long a">ā</c> <[<pron>α:</pron>]></span>
+5.10. for long vowels
+5.11. <span><lbl>in <m>nek</m> (not a long e)</lbl> <[<pron>ɛ</pron>]></span>
+5.12. <span><lbl>long, as in <m>boos</m></lbl> <[<pron>o:</pron>]></span>
+5.12. <span><lbl>short, as in <m>nok</m></lbl> <[<pron>ɔ</pron>]></span>
+5.14. <span><lbl>hamzah by <m>nok</m></lbl> <[ˀ]></span>
+5.15. oe
+5.16. stress on the penultimate syllable
+5.17. stress makes the vowel of the syllable a bit longer

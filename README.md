@@ -30,7 +30,7 @@ from the main Holle List.
 
 ### Notes
 
-- Files in the `plaintexts` directory that are (nearly) done are:
+- Files in the `plaintexts` directory that are done are:
 
   - lekon.txt (✅)
 
@@ -38,18 +38,25 @@ from the main Holle List.
 
   - tapah.txt (✅)
 
-  - (*in-progress* ⚠) mentawai1933.txt
+  - mentawai1933.txt (✅)
 
-- The digitisation process for the lists of Mentawai (not the “1933”
-  one), Nias (1905 and 1911), Salang and Sigule, Sigulei and Salang, and
-  Seumalur is being conducted by my students at the English Lexicology
-  and Lexicography course in the Bachelor of English Literature, Faculty
-  of Humanities, Udayana University. This is part of a class project to
-  introduce WeSay app to the students.
+These files will be supplemented by the additional data from different
+languages (see the note below).
 
-  - UPDATE: The digitisation of the above languages via WeSay has been
-    finished. The .sfm files from the WeSay projects are to be further
-    processed (particularly matching the main word list with the notes)
+- The digitisation process for the lists of
+  <span style="color:crimson">Mentawai</span> (not the “1933” one),
+  <span style="color:crimson">Nias (1905 and 1911)</span>,
+  <span style="color:crimson">Salang and Sigule</span>,
+  <span style="color:crimson">Sigulei and Salang</span>, and
+  <span style="color:crimson">Seumalur</span> was conducted by my
+  students at the English Lexicology and Lexicography course in the
+  Bachelor of English Literature, Faculty of Humanities, Udayana
+  University. This is part of a class project to introduce WeSay app to
+  the students.
+
+  - UPDATE: The .sfm plain-text files from the WeSay projects are to be
+    further processed (particularly matching the main word list with the
+    notes)
 
 ### References
 

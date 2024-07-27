@@ -27,7 +27,7 @@ A repository hosting (a work-in-progress for) the digitised and curated dataset 
 
 ### Notes
 
-- Files in the `plaintexts` directory that are (nearly) done are:
+- Files in the `plaintexts` directory that are done are:
 
     - lekon.txt (✅)
     
@@ -35,10 +35,12 @@ A repository hosting (a work-in-progress for) the digitised and curated dataset 
     
     - tapah.txt (✅)
     
-    - (_in-progress_ ⚠) mentawai1933.txt
+    - mentawai1933.txt (✅)
 
-- The digitisation process for the lists of Mentawai (not the "1933" one), Nias (1905 and 1911), Salang and Sigule, Sigulei and Salang, and Seumalur is being conducted by my students at the English Lexicology and Lexicography course in the Bachelor of English Literature, Faculty of Humanities, Udayana University. This is part of a class project to introduce WeSay app to the students.
+These files will be supplemented by the additional data from different languages (see the note below).
 
-    - UPDATE: The digitisation of the above languages via WeSay has been finished. The .sfm files from the WeSay projects are to be further processed (particularly matching the main word list with the notes)
+- The digitisation process for the lists of [Mentawai]{style="color:crimson"} (not the "1933" one), [Nias (1905 and 1911)]{style="color:crimson"}, [Salang and Sigule]{style="color:crimson"}, [Sigulei and Salang]{style="color:crimson"}, and [Seumalur]{style="color:crimson"} was conducted by my students at the English Lexicology and Lexicography course in the Bachelor of English Literature, Faculty of Humanities, Udayana University. This is part of a class project to introduce WeSay app to the students.
+
+    - UPDATE: The .sfm plain-text files from the WeSay projects are to be further processed (particularly matching the main word list with the notes)
 
 ### References

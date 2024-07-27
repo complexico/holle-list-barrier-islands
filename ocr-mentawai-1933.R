@@ -399,7 +399,7 @@ txts1[[20]] <- read_lines("to-edit/mentawai-20.txt") |>
 
 ## save the plain text workflow ====
 ## REMEMBER to ADJUST THE LAST INDEX NUMBER CORRESPONDING TO THE PAGE FINISHED BEING CHECKED!
-txts1[1:18] |> 
+txts1[1:20] |> 
   unlist() |> 
   write_lines("plaintexts/mentawai1933.txt")
 
