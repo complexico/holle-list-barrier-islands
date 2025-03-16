@@ -1,0 +1,38 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  The digitised and annotated Holle List of the barrier
+  island languages, off the west coast of Sumatra, Indonesia
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Gede Primahadi Wijaya
+    family-names: Rajeg
+    affiliation: Udayana University
+    orcid: 'https://orcid.org/0000-0002-2047-8621'
+  - given-names: I Wayan
+    family-names: Arka
+    affiliation: Australian National University
+    orcid: 'https://orcid.org/0000-0002-2819-6186'
+identifiers:
+  - type: doi
+    value: 10.17605/OSF.IO/P8A3R
+repository-code: 'https://github.com/complexico/holle-list-barrier-islands'
+abstract: >-
+  The digitised Holle List of the Barrier island Languages,
+  off the West Coast of Sumatra, Indonesia.
+keywords:
+  - Holle List
+  - Digital Humanities
+  - Documentary Lexicography
+  - Word List
+  - Legacy Materials
+  - Indonesian Languages
+  - Barrier Islands Languages
+  - Sumatra
+license: CC-BY-NC-SA-4.0
+date-released: '2025-03-16'
