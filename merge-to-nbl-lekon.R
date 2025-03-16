@@ -89,4 +89,8 @@ tb <- tb |>
                            Indonesian)) |> 
   select(-English_add, -Indonesian_add)
 
+# Join Concepticon ====
+tb <- tb |> 
+  left_join(concepticon_checked)
+
 write_tsv(tb, "data-output/lekon_tb.tsv")
