@@ -852,7 +852,7 @@ Name of investigator: van der Linde
 5. <n><eng>sandfly</eng>: <form>namò</form></n>
 6. <n><eng>lobster</eng>: <form>lanès</form></n>
 7. <n><comment>same as the Muhammedan names</comment></n>
-8. <n><form>1 depah: sarepah</form> (<xr>see Tapah note nr. <ptr>18</ptr></xr>)</n>; <n><form>T angoeroeng: angoeroeng</form></n> ; <n><form>T satampòh: sau raloe-ap</form></n> ; <n><eng>one foot</eng>: <form>sau lar</form></n>; <n><eng>1 finger-width</eng>: <form>sara ana' ka-ò</form></n>
+8. <n><idn>1 depah</idn>: <form>sarepah</form> (<xr>see Tapah note nr. <ptr>18</ptr></xr>)</n>; <n><tapah>T angoeroeng</tapah>: <form>angoeroeng</form></n> ; <n><tapah>T satampòh</tapah>: <form>sau raloe-ap</form></n> ; <n><eng>one foot</eng>: <form>sau lar</form></n>; <n><eng>1 finger-width</eng>: <form>sara ana' ka-ò</form></n>
 9. <n><eng>distance between the tip of the 3rd finger and the elbow</eng>: <form>sa sioe</form> (<xr>see. Tapah note nr. <ptr>19</ptr></xr>)</n> ; <n><form>4 sioe = 1 sangawan</form></n> ; <n><form>12 sangawan = 1 sakajoe</form></n> ; <n><comment>for foodstuffs</comment>: <form>sareh</form></n> ; <n><form>1 vêla = 1/2 êkal</form></n>; <n><form>4 vêla = 1 arèh</form></n> ; <n><form>sanali = 16 sarèh</form></n> ; <n><form>10 nali = 1 sakoentjò</form></n> ; <n><form>10 koentjo = hoeloe koentjo</form></n>
 10. <n><comment>people</comment>: <form>mésa</form></n>; <n><comment>animals</comment>: <form>sara</form></n>; <n><comment>objects</comment>: <form>sa-ò</form></n>
 11. <n><comment>people</comment>: <form>darò</form></n>; <n><comment>animals</comment>: <form>doea</form></n>; <n><comment>objects</comment>: <form>doevò</form></n>
