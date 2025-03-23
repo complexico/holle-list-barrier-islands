@@ -473,8 +473,8 @@ lekon	Index	Forms	Notes_id	Dutch	English	Indonesian	v1894	v1904/1911	v1931	Swade
 811. asoe	811	asoe		hond	dog	anjing	366	368	534	TRUE									DOG	2009	https://concepticon.clld.org/parameters/2009
 813. malal	813	malal		kat, poes	cat	kucing	368	370	536	FALSE									CAT	1208	https://concepticon.clld.org/parameters/1208
 814. mè-ò	814	mè-ò		miauwen	to miaow	mengeong	369	371	537	FALSE										NA	https://concepticon.clld.org/parameters/NA
-824. bòlêm itêm, bòlêm ònding <4>	824	bòlêm itêm, bòlêm ònding	4	duif (soorten)	pigeon	burung merpati	376	378	545	FALSE			bolêm itêm	dark grey					DOVE	1853	https://concepticon.clld.org/parameters/1853
-824. bòlêm itêm, bòlêm ònding <4>	824	bòlêm itêm, bòlêm ònding	4	duif (soorten)	pigeon	burung merpati	376	378	545	FALSE			bolêm ònding	white					DOVE	1853	https://concepticon.clld.org/parameters/1853
+824. bòlêm itêm, bòlêm ònding <4>	824	bòlêm itêm	4	duif (soorten)	pigeon	burung merpati	376	378	545	FALSE			bolêm itêm	dark grey					DOVE	1853	https://concepticon.clld.org/parameters/1853
+824. bòlêm itêm, bòlêm ònding <4>	824	bòlêm ònding	4	duif (soorten)	pigeon	burung merpati	376	378	545	FALSE			bolêm ònding	white					DOVE	1853	https://concepticon.clld.org/parameters/1853
 825. êkak	825	êkak		kraai, raaf	crow	burung gagak	377	379	546	FALSE									CROW	913	https://concepticon.clld.org/parameters/913
 826. manòh	826	manòh		hoen, kip	hen, chicken	ayam	378	380	547	FALSE									CHICKEN	1318	https://concepticon.clld.org/parameters/1318
 827. manòh itò itò	827	manòh itò itò		kuiken	chick	anak ayam	378	380	-	FALSE									CHICK	2512	https://concepticon.clld.org/parameters/2512

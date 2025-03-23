@@ -108,10 +108,10 @@ tb <- tb |>
          Forms = if_else(str_detect(nt_form, "^amang.+tiri"),
                          str_replace(Forms, "\\,\\sinang.+tiri", ""),
                          Forms),
-         Forms = if_else(str_detect(nt_form, "bolêm ònding$"),
+         Forms = if_else(str_detect(nt_form, "bolêm ònding"),
                          str_replace(Forms, "bòlêm itêm\\,\\s", ""),
                          Forms),
-         Forms = if_else(str_detect(nt_form, "bolêm itêm$"),
+         Forms = if_else(str_detect(nt_form, "bolêm itêm"),
                          str_replace(Forms, ",\\sbòlêm ònding", ""),
                          Forms)) |> 
   mutate(Forms = if_else(Forms == "" & nt_form != "",
