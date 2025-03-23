@@ -490,7 +490,7 @@ Name of investigator: van der Linde
 811. asoe
 813. malal
 814. mè-ò
-824. bòlêm itêm, bòlêm ònding <4>
+824. bòlêm itêm, bòlêm ònding <4>
 825. êkak
 826. manòh
 827. manòh itò itò
@@ -848,7 +848,7 @@ Name of investigator: van der Linde
 1. <n><eng>whiskers</eng>: <form>djambè</form></n>
 2. <n><form>amangó tiri</form>: <eng>father</eng></n> ; <n><form>inangó tiri</form>: <eng>mother</eng></n>
 3. <n><eng>dried fish</eng>: <form>naǐ sénga, nisinal</form></n>
-4. <n><form>bolêm itêm</form>: <eng>dark grey</eng></n> ; <n><form>bolêm ònding</form>: <eng>white</eng></n>
+4. <n><form>bolêm itêm</form>: <eng>dark grey</eng></n> ; <n><form>bolêm ònding</form>: <eng>white</eng></n>
 5. <n><eng>sandfly</eng>: <form>namò</form></n>
 6. <n><eng>lobster</eng>: <form>lanès</form></n>
 7. <n><comment>same as the Muhammedan names</comment></n>
