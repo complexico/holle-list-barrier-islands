@@ -16,7 +16,7 @@ Name of investigator: van der Linde
 229d Salang and Sigulè
 </metadata>
 
-<wlist>
+<wordlist>
 1. badan
 2. oeloe
 3. bóbangon
@@ -267,7 +267,7 @@ Name of investigator: van der Linde
 422. kêdang/kêndang
 423. gambang
 424. sanang, angkoem
-428. bêsilè,manari
+428. bêsilè, manari
 432. mêlajam lajam
 433. gêsing
 437. loemah
@@ -843,14 +843,14 @@ Name of investigator: van der Linde
 1475. béri
 1478. auleung
 1486. badoe eureu
-</wlist>
+</wordlist>
 <notes>
 1. <n><eng>to go away</eng>: <form>koemoedoeng</form></n> ; <n><eng>to walk backwards</eng>: <form>mè oeri</form></n>
 2. <n><eng>to blow one's nose</eng>: <form>mangsingòl</form></n>
 3. <n><form>sitòtòh, sípìh, gadies</form></n>
 4. <n><form>kawòh, kanga, kantjoe, kaibòh</form></n>
 5. <n><form>toemoedò</form>: <eng>older</eng></n> ; <n><form>achoen</form>: <eng>younger</eng></n>
-6. <n><form>nanga²</form>: <eng>with biola</eng></n> ; <n><form>nandong²</form>: <eng>with kendang</eng></n>
+6. <n><form>nanga²</form>: <comment>with biola</comment></n> ; <n><form>nandong²</form>: <comment>with kendang</comment></n>
 7. <n><form>sêseung oejoe, sêngoejoe</form></n>
 8. <n><form>poepoeh, balaloe, bònòl</form></n>
 9. <n><comment>not native to Simalur</comment></n>
@@ -862,9 +862,9 @@ Name of investigator: van der Linde
 15. <n><eng>lobster</eng>: <form>lanès</form></n>
 16. <n><comment>same as the Muhammedan months</comment></n>
 17. <n><form>bíntoen eudeung, bíntoen itoefòh, bíntoen pantjoeri, bíntoen banjak</form></n>
-18. <p><form>1 satiloeng is 2 sioe</form></p> ; <n><form>1 sangawan is 4 sloe</form></n> ; <n><form>1 sakajoe is 12 sangawan</form></n> ; <n><form>1 sakódi is 20 kajoe</form></n> ; <n><eng>distance between the fingertips (of the left and right hand) when the arms are stretched sidewards</eng>: <form>sarêpah</form></n> ; <n><eng>distance between the tip of the thumb and the 3rd finger</eng>: <form>angoeroeng</form></n> ; <n><eng>width of the palm of the hand</eng>: <form>satampòh</form></n> ; <n><eng>one foot</eng>: <form>satapah</form></n> ; <n><eng>one finger-width</eng>: <form>sadjari</form></n> ; <n><eng>distance between the tip of the thumb and the outside of the little finger, when making a fist with the thumb straight</eng>: <form>samasêti</form></n> ; <n><eng>one thumb-width</eng>: <form>sau alavéngkau</form></n>
+18. <n><form>1 satiloeng is 2 sioe</form></n> ; <n><form>1 sangawan is 4 sloe</form></n> ; <n><form>1 sakajoe is 12 sangawan</form></n> ; <n><form>1 sakódi is 20 kajoe</form></n> ; <n><eng>distance between the fingertips (of the left and right hand) when the arms are stretched sidewards</eng>: <form>sarêpah</form></n> ; <n><eng>distance between the tip of the thumb and the 3rd finger</eng>: <form>angoeroeng</form></n> ; <n><eng>width of the palm of the hand</eng>: <form>satampòh</form></n> ; <n><eng>one foot</eng>: <form>satapah</form></n> ; <n><eng>one finger-width</eng>: <form>sadjari</form></n> ; <n><eng>distance between the tip of the thumb and the outside of the little finger, when making a fist with the thumb straight</eng>: <form>samasêti</form></n> ; <n><eng>one thumb-width</eng>: <form>sau alavéngkau</form></n>
 19. <n><eng>bamboo (to measure rice, salt, pepper, .etc.)</eng></n> ; <n><form>1 soeloeg is 2 vêla</form></n> ; <n><form>2 soeloeg is 1/2 arih</form></n> ;  <n><form>1 sanali is 16 arìh</form></n> ; <n><form>1 sakoentjò is 10 nali</form></n>
-20. <n><comment>people</comment>: <form>mésa</form></p> ; <n><comment>animals</comment>: <form>sara</form></n> ; <n><comment>objects</comment>: <form>sau</form></n>
+20. <n><comment>people</comment>: <form>mésa</form></n> ; <n><comment>animals</comment>: <form>sara</form></n> ; <n><comment>objects</comment>: <form>sau</form></n>
 21. <n><comment>people</comment>: <form>darò</form></n>; <n><comment>animals</comment>: <form>doea sicha</form></n>; <n><comment>objects</comment>: <form>doevò</form></n>
 22. <n><comment>people</comment>: <form>datêloe/têloe</form></n>; <n><comment>animals</comment>: <form>têlo sicha</form></n>; <n><comment>objects</comment>: <form>têloevò</form></n>
 23. <n><comment>people</comment>: <form>dahat têloe</form></n>; <n><comment>animals</comment>: <form>aka sicha</form></n>; <n><comment>objects</comment>: <form>atau</form></n>

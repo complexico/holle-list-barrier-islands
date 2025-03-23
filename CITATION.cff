@@ -3,8 +3,8 @@
 
 cff-version: 1.2.0
 title: >-
-  The digitised and annotated Holle List of the barrier
-  island languages, off the west coast of Sumatra, Indonesia
+  The digitised and annotated Holle List of the Barrier
+  Islands languages, off the west coast of Sumatra, Indonesia
 message: >-
   If you use this dataset, please cite it using the metadata
   from this file.
@@ -23,7 +23,7 @@ identifiers:
     value: 10.17605/OSF.IO/P8A3R
 repository-code: 'https://github.com/complexico/holle-list-barrier-islands'
 abstract: >-
-  The digitised Holle List of the Barrier island Languages,
+  The digitised Holle List of the Barrier Islands Languages,
   off the West Coast of Sumatra, Indonesia.
 keywords:
   - Holle List
