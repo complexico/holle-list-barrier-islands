@@ -17,7 +17,9 @@ lekon_words_df <- lekon_words_df |>
          Forms = str_replace_all(lekon, "(^[^ ]+\\.\\s|\\s?\\<[^>]+\\>)", ""),
          Notes_id = str_extract_all(lekon, "(?<=\\<)([^>]+?)(?=\\>)")) |> 
   unnest_longer(Notes_id, keep_empty = TRUE) |> 
-  mutate(across(where(is.character), ~replace_na(., "")))
+  mutate(across(where(is.character), ~replace_na(., ""))) # |> 
+  # mutate(Forms = str_split(Forms, "\\,\\s?")) |> 
+  # unnest_longer(Forms)
 
 # check which Index in Lekon is not in the Index of the NBL
 id_lekon_not_in_nbl <- which(!lekon_words_df$Index %in% holle_tb$Index)
@@ -36,7 +38,7 @@ notes_tags <- str_which(lekon_words, "\\<\\/?notes\\>")
 lekon_notes <- lekon_words[(notes_tags[1]+1):(notes_tags[2]-1)]
 # check the notes tag available
 lekon_notes |> str_extract_all("\\<[^<\\/]+?\\>") |> unlist() |> unique()
-# [1] "<n>"       "<eng>"     "<form>"    "<comment>" "<xr>"      "<ptr>"
+# [1] "<n>"       "<eng>"     "<form>"    "<comment>" "<idn>"     "<xr>"      "<ptr>"     "<tapah>"
 lekon_notes_df <- tibble(lekon_notes)
 lekon_notes_df <- lekon_notes_df |> 
   mutate(Notes_id = str_extract(lekon_notes, "^[^ ]+?(?=\\.\\s)")) |> 
@@ -46,6 +48,9 @@ lekon_notes_df <- lekon_notes_df |>
   select(-lekon_notes) |> 
   mutate(nt_form = str_extract(notes, "(?<=\\<form\\>)([^<]+?)(?=\\<\\/form\\>)"),
          nt_english = str_extract(notes, "(?<=\\<eng\\>)([^<]+?)(?=\\<\\/eng\\>)"),
+         nt_idn = str_extract(notes, "(?<=\\<idn\\>)([^<]+?)(?=\\<\\/idn\\>)"),
+         nt_tapah = str_extract(notes, "(?<=\\<tapah\\>)([^<]+?)(?=\\<\\/tapah\\>)"),
+         nt_tapah = str_replace(nt_tapah, "^T\\s", ""),
          nt_comment = str_extract(notes, "(?<=\\<comment\\>)([^<]+?)(?=\\<\\/comment\\>)"),
          nt_xref = str_extract(notes, "(?<=\\<xr\\>)(.+?)(?=\\<\\/xr\\>)"),
          nt_xref = str_replace_all(nt_xref, "\\<\\/?ptr\\>", "")) |> 
@@ -91,6 +96,27 @@ tb <- tb |>
 
 # Join Concepticon ====
 tb <- tb |> 
-  left_join(concepticon_checked)
+  left_join(concepticon_checked) |> 
+  mutate(across(where(is.character), ~replace_na(., "")))
+
+# Matching notes and forms for multiple forms and split forms in notes ====
+## Highly customised, on a case-by-case basis!
+tb <- tb |> 
+  mutate(Forms = if_else(str_detect(nt_form, "^inang.+tiri"),
+                         str_replace(Forms, "^among.+?(?=inang)", ""),
+                         Forms),
+         Forms = if_else(str_detect(nt_form, "^amang.+tiri"),
+                         str_replace(Forms, "\\,\\sinang.+tiri", ""),
+                         Forms),
+         Forms = if_else(str_detect(nt_form, "bolêm ònding$"),
+                         str_replace(Forms, "bòlêm itêm\\,\\s", ""),
+                         Forms),
+         Forms = if_else(str_detect(nt_form, "bolêm itêm$"),
+                         str_replace(Forms, ",\\sbòlêm ònding", ""),
+                         Forms)) |> 
+  mutate(Forms = if_else(Forms == "" & nt_form != "",
+                         nt_form,
+                         Forms)) |> 
+  distinct()
 
 write_tsv(tb, "data-output/lekon_tb.tsv")
