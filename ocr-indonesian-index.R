@@ -157,3 +157,31 @@ idn[[7]] |>
   str_split("\\n") |>
   unlist() |>
   write_lines("../digitised-holle-list/data/indonesian-index/sheet-07.txt")
+
+# eight page ====
+
+idn[[8]] |>
+  str_replace("^85\\n(j)J", "\\1") |> 
+  str_split("\\n") |>
+  unlist() |> 
+  str_replace("^(kambing)", "janggut seperti janggut \\1") |> 
+  str_replace("^Janggut seperti.+janggut\\s", "") |> 
+  (\(x) x[nzchar(x)])() |> 
+  str_replace("\\sjamak\\)\\,\\s1366$", "") |> 
+  str_replace("^J(antung\\,\\s5).", "j\\12") |> 
+  str_replace("^Jarts\\)t\\sbu\\s10s", "jari, ibu, 108") |> 
+  str_replace("(orang ke I)$", "\\1 jamak), 1366") |> 
+  str_replace("^jJ", "j") |> 
+  str_replace("\\skamu sekalian\\s\\(tidak termasuk$", "") |> 
+  str_replace("(?<=964)(\\s)", "\\1kamu sekalian (tidak termasuk ") |> 
+  str_replace("^\\.\\s(?=kapan)", "") |> 
+  str_replace("\\sjamak\\,\\s1374$", "") |> 
+  str_replace("(?<=\\ske\\s)(II)$", "\\1 jamak, 1374") |> 
+  str_replace("(?<=271\\s)ae(?=\\s)", "kata ganti") |> 
+  str_replace("jamak\\,$", "jamak, 1370") |> 
+  str_replace("(?<=^jari manis\\,\\s)...", "111") |> 
+  str_replace("(?<=\\,)(\\s[0-9]+)\\s([^0-9])", "\\1\n\\2") |>
+  str_split("\\n") |>
+  unlist() |>
+  write_lines("../digitised-holle-list/data/indonesian-index/sheet-08.txt")
+  
