@@ -184,4 +184,18 @@ idn[[8]] |>
   str_split("\\n") |>
   unlist() |>
   write_lines("../digitised-holle-list/data/indonesian-index/sheet-08.txt")
-  
+
+# ninth page ====
+
+idn[[9]] |> 
+  str_replace("^86\\n", "") |> 
+  str_split("\\n") |> 
+  unlist() |> 
+  str_replace("(jamak)\\s(kelelawar)(?=\\,\\s846)", 
+              "\\1 (exclusive), 1372 \\2") |> 
+  str_replace("^\\(exclusive\\)\\,\\s1372\\s", "") |> 
+  str_replace("^a Ctnelusive\\)\\,\\sLa7L es seL",
+              "kata ganti empunya orang I jamak (inclusive), 1371 kel") |> 
+  str_replace("\\s(?=kelingking\\skaki\\,\\s114)",
+              " jamak (laki-laki), 1376 ") |> 
+  str_replace("^jamak.+laki\\-laki\\).+(?=keliru)", "")
