@@ -450,7 +450,7 @@ Name of investigator: van der Linde
 734. awa
 737. manèh
 739/740. liang
-742/744. òlòr
+742-744. òlòr
 746. boelong
 748. bibi ajoe ajoe
 750. ònòk
@@ -642,7 +642,7 @@ Name of investigator: van der Linde
 1072-1074. matafeu
 1076. atêlo têlo
 1079. maiêrop
-1080/1081. bêki
+1080-1081. bêki
 1082. a-eufeu
 1083/1084. afaha
 1085/1086. afófau

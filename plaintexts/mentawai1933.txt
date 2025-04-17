@@ -1,3 +1,4 @@
+<metadata>
 Language/dialect
 Number of the list
 Mentioned in
@@ -28,6 +29,8 @@ Batak
 Batak language
 excellent
 good
+</metadata>
+<wordlist>
 1. toeboe
 2. oete
 3. boekoe (mata)
@@ -707,7 +710,7 @@ good
 1077. makoerang, matenga
 1078. pamokmo pabo"boe
 1079. maoem
-1080/1081. malia
+1080-1081. malia
 1082. maila
 1083. makeroe, keroe
 1084. magoe"goek=goe"goek
@@ -842,7 +845,7 @@ good
 1275. ribbai <89>
 1228. itjo
 1276. labo
-l229. pasikgoek=sikgoek
+1229. pasikgoek=sikgoek
 1277. pasilabo
 1230. irap, nanam
 1278. soeat
@@ -1020,7 +1023,7 @@ l229. pasikgoek=sikgoek
 1471. ta
 1472. o"o
 1473. ta
-1445/14458-1450. ka
+1445/1448-1450. ka
 1474. ia
 1452. legere
 1475. ba
@@ -1036,6 +1039,7 @@ l229. pasikgoek=sikgoek
 1484. kenannen
 1458. toegoeroe
 1485. iate
+</wordlist>
 
 <wlist id="208" year="1931">
 1487. konan kaini , maroeei konan sene
@@ -1058,8 +1062,6 @@ l229. pasikgoek=sikgoek
 1504. rarakngake
 1504. kaoe ka oedoet aloetet
 1504. kaoe ka oedoet api
-</wlist>
-<wlist id="208" year="1931">
 1505. aiboiboian <100>
 1506. amara"an <101>
 1507. kan amatarekngan
@@ -1084,7 +1086,7 @@ l229. pasikgoek=sikgoek
 1. <n><form>bat tai (bachat tai)</form></n> ; <n><form>bat tanai (bachat tanai)</form></n>
 2. <n><form>gogo tjittjit</form></n> ; <n><form>laoe</form></n> ; <n><form>koelit laoe</form></n>
 3. <n><form>goeiloe lagai</form></n> ; <n><form>goeiloe tjittjit</form></n> ; <n><form>atsooe</form></n>
-4. <n><form>chin</form> = <form_variant>pakin</form_variant></n>
+4. <n><form_variant>chin</form_variant> = <form>pakin</form></n>
 5. <n>(<comment>tida ada nama</comment>)</n>
 6. <n><form>mapoeineng</form> = <idn>poesing</idn></n>
 7. <n><form>maèktĕk</form></n> ; <n><form>èktĕk</form></n> ; <n><form>mektek</form></n>
@@ -1095,9 +1097,9 @@ ll. <n><form>oetah</form></n> ; <n><form>gelek</form></n> ; <n><form>moeoetah</f
 12. <n><form>sibi</form></n> ; <n><form>sekoet</form></n> ; <n><form>ipasibi</form></n> ; <n><form>ipasekoet</form></n>
 13. <n><form>ratei</form></n> ; <n><form>koedoeat</form></n> ; <n><form>simamatei</form></n>
 14. <n><form>pabokobacha</form></n> ; <n><form>djaidjai</form> = <form_variant>moedjaidjai</form_variant></n>
-15. <n><form>tekei</form></n> ; <n><form>matekei</form></n> ; <n><form>attat</form> = <form_variant>moeattat</form_variant>></n>
+15. <n><form>tekei</form></n> ; <n><form>matekei</form></n> ; <n><form>attat</form> = <form_variant>moeattat</form_variant></n>
 16. <n><form>togat kinande</form></n> ; <n><form>togat kateitei</form></n> ; <n><form>togat kakoeroek</form></n>
-17. <n><form>para"ra</form>=<form_variant>ra"ra</form_variant>=<form_variant>saraina</form_variant></n>
+17. <n><form>para"ra</form>=<form_variant>ra"ra = saraina</form_variant></n>
 18. <n><form>koko</form></n> ; <n><form>koi</form></n> ; <n><form>poenoe ina</form></n>
 19. <n><form>soeroea</form></n> ; <n><form>saraina</form></n> ; <n><form>siribo</form></n>
 20. = <n><comment>bikin tadjam gigi</comment></n>
@@ -1122,8 +1124,8 @@ ll. <n><form>oetah</form></n> ; <n><form>gelek</form></n> ; <n><form>moeoetah</f
 39. <n><comment>tida ada. Sesoedah melihat bedil lantas tau namanja:</comment></n> ; <n><form>bebetoeet</form></n>; <n><form>pelegoeo</form></n>
 40. <n><form>magila</form> = <idn>takoet</idn></n>
 41. = <n><idn>barani</idn></n>
-42. = <n><idn>ladang kladi</idn></n> = <n><idn>tanah basa</idn></n>
-43. = <n><idn>ladang pisang</idn></n> = <n><idn>tanah kering</idn></n>
+42. = <n><idn>ladang kladi = tanah basa</idn></n>
+43. = <n><idn>ladang pisang = tanah kering</idn></n>
 44. <n><form>pasidere sagoe</form> = <idn>indjak sagoe</idn></n> ; <n><form>dere kaki</form> = <idn>indjak</idn></n>
 45. <n><form>paddan</form></n>; <n><form>belaoe</form></n>; <n><form>karakkak</form></n>
 46. <n><form>dimaoe</form></n>; <n><form>krosak</form></n>; <n><form>moentei</form></n>
@@ -1160,51 +1162,51 @@ ll. <n><form>oetah</form></n> ; <n><form>gelek</form></n> ; <n><form>moeoetah</f
 64. <n><form>painan sipatoake</form>: <idn>bintang pagi²</idn></n>
 64. <n><form>painan sibaloe</form>: <idn>bintang jang banjak²</idn></n>
 64. <n><form>painan sikateteloe</form>: <idn>bintang jang tiga</idn></n>
-65. <n><form>teteoe</form></n>, <n><form>djoedjoe</form></n>, <n><form>sigegeoegeoe</form></n>
-66. <n><form>pana"sa</form></n>, <n><form>kaoeloe</form></n>, <n><form>katiri</form></n>
-67. <n><form>boekoe</form></n>, <n><idn>batoe</idn></n>, <n><form>lagai</form></n>, <n><form>poero</form></n>
+65. <n><form>teteoe</form></n>; <n><form>djoedjoe</form></n>; <n><form>sigegeoegeoe</form></n>
+66. <n><form>pana"sa</form></n>; <n><form>kaoeloe</form></n>; <n><form>katiri</form></n>
+67. <n><form>boekoe</form></n>; <n><idn>batoe</idn></n>; <n><form>lagai</form></n>; <n><form>poero</form></n>
 68. <n><comment>menoeroet bahasa Melajoe</comment></n>
 69. <n><form>abak</form>: <idn>prahu</idn></n>
 69. <n><form>abak oendoei</form>: <idn>prahu ketjil</idn></n>
 69. <n><form>kalabba</form>: <idn>prahu besar</idn></n>
-70. <n><form>malatta</form></n>, <n><form>maaran</form>=<form_variant>aran</form_variant></n>, <n><form>makalakka</form></n>
+70. <n><form>malatta</form></n>; <n><form>maaran</form>=<form_variant>aran</form_variant></n>; <n><form>makalakka</form></n>
 71. <n><form>sikatai</form>: <idn>orang djelek</idn></n>
 71. <n><form>simaligo</form>: <idn>orang djelek</idn></n>
 72. = <n><idn>ikat</idn></n>
 73. <n><form>loemang</form> = <form_variant>maloemang</form_variant></n>
-73. <n><form>siloemang</form></n>, <n><form>tamakajo</form></n>
+73. <n><form>siloemang</form></n>; <n><form>tamakajo</form></n>
 74. <n><form>boeboet</form> = <form_variant>boelaoe</form_variant></n>
 74. <n><form>maboeboet</form> = <form_variant>maboelaoe</form_variant></n>
 74. <n><form>mapoesoeet</form></n>
 75. = <n><idn>merah sedikit</idn></n>
-76. <n><form>abit</form></n>, <n><form>oeka</form></n>, <n><form>noni</form></n>
+76. <n><form>abit</form></n>; <n><form>oeka</form></n>; <n><form>noni</form></n>
 76. <n><form>abit kaet</form></n>
 76. <n><form>oeka kaet</form>, <idn>bawa kesana</idn></n>
 76. <n><form>noni kaet</form></n>
-77. <n><form>baraake</form></n>, <n><form>segeake</form></n>, <n><form>abit kaini</form></n>, <n><form>ake kaini</form></n>
+77. <n><form>baraake</form></n>; <n><form>segeake</form></n>; <n><form>abit kaini</form></n>; <n><form>ake kaini</form></n>
 78. <n><form>pasilainang akai</form></n>
 78. <n><form>pasilina akai</form></n>
 78. <n><form>lainang</form> = <idn>litjin</idn></n>
 78. <n><form>lina</form> = <idn>litjin</idn></n>
 79. <n><form>poiliat</form> = <idn>terangkan</idn></n>
-80. <n><form>manibo</form></n>, <n><form>tibotjet</form></n>, <n><form>moelaibo</form></n>, <n><form>nganga</form></n>
+80. <n><form>manibo</form></n>; <n><form>tibotjet</form></n>; <n><form>moelaibo</form></n>; <n><form>nganga</form></n>
 81. = <n><idn>bawa dipoenggoeng</idn></n>
 82. <n><form>djoeroet</form> = <idn>ketjap</idn></n>
 82. <n><form>menoeroet</form> = <idn>mengetjap</idn></n>
 83. <n><form>pasiboeka</form></n>; <n><form>pasinganga</form></n>; <n><form>posiboila</form></n>
 83. <n><form>nga'nga, baila</form> = <idn>boeka</idn></n>
-84. <n><form>tamba</form></n>, <n><form>pasitamba</form></n>, <n><form>menambak</form></n>
+84. <n><form>tamba</form></n>; <n><form>pasitamba</form></n>; <n><form>menambak</form></n>
 85. <n><form>sere</form> = <form_variant>sereake</form_variant> = <idn>ikat</idn></n>
 85. <n><form>pasisere</form> = <idn>menambat</idn></n>
 85. <n><form>sere</form> = <idn>ikat</idn></n>
-86. <n><form>nooenooe</form></n>, <n><form>rere</form></n>, <n><form>pasinooe</form></n>, <n><form>pasirere</form></n>
+86. <n><form>nooenooe</form></n>; <n><form>rere</form></n>; <n><form>pasinooe</form></n>; <n><form>pasirere</form></n>
 87. <n><form>bokoi</form> = <idn>doesta</idn></n>
 88. <n><form>gigikngake</form> = <idn>boeangkan</idn></n>
 89. <n><form>ribbaiake</form> = <idn>lemparkan</idn></n>
 90. = <n><idn>koempoel</idn></n>
 91. <n><form>bo"bo</form> = <idn>poekoel</idn></n>
-91. <p><form>pasibobo</form> = <idn>memoekoel</idn></p>
-92. <n><form>doeangatoe</form></n>, <n><form>teloengatoe</form></n>
+91. <n><form>pasibobo</form> = <idn>memoekoel</idn></n>
+92. <n><form>doeangatoe</form></n>; <n><form>teloengatoe</form></n>
 93. <n><form>mitja</form> = <idn>kali</idn></n>
 94. <n><form>katoekapoelat, sikateitei</form> = <idn>jang belakangan</idn></n>
 94. <n><form>kalepaka</form> = <idn>kesoedahan</idn></n>
@@ -1216,11 +1218,13 @@ ll. <n><form>oetah</form></n> ; <n><form>gelek</form></n> ; <n><form>moeoetah</f
 96. <n><form>sappoeroe</form> = <idn>habis</idn></n>
 96. <n><form>tapei</form> = <idn>habis</idn></n>
 97. <n><form>pasikoilip, pasikoiloep</form> = <idn>berkeliling</idn></n>
-98. <n><form>angoi</form></n>, <n><form>aponaoi</form></n>, <n><form>apoiot</form></n>
-99. <n><form>sarania</form></n>, <n><form>malegere</form></n>, <n><form>bebe</form></n>
+98. <n><form>angoi</form></n>; <n><form>aponaoi</form></n>; <n><form>apoiot</form></n>
+99. <n><form>sarania</form></n>; <n><form>malegere</form></n>; <n><form>bebe</form></n>
 100. <n><form>boiboi</form> = <idn>mendidih</idn></n>
 101. <n><form>mara</form> = <idn>masak</idn></n>
+</notes>
 
+<questions>
 5. QUESTIONS FROM THE 1931 EDITION
 
 5.1. This language is spoken on the Mentawei islands, i.e. Sibirut, Sipora, North Pagai and South Pagai
@@ -1263,3 +1267,4 @@ ll. <n><form>oetah</form></n> ; <n><form>gelek</form></n> ; <n><form>moeoetah</f
 5.15. oe
 5.16. stress on the penultimate syllable
 5.17. stress makes the vowel of the syllable a bit longer
+</questions>

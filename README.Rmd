@@ -29,7 +29,7 @@ A repository hosting (a work-in-progress for) the digitised and curated dataset 
 
 Please [cite](https://github.com/complexico/holle-list-barrier-islands/blob/main/CITATION.cff) this repository as follows:
 
-> Rajeg, G. P. W., & Arka, I. W. (2025). The digitised and annotated Holle List of the Barrier Islands languages, off the west coast of Sumatra, Indonesia [Data set]. https://github.com/complexico/holle-list-barrier-islands https://doi.org/10.17605/OSF.IO/P8A3R
+> Rajeg, G. P. W., & Arka, I W. (2025). The digitised and annotated Holle List of the Barrier Islands languages, off the west coast of Sumatra, Indonesia [Data set]. https://github.com/complexico/holle-list-barrier-islands https://doi.org/10.17605/OSF.IO/P8A3R
 
 Please also cite the original sources in Stokhof [-@holleli1980] and Stokhof and Almanar [-@holle1987].
 
