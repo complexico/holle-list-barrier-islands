@@ -50,9 +50,9 @@ List](https://engganolang.github.io/digitised-holle-list/) ([Rajeg
 and Indonesian translations for these vocabularies that are carried over
 from the main Holle List.
 
-To current
-[citation](https://github.com/complexico/holle-list-barrier-islands/blob/main/CITATION.cff)
-for this repository is as follows:
+Please
+[cite](https://github.com/complexico/holle-list-barrier-islands/blob/main/CITATION.cff)
+this repository as follows:
 
 > Rajeg, G. P. W., & Arka, I. W. (2025). The digitised and annotated
 > Holle List of the Barrier Islands languages, off the west coast of
@@ -77,25 +77,23 @@ Please also cite the original sources in Stokhof
 
   - mentawai1933.txt (✅)
 
-These files will be supplemented by the additional data from the
-neighbouring languages (see the note below).
+These files will be supplemented by the remaining additional data from
+the neighbouring languages (see the note below).
 
-- The digitisation process for the lists of
-  <span style="color:crimson">Mentawai</span> (not the “1933” one),
-  <span style="color:crimson">Nias (1905 and 1911)</span>,
-  <span style="color:crimson">Salang and Sigule</span>,
-  <span style="color:crimson">Sigulei and Salang</span>, and
-  <span style="color:crimson">Seumalur</span> was conducted by [my
+- The digitisation for $\textcolor{crimson}{\textsf{Mentawai}}$ (not the
+  “1933” one), $\textcolor{crimson}{\textsf{Nias (1905 and 1911)}}$,
+  $\textcolor{crimson}{\textsf{Salang and Sigule}}$,
+  $\textcolor{crimson}{\textsf{Sigulei and Salang}}$, and
+  $\textcolor{crimson}{\textsf{Seumalur}}$ was conducted by [my
   students](https://github.com/complexico/lexico-holle-list-barrier-islands?tab=readme-ov-file#student-contributors)
-  at the English Lexicology and Lexicography course in the Bachelor of
-  English Literature, Faculty of Humanities, Udayana University. This is
-  part of a [class
+  as part of the English Lexicology and Lexicography course in the
+  Bachelor of English Literature program, Faculty of Humanities, Udayana
+  University. This is part of a [class
   project](https://github.com/complexico/lexico-holle-list-barrier-islands)
-  to introduce the *WeSay* software to the students.
+  to introduce *WeSay* to the students.
 
   - UPDATE: The .sfm plain-text files from the WeSay projects are to be
-    further processed (particularly matching the main word list with the
-    notes)
+    further processed.
 
 ### References
 
