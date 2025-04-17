@@ -25,10 +25,10 @@ simalur_words_df <- simalur_words_df |>
 id_simalur_not_in_nbl <- which(!simalur_words_df$Index %in% holle_tb$Index)
 simalur_words_df$Index[id_simalur_not_in_nbl]
 # [1] "742/744"   "1080/1081" (the correct IDs in NBL are "742-744" & "1080-1081)
-## fix the index
-simalur_words_df <- simalur_words_df |> 
-  mutate(Index = replace(Index, Index == "742/744", "742-744"),
-         Index = replace(Index, Index == "1080/1081", "1080-1081"))
+## fix the index (DONE DIRECTLY IN THE RAW SCANNED FILE)
+# simalur_words_df <- simalur_words_df |> 
+#   mutate(Index = replace(Index, Index == "742/744", "742-744"),
+#          Index = replace(Index, Index == "1080/1081", "1080-1081"))
 ## again check which Index in Simalur is not in the Index of the NBL
 id_simalur_not_in_nbl <- which(!simalur_words_df$Index %in% holle_tb$Index)
 simalur_words_df$Index[id_simalur_not_in_nbl]
@@ -39,7 +39,7 @@ notes_tags <- str_which(simalur_words, "\\<\\/?notes\\>")
 simalur_notes <- simalur_words[(notes_tags[1]+1):(notes_tags[2]-1)]
 # check the notes tag available
 simalur_notes |> str_extract_all("\\<[^<\\/]+?\\>") |> unlist() |> unique()
-# [1] "<n>"       "<eng>"     "<form>"    "<comment>"
+# [1] "<n>"       "<eng>"     "<form>"    "<comment>" "<xr>"      "<ptr>"
 simalur_notes_df <- tibble(simalur_notes)
 simalur_notes_df <- simalur_notes_df |> 
   mutate(Notes_id = str_extract(simalur_notes, "^[^ ]+?(?=\\.\\s)")) |> 
@@ -49,17 +49,21 @@ simalur_notes_df <- simalur_notes_df |>
   select(-simalur_notes) |> 
   mutate(nt_form = str_extract(notes, "(?<=\\<form\\>)([^<]+?)(?=\\<\\/form\\>)"),
          nt_english = str_extract(notes, "(?<=\\<eng\\>)([^<]+?)(?=\\<\\/eng\\>)"),
-         nt_comment = str_extract(notes, "(?<=\\<comment\\>)([^<]+?)(?=\\<\\/comment\\>)")) |> 
+         nt_comment = str_extract(notes, "(?<=\\<comment\\>)([^<]+?)(?=\\<\\/comment\\>)"),
+         nt_xref = str_extract(notes, "(?<=\\<xr\\>)(.+?)(?=\\<\\/xr\\>)"),
+         nt_xref = str_replace_all(nt_xref, "\\<\\/?ptr\\>", "")) |> 
   select(-notes) |> 
   mutate(across(where(is.character), ~replace_na(., "")))
 
 # join the NBL =====
 tb <- simalur_words_df |> 
-  left_join(holle_tb)
+  left_join(holle_tb, by = join_by(Index))
 
 # join word list and the notes =====
 tb <- tb |> 
-  left_join(simalur_notes_df) |> 
+  left_join(simalur_notes_df,
+            by = join_by(Notes_id),
+            relationship = "many-to-many") |> 
   mutate(across(where(is.character), ~replace_na(., "")))
 
 # read the translated data & integrate with the main table ====
@@ -80,8 +84,8 @@ now_translated_idn <- now_translated |>
 
 # join the main database with the matching now-translated data ====
 tb <- tb |> 
-  left_join(now_translated_eng) |> 
-  left_join(now_translated_idn) |> 
+  left_join(now_translated_eng, by = join_by(Index)) |> 
+  left_join(now_translated_idn, by = join_by(Index)) |> 
   mutate(English = if_else(!is.na(English_add),
                            English_add,
                            English),
@@ -92,32 +96,20 @@ tb <- tb |>
 
 # Join Concepticon ====
 tb <- tb |> 
-  left_join(concepticon_checked) |> 
+  left_join(concepticon_checked, by = join_by(Index, English)) |> 
   mutate(across(where(is.character), ~replace_na(., "")))
 
 # Matching notes and forms for multiple forms and split forms in notes ====
 ## Highly customised, on a case-by-case basis!
 tb <- tb |> 
-  mutate(Forms = if_else(str_detect(Forms, "\\,\\s") & 
-                           Notes_id != "" & 
-                           str_detect(nt_form, "^toemoed"),
-                         str_replace(Forms, "\\,\\sachoen$", ""),
-                         Forms),
-         Forms = if_else(str_detect(Forms, "\\,\\s") & 
-                           Notes_id != "" & 
-                           str_detect(nt_form, "^achoen"),
-                         str_replace(Forms, "^toemoe.+\\,\\s", ""),
-                         Forms),
-         Forms = if_else(str_detect(Forms, "\\,\\s") & 
-                           Notes_id != "" & 
-                           str_detect(nt_form, "^nanga²"),
-                         str_replace(Forms, "\\,\\snandong²", ""),
-                         Forms),
-         Forms = if_else(str_detect(Forms, "\\,\\s") & 
-                           Notes_id != "" & 
-                           str_detect(nt_form, "^nandong²"),
-                         str_replace(Forms, "^.+\\,\\s", ""),
-                         Forms)) |> 
+  separate_longer_delim(Forms, stringr::regex("[,/]")) |> 
+  mutate(nt_form = if_else(nt_form != "" & str_detect(nt_form, "^ajah"),
+                           str_replace(nt_form, "(^ajah)(?=\\/)", "\\1 oe"),
+                           nt_form),
+         nt_form = if_else(nt_form != "" & str_detect(nt_form, "^inah"),
+                           str_replace(nt_form, "(^inah)(?=\\/)", "\\1 oe"),
+                           nt_form)) |> 
+  separate_longer_delim(nt_form, "/") |> 
   # add from note form the main Form that originally is empty/given note ID only
   mutate(Forms = if_else(Forms == "" & nt_form != "",
                          nt_form,
