@@ -1,34 +1,19 @@
 <metadata>
-Language/dialect
-Number of the list
-Mentioned in
-Year of investigation
-Place of investigation
-Does this place lie in the area where the language is spoken?
-Name of investigator
-Name of informant
-Sex
-Age
-Status
-Ethnic group
-Mother tongue
-Talent for languages
-Condition of speech organs
-Mentawai, southern dialect, called Ngangan Sakalagan
-208
-JB. 1934
-1933
-Muara Sibirut (Mentawai islands)
--
-J.H. Tijmann - Commander of the Mentawai islands (1st Lieutenant of the Infantry) ; Enos Tamboenan - clerk 1st grade in the local government office (Batak)
-Enos Tamboenan
-Male
-45 years
-Clerk 1st grade B.B.
-Batak
-Batak language
-excellent
-good
+Language/dialect\tMentawai, southern dialect, called Ngangan Sakalagan
+Number of the list\t208
+Mentioned in\tJB. 1934
+Year of investigation\t1933
+Place of investigation\tMuara Sibirut (Mentawai islands)
+Does this place lie in the area where the language is spoken?\t-
+Name of investigator\tJ.H. Tijmann - Commander of the Mentawai islands (1st Lieutenant of the Infantry) ; Enos Tamboenan - clerk 1st grade in the local government office (Batak)
+Name of informant\tEnos Tamboenan
+Sex\tMale
+Age\t45 years
+Status\tClerk 1st grade B.B.
+Ethnic group\tBatak
+Mother tongue\tBatak language
+Talent for languages\texcellent
+Condition of speech organs\tgood
 </metadata>
 <wordlist>
 1. toeboe

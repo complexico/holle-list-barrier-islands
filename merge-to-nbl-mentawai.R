@@ -10,6 +10,17 @@ holle_1931 <- read_tsv("https://raw.githubusercontent.com/engganolang/digitised-
 
 mtw33_words <- read_lines("plaintexts/mentawai1933.txt")
 
+# Processing metadata ====
+metadata_tag <- str_which(mtw33_words, "metadata\\>")
+metadata <- mtw33_words[(metadata_tag[1]+1):(metadata_tag[2]-1)]
+gen_info <- metadata |> 
+  tibble() |> 
+  separate_wider_delim(metadata, 
+                       delim = "\\t", 
+                       names = c("query", "response")) |> 
+  separate_longer_delim(response, regex("\\s?\\;\\s?"))
+write_tsv(gen_info, "data-output/mentawai1933_general-info.tsv")
+
 # Processing the word list =====
 wlist_tags <- str_which(mtw33_words, "wordlist\\>")
 wlist_1931_tags <- str_which(mtw33_words, "<\\/?wlist")
