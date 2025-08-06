@@ -18,8 +18,11 @@ gen_info <- metadata |>
   separate_wider_delim(metadata, 
                        delim = "\\t", 
                        names = c("query", "response")) |> 
-  separate_longer_delim(response, regex("\\s?\\;\\s?"))
-write_tsv(gen_info, "data-output/mentawai1933_general-info.tsv")
+  separate_longer_delim(response, regex("\\s?\\;\\s?")) |> 
+  mutate(gen_info_type = "Basic Data",
+         gen_info_sectnum = "1.1.")
+write_delim(gen_info, "data-output/mentawai1933_general-info.csv",
+            delim = "\t")
 
 # Processing the word list =====
 wlist_tags <- str_which(mtw33_words, "wordlist\\>")
