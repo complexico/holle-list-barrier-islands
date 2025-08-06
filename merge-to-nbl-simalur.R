@@ -111,9 +111,9 @@ tb <- tb |>
                            nt_form)) |> 
   separate_longer_delim(nt_form, "/") |> 
   # add from note form the main Form that originally is empty/given note ID only
-  mutate(Forms = if_else(Forms == "" & nt_form != "",
-                         nt_form,
-                         Forms)) |> 
+  mutate(FormsAll = if_else(Forms == "" & nt_form != "",
+                            nt_form,
+                            Forms)) |> 
   distinct()
 
 write_tsv(tb, "data-output/simalur_tb.tsv")

@@ -114,10 +114,15 @@ tb <- tb |>
          Forms = if_else(str_detect(nt_form, "bolêm itêm"),
                          str_replace(Forms, ",\\sbòlêm ònding", ""),
                          Forms)) |> 
+  # split multiple forms in Forms and nt_form
+  mutate(Forms = str_split(Forms, ", ")) |> 
+  unnest_longer(col = Forms) |> 
+  mutate(nt_form = str_split(nt_form, ", ")) |> 
+  unnest_longer(col = nt_form) |> 
   # add from note form the main Form that originally is empty/given note ID only
-  mutate(Forms = if_else(Forms == "" & nt_form != "",
-                         nt_form,
-                         Forms)) |> 
+  mutate(FormsAll = if_else(Forms == "" & nt_form != "",
+                            nt_form,
+                            Forms)) |> 
   distinct()
 
 write_tsv(tb, "data-output/lekon_tb.tsv")

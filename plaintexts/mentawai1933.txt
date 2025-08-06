@@ -104,7 +104,7 @@ Condition of speech organs\tgood
 106. inan dere, singongai dere
 107. soelet
 108. inan singongai
-109. patoeroe (singongai )
+109. patoeroe (singongai)
 110. sita oni <5>
 111. sitaoni <5>
 112. anak singongai
@@ -991,18 +991,18 @@ Condition of speech organs\tgood
 1434. barē
 1461. kipa
 1435. katjioe
-1463. kase , kerenene
+1463. kase, kerenene
 1436. kato"et
 1464. nen
 1437. kapata
 1465. <98>
 1438. ka enoengan
-1467. tataagai , koepaatoe
+1467. tataagai, koepaatoe
 1439. bara kapata
 1468. palit=mapalit=makopē
-1440. katei , karepet
+1440. katei, karepet
 1469. apapei
-1441. sibara katei , sibara karepet
+1441. sibara katei, sibara karepet
 1470. sabba
 1442/1443. kaipa
 1471. ta
@@ -1014,12 +1014,12 @@ Condition of speech organs\tgood
 1475. ba
 1453. areoe
 1477. <99>
-1454. koilip , koiloep <97>
+1454. koilip, koiloep <97>
 1478. legere
-1455. kalaibo , kabela
+1455. kalaibo, kabela
 1480. tapoi
 1456. keian kalaibo=keian kabela
-1483. bara , getti
+1483. bara, getti
 1457. bacha=ka bacha
 1484. kenannen
 1458. toegoeroe
@@ -1027,12 +1027,12 @@ Condition of speech organs\tgood
 </wordlist>
 
 <wlist id="208" year="1931">
-1487. konan kaini , maroeei konan sene
+1487. konan kaini, maroeei konan sene
 1488. takoeoba
 1489. taioba
 1490. koeoba
 1491. noeoba ele ta noeoba
-1492. koeddoe , noetoekoe
+1492. koeddoe, noetoekoe
 1493. apa loeloe anoepoesooe
 1494. akoe tamomoi
 1495. tapeikoeagai
@@ -1043,7 +1043,7 @@ Condition of speech organs\tgood
 1500. bola djoika
 1501. ta koeteoeake
 1502. amateian nia
-1503. tapei mateinia , ia tapei amatei
+1503. tapei mateinia, ia tapei amatei
 1504. rarakngake
 1504. kaoe ka oedoet aloetet
 1504. kaoe ka oedoet api
@@ -1052,7 +1052,7 @@ Condition of speech organs\tgood
 1507. kan amatarekngan
 1508. mei akoe djoiki moeraoe
 1509. a moeraoe ekeoe?
-1510. apa noenooenooe , apa noererere
+1510. apa noenooenooe, apa noererere
 1511. apa noetidooe
 1512. moilele kam
 1513. konan kam anai ita memei kineneget
@@ -1126,7 +1126,7 @@ ll. <n><form>oetah</form></n> ; <n><form>gelek</form></n> ; <n><form>moeoetah</f
 54. <n><form>obakamone</form></n>; <n><form>bilooe</form></n>; <n><form>simaoeilam</form></n>
 55. <n><form>ngoroet</form>: <idn>boeroeng dara</idn></n>
 55. <n><form>limeardeoe</form>: <idn>poenei</idn></n>
-55. <n><form>kiaibok , mainong</form>: <idn>beo</idn></n>
+55. <n><form>kiaibok, mainong</form>: <idn>beo</idn></n>
 55. <n><form>seggoei</form>: <idn>pianggang</idn></n>
 56. <n><form>teina</form>: <idn>peroetnja</idn></n>
 56. <n><form>poeti</form> <idn>ekornja</idn></n>
@@ -1197,7 +1197,7 @@ ll. <n><form>oetah</form></n> ; <n><form>gelek</form></n> ; <n><form>moeoetah</f
 94. <n><form>kalepaka</form> = <idn>kesoedahan</idn></n>
 95. <n><form>matjepnanie</form> = <idn>pagi ini</idn></n>
 96. <n><form>simatjep</form>: <idn>tadi pagi</idn></n>
-96. a oempama
+96. <n><comment>a oempama</comment></n>
 96. <n><form>alepaan</form> = <idn>soedah habis</idn></n>
 96. <n><form>asoepperoengan</form> = <idn>soedah habis</idn></n>
 96. <n><form>sappoeroe</form> = <idn>habis</idn></n>

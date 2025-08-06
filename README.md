@@ -11,6 +11,7 @@ Arka](https://researchers.anu.edu.au/researchers/arka-iww)
 <sup>2</sup>, & Australian National University (ANU) <sup>3</sup>
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
 <!-- badges: start -->
 
 [<img
@@ -52,13 +53,22 @@ from the main Holle List.
 
 Please
 [cite](https://github.com/complexico/holle-list-barrier-islands/blob/main/CITATION.cff)
-this repository as follows:
+this repository and the presentation about the project ([Rajeg et al.
+2025](#ref-rajeg_ds_2025)) as follows:
 
 > Rajeg, G. P. W., & Arka, I W. (2025). The digitised and annotated
 > Holle List of the Barrier Islands languages, off the west coast of
 > Sumatra, Indonesia \[Data set\].
 > <https://github.com/complexico/holle-list-barrier-islands>
 > <https://doi.org/10.17605/OSF.IO/P8A3R>
+
+> Rajeg, G. P. W., Arka, I. W., Pramartha, C. R. A., & Sangian, E. Z.
+> (2025). *The data science behind the curation of the Holle List: A
+> case study from the Enggano Holle List and its neighbouring Barrier
+> Islands Languages* \[Presentation\]. Oceanic and Southeast Asian
+> Navigators (OCSEAN) Conference, Faculty of Humanities, Udayana
+> University. University of Oxford.
+> <https://doi.org/10.25446/oxford.29625407.v1>
 
 Please also cite the original sources in Stokhof
 ([1980](#ref-holleli1980)) and Stokhof and Almanar
@@ -80,11 +90,12 @@ Please also cite the original sources in Stokhof
 These files will be supplemented by the remaining additional data from
 the neighbouring languages (see the note below).
 
-- The digitisation for $\textcolor{crimson}{\textsf{Mentawai}}$ (not the
-  “1933” one), $\textcolor{crimson}{\textsf{Nias (1905 and 1911)}}$,
-  $\textcolor{crimson}{\textsf{Salang and Sigule}}$,
-  $\textcolor{crimson}{\textsf{Sigulei and Salang}}$, and
-  $\textcolor{crimson}{\textsf{Seumalur}}$ was conducted by [my
+- The digitisation for $`\textcolor{crimson}{\textsf{Mentawai}}`$ (not
+  the “1933” one),
+  $`\textcolor{crimson}{\textsf{Nias (1905 and 1911)}}`$,
+  $`\textcolor{crimson}{\textsf{Salang and Sigule}}`$,
+  $`\textcolor{crimson}{\textsf{Sigulei and Salang}}`$, and
+  $`\textcolor{crimson}{\textsf{Seumalur}}`$ was conducted by [my
   students](https://github.com/complexico/lexico-holle-list-barrier-islands?tab=readme-ov-file#student-contributors)
   as part of the English Lexicology and Lexicography course in the
   Bachelor of English Literature program, Faculty of Humanities, Udayana
@@ -92,17 +103,27 @@ the neighbouring languages (see the note below).
   project](https://github.com/complexico/lexico-holle-list-barrier-islands)
   to introduce *WeSay* to the students.
 
-  - UPDATE: The .sfm plain-text files from the WeSay projects are to be
-    further processed.
-
 ### References
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
 
 <div id="ref-rajeg2023" class="csl-entry">
 
 Rajeg, Gede Primahadi Wijaya. 2023. *Digitised, Searchable Holle List in
 Stokhof (1980)*. <https://doi.org/10.5281/zenodo.7972273>.
+
+</div>
+
+<div id="ref-rajeg_ds_2025" class="csl-entry">
+
+Rajeg, Gede Primahadi Wijaya, I. Wayan Arka, Cokorda Rai Adi Pramartha,
+and Engga Zakaria Sangian. 2025. “The Data Science Behind the Curation
+of the Holle List: A Case Study from the Enggano Holle List and Its
+Neighbouring Barrier Islands Languages.” Presentation presented at the
+Oceanic and Southeast Asian Navigators (OCSEAN) Conference, Faculty of
+Humanities, Udayana University.
+<https://doi.org/10.25446/oxford.29625407.v1>.
 
 </div>
 

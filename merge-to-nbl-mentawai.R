@@ -50,12 +50,12 @@ mtw33_words_df <- mtw33_words_df |>
 # check which Index in Mentawai (1933) is not in the Index of the NBL
 id_mtw33_not_in_nbl <- which(!mtw33_words_df$Index %in% holle_tb$Index)
 mtw33_words_df$Index[id_mtw33_not_in_nbl]
-# [1] "1080/1081"       "l229"            "1445/14458-1450"
-## fix the index
-mtw33_words_df <- mtw33_words_df |> 
-  mutate(Index = replace(Index, Index == "l229", "1229"),
-         Index = replace(Index, Index == "1080/1081", "1080-1081"),
-         Index = replace(Index, Index == "1445/14458-1450", "1445/1448-1450"))
+# character(0)
+## fix the index : irrelevant for Mentawai 1933
+# mtw33_words_df <- mtw33_words_df |> 
+#   mutate(Index = replace(Index, Index == "l229", "1229"),
+#          Index = replace(Index, Index == "1080/1081", "1080-1081"),
+#          Index = replace(Index, Index == "1445/14458-1450", "1445/1448-1450"))
 ## again check which Index in Mentawai (1933) is not in the Index of the NBL
 id_mtw33_not_in_nbl <- which(!mtw33_words_df$Index %in% holle_tb$Index)
 mtw33_words_df$Index[id_mtw33_not_in_nbl]
@@ -134,12 +134,56 @@ tb <- tb |>
 # Matching notes and forms for multiple forms and split forms in notes ====
 ## Highly customised, on a case-by-case basis!
 tb <- tb |> 
-  # TO DO: filter multiple "Forms" and those which have "Notes_id", with nt_form refers to one of the multiple "Forms"
-  
+  # filter and fix multiple "Forms" and those which have "Notes_id", with nt_form refers to one of the multiple "Forms"
+  mutate(Forms = if_else(str_detect(Forms, ", ") & Forms == "lalep, oema" & nt_form == "lalep",
+                         "lalep",
+                         Forms),
+         Forms = if_else(str_detect(Forms, ", ") & Forms == "lalep, oema" & nt_form == "oema",
+                         "oema",
+                         Forms),
+         Forms = if_else(str_detect(Forms, ", ") & Forms == "simasoesoera, oeraget" & nt_form == "simasoesoera" & English == "animal, beast",
+                         "simasoesoera",
+                         Forms),
+         Forms = if_else(str_detect(Forms, ", ") & Forms == "simasoesoera, oeraget" & nt_form == "oeraget" & English == "animal, beast",
+                         "oeraget",
+                         Forms),
+         Forms = if_else(str_detect(Forms, ", ") & Forms == "sikatai, simaligo" & nt_form == "sikatai" & English == "mad",
+                         "sikatai",
+                         Forms),
+         Forms = if_else(str_detect(Forms, ", ") & Forms == "sikatai, simaligo" & nt_form == "simaligo" & English == "mad",
+                         "simaligo",
+                         Forms),
+         Forms = if_else(str_detect(Forms, ", ") & Forms == "djoeroet, menoeroet" & nt_form == "djoeroet" & English == "to taste",
+                         "djoeroet",
+                         Forms),
+         Forms = if_else(str_detect(Forms, ", ") & Forms == "djoeroet, menoeroet" & nt_form == "menoeroet" & English == "to taste",
+                         "menoeroet",
+                         Forms),
+         Forms = if_else(str_detect(Forms, ", ") & Forms == "djoeroet, menoeroet" & nt_form == "djoeroet" & English == "to slurp",
+                         "djoeroet",
+                         Forms),
+         Forms = if_else(str_detect(Forms, ", ") & Forms == "djoeroet, menoeroet" & nt_form == "menoeroet" & English == "to slurp",
+                         "menoeroet",
+                         Forms),
+         Forms = if_else(str_detect(Forms, ", ") & Forms == "bo\"bo, pasibobo" & nt_form == "bo\"bo",
+                         "bo\"bo",
+                         Forms),
+         Forms = if_else(str_detect(Forms, ", ") & Forms == "bo\"bo, pasibobo" & nt_form == "pasibobo",
+                         "pasibobo",
+                         Forms),
+         Forms = if_else(str_detect(Forms, ", ") & Forms == "koilip , koiloep" & nt_form == "pasikoilip",
+                         "koilip",
+                         Forms),
+         Forms = if_else(str_detect(Forms, ", ") & Forms == "koilip , koiloep" & nt_form == "pasikoiloep",
+                         "koiloep",
+                         Forms)
+         ) |> 
+  separate_longer_delim(Forms, stringr::regex("(\\s?, )")) |> 
   # add from note form the main Form that originally is empty/given note ID only
-  mutate(Forms = if_else(Forms == "" & nt_form != "",
-                         nt_form,
-                         Forms)) |> 
-  distinct()
+  mutate(FormsAll = if_else(Forms == "" & nt_form != "",
+                            nt_form,
+                            Forms)) |> 
+  distinct() |> 
+  mutate(across(matches("^v[0-9]"), ~str_replace(., "-", "")))
 
 write_tsv(tb, "data-output/mentawai1933_tb.tsv")
