@@ -4,6 +4,8 @@
 library(tidyverse)
 library(googlesheets4)
 
+source("merge-NBL-call.R") # run codes to retrieve the NBL and NBL's Concepticon mapping
+
 maindb <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1P-JontDvH4MjKZ4pdqxthjTovSajJLKX6y2rtpuO5sc/edit?usp=sharing",
                                           col_types = c("cccccccccccicccccccccccccccllcccccccccccccc"),
                                           na = "NA")
@@ -17,3 +19,26 @@ seumalur1912 <- maindb |>
          nt_eng = if_else(nt_eng_correct == "", nt_eng, nt_eng_correct),
          nt_idn = if_else(nt_idn_correct == "", nt_idn, nt_idn_correct),
          nt_comment = if_else(nt_comment_correct == "", nt_comment, nt_comment_correct))
+
+seumalur1912_tb <- seumalur1912 |> 
+  select(-Index, -Dutch, -English, -Indonesian, -lx) |> 
+  distinct() |> 
+  rename(Index = ID, 
+         Notes_id = nt) |> 
+  left_join(holle_tb_all) |> 
+  select(!matches("_correct")) |> 
+  left_join(concepticon_checked) |> 
+  rename(Forms = lx_all) |> 
+  relocate(Notes_id, .after = Forms) |> 
+  relocate(Dutch, .after = Notes_id) |> 
+  relocate(English, .after = Dutch) |> 
+  relocate(Indonesian, .after = English) |> 
+  relocate(v1894, .after = Indonesian) |> 
+  relocate(`v1904/1911`, .after = v1894) |> 
+  relocate(v1931, .after = `v1904/1911`) |> 
+  relocate(Swadesh, .after = v1931) |> 
+  relocate(Swadesh_orig, .after = Swadesh) |> 
+  relocate(remark, .after = Swadesh_orig) |> 
+  # add the English and Indonesian glosses for the additional data
+  mutate(English = if_else(is.na(English) & str_detect(Index, "^add_"), de, English),
+         Indonesian = if_else(is.na(Indonesian) & str_detect(Index, "^add_"), dv, Indonesian))
