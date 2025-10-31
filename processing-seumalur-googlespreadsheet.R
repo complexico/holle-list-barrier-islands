@@ -44,7 +44,9 @@ seumalur1912_tb <- seumalur1912 |>
          Indonesian = if_else(is.na(Indonesian) & str_detect(Index, "^add_"), dv, Indonesian)) |> 
   mutate(nt_comment = if_else(str_detect(nt_comment, "\"s.*lai\""),
                               str_replace_all(nt_comment, "\"s.*lai\"", '‟sílai”'),
-                              nt_comment))
+                              nt_comment)) |> 
+  # NFD transformation so that the diacritics can be searched via Keyman combining keystroke
+  mutate(across(matches("(^Forms$|^remark$|^nt_)"), ~stringi::stri_trans_nfd(.)))
 
 seumalur1912_tb_out <- seumalur1912_tb |> 
   select(cats, 2:13, matches("^nt_"), matches("oncept(icon)?_"))
