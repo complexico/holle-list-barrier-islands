@@ -41,4 +41,13 @@ seumalur1912_tb <- seumalur1912 |>
   relocate(remark, .after = Swadesh_orig) |> 
   # add the English and Indonesian glosses for the additional data
   mutate(English = if_else(is.na(English) & str_detect(Index, "^add_"), de, English),
-         Indonesian = if_else(is.na(Indonesian) & str_detect(Index, "^add_"), dv, Indonesian))
+         Indonesian = if_else(is.na(Indonesian) & str_detect(Index, "^add_"), dv, Indonesian)) |> 
+  mutate(nt_comment = if_else(str_detect(nt_comment, "\"s.*lai\""),
+                              str_replace_all(nt_comment, "\"s.*lai\"", '‟sílai”'),
+                              nt_comment))
+
+seumalur1912_tb_out <- seumalur1912_tb |> 
+  select(cats, 2:13, matches("^nt_"), matches("oncept(icon)?_"))
+seumalur1912_tb_out
+seumalur1912_tb_out |> write_tsv("data-output/seumalur1912.tsv")
+seumalur1912_tb_out |> write_tsv("../seumalur1912-holle-list/raw/seumalur1912.tsv")
