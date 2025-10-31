@@ -7,6 +7,17 @@ library(tidyverse)
 holle_tb <- read_tsv("https://raw.githubusercontent.com/engganolang/digitised-holle-list/main/data/digitised-holle-list-in-stokhof-1980.tsv") |> 
   mutate(across(where(is.character), ~replace_na(., "")))
 
+holle_1931 <- read_tsv("https://raw.githubusercontent.com/engganolang/digitised-holle-list/refs/heads/main/data/digitised-holle-list-in-stokhof-1980-add-1931.tsv") |> 
+  mutate(across(where(is.character), ~replace_na(., ""))) |> 
+  mutate(Index = as.character(Index))
+
+holle_1904_1911 <- read_tsv("https://raw.githubusercontent.com/engganolang/digitised-holle-list/refs/heads/main/data/digitised-holle-list-in-stokhof-1980-add-1904_1911.tsv") |> 
+  mutate(across(where(is.character), ~replace_na(., ""))) |> 
+  mutate(Index = as.character(Index))
+
+holle_tb_all <- holle_tb |> 
+  bind_rows(holle_1904_1911, holle_1931)
+
 # read the Concepticon table for the NBL of the Holle List from GitHub ====
 concepticon <- read_tsv("https://raw.githubusercontent.com/engganolang/digitised-holle-list/main/data/concepticon-mapping.tsv") |> 
   rename(Index = NUMBER, 
