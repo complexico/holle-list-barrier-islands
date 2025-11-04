@@ -1,6 +1,6 @@
 ---
 output: github_document
-title: The digitised and annotated Holle List of the Barrier Islands languages, off the west coast of Sumatra, Indonesia
+title: The digitised and annotated Holle List of the [Barrier Islands languages](https://www.indonesianlanguages.org/home/barrier-islands-languages/), off the west coast of Sumatra, Indonesia
 author: '[Gede Primahadi Wijaya Rajeg](https://www.ling-phil.ox.ac.uk/people/gede-rajeg) <a itemprop="sameAs" content="https://orcid.org/0000-0002-2047-8621" href="https://orcid.org/0000-0002-2047-8621" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a>^1,^ ^2^ & [I Wayan Arka](https://researchers.anu.edu.au/researchers/arka-iww) <a itemprop="sameAs" content="https://orcid.org/0000-0002-2819-6186" href="https://orcid.org/0000-0002-2819-6186" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a>^3,^ ^2^ </br>University of Oxford ^1^, Udayana University ^2^, & Australian National University (ANU) ^3^'
 link-citations: true
 bibliography: references.bib
@@ -25,7 +25,7 @@ knitr::opts_chunk$set(
 
 ## Overview
 
-A repository hosting (a work-in-progress for) the digitised and curated dataset of the Holle List vocabularies of languages off the west coast of Sumatra, Indonesia [@holle1987; @holleli1980]. The goal is to allow computational matching between the vocabularies of these languages with the [main, digitised Holle List](https://engganolang.github.io/digitised-holle-list/) [@rajeg2023]. The matching will provide the English, Dutch, and Indonesian translations for these vocabularies that are carried over from the main Holle List.
+A repository hosting (a work-in-progress for) the digitised and curated [dataset of the Holle List](https://github.com/Holle-List) vocabularies of [languages off the west coast of Sumatra](https://www.indonesianlanguages.org/home/barrier-islands-languages/), Indonesia [@holle1987; @holleli1980]. The goal is to allow computational matching between the vocabularies of these languages with the [main, digitised Holle List](https://engganolang.github.io/digitised-holle-list/) [@rajeg2023]. The matching will provide the English, Dutch, and Indonesian translations for these vocabularies that are carried over from the main Holle List.
 
 Please [cite](https://github.com/complexico/holle-list-barrier-islands/blob/main/CITATION.cff) this repository and the presentation about the project [@rajeg_ds_2025] as follows:
 
@@ -49,6 +49,6 @@ Please also cite the original sources in Stokhof [-@holleli1980] and Stokhof and
 
 These files will be supplemented by the remaining additional data from the neighbouring languages (see the note below).
 
-- The digitisation for $\textcolor{crimson}{\textsf{Mentawai}}$ (not the "1933" one), $\textcolor{crimson}{\textsf{Nias (1905 and 1911)}}$, $\textcolor{crimson}{\textsf{Salang and Sigule}}$, $\textcolor{crimson}{\textsf{Sigulei and Salang}}$, and $\textcolor{crimson}{\textsf{Seumalur}}$ was conducted by [my students](https://github.com/complexico/lexico-holle-list-barrier-islands?tab=readme-ov-file#student-contributors) as part of the English Lexicology and Lexicography course in the Bachelor of English Literature program, Faculty of Humanities, Udayana University. This is part of a [class project](https://github.com/complexico/lexico-holle-list-barrier-islands) to introduce *WeSay* to the students.
+- The digitisation for $\textcolor{crimson}{\textsf{Mentawai}}$ (not the "1933" one), $\textcolor{crimson}{\textsf{Nias (1905 and 1911)}}$, $\textcolor{crimson}{\textsf{Salang and Sigule}}$, $\textcolor{crimson}{\textsf{Sigulei and Salang}}$, and $\textcolor{crimson}{\textsf{Seumalur (NBG 1912)}}$ ([page](https://github.com/Holle-List/seumalur1912-holle-list)) was conducted by [my students](https://github.com/complexico/lexico-holle-list-barrier-islands?tab=readme-ov-file#student-contributors) as part of the English Lexicology and Lexicography course in the Bachelor of English Literature program, Faculty of Humanities, Udayana University. This is part of a [class project](https://github.com/complexico/lexico-holle-list-barrier-islands) to introduce *WeSay* to the students.
 
 ### References

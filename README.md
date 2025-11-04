@@ -1,4 +1,5 @@
-The digitised and annotated Holle List of the Barrier Islands languages,
+The digitised and annotated Holle List of the [Barrier Islands
+languages](https://www.indonesianlanguages.org/home/barrier-islands-languages/),
 off the west coast of Sumatra, Indonesia
 ================
 [Gede Primahadi Wijaya
@@ -41,12 +42,13 @@ public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostat
 ## Overview
 
 A repository hosting (a work-in-progress for) the digitised and curated
-dataset of the Holle List vocabularies of languages off the west coast
-of Sumatra, Indonesia ([Stokhof and Almanar 1987](#ref-holle1987);
-[Stokhof 1980](#ref-holleli1980)). The goal is to allow computational
-matching between the vocabularies of these languages with the [main,
-digitised Holle
-List](https://engganolang.github.io/digitised-holle-list/) ([Rajeg
+[dataset of the Holle List](https://github.com/Holle-List) vocabularies
+of [languages off the west coast of
+Sumatra](https://www.indonesianlanguages.org/home/barrier-islands-languages/),
+Indonesia ([Stokhof and Almanar 1987](#ref-holle1987); [Stokhof
+1980](#ref-holleli1980)). The goal is to allow computational matching
+between the vocabularies of these languages with the [main, digitised
+Holle List](https://engganolang.github.io/digitised-holle-list/) ([Rajeg
 2023](#ref-rajeg2023)). The matching will provide the English, Dutch,
 and Indonesian translations for these vocabularies that are carried over
 from the main Holle List.
@@ -95,7 +97,9 @@ the neighbouring languages (see the note below).
   $`\textcolor{crimson}{\textsf{Nias (1905 and 1911)}}`$,
   $`\textcolor{crimson}{\textsf{Salang and Sigule}}`$,
   $`\textcolor{crimson}{\textsf{Sigulei and Salang}}`$, and
-  $`\textcolor{crimson}{\textsf{Seumalur}}`$ was conducted by [my
+  $`\textcolor{crimson}{\textsf{Seumalur (NBG 1912)}}`$
+  ([page](https://github.com/Holle-List/seumalur1912-holle-list)) was
+  conducted by [my
   students](https://github.com/complexico/lexico-holle-list-barrier-islands?tab=readme-ov-file#student-contributors)
   as part of the English Lexicology and Lexicography course in the
   Bachelor of English Literature program, Faculty of Humanities, Udayana
