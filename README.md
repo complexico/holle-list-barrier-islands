@@ -78,19 +78,19 @@ Please also cite the original sources in Stokhof
 
 ### Notes
 
-- Files in the `plaintexts` directory below have been digitised and
-  manually checked:
+Files in the `plaintexts` directory below have been digitised and
+manually checked:
 
-  - lekon.txt (✅)
+- lekon.txt (✅)
 
-  - simalur.txt (✅)
+- simalur.txt (✅)
 
-  - tapah.txt (✅)
+- tapah.txt (✅)
 
-  - mentawai1933.txt (✅)
+- mentawai1933.txt (✅)
 
-These files will be supplemented by the remaining additional data from
-the neighbouring languages (see the note below).
+These files will be supplemented with the following additional data from
+the neighbouring languages.
 
 - The digitisation for $`\textcolor{crimson}{\textsf{Mentawai}}`$ (not
   the “1933” one),
@@ -106,6 +106,15 @@ the neighbouring languages (see the note below).
   University. This is part of a [class
   project](https://github.com/complexico/lexico-holle-list-barrier-islands)
   to introduce *WeSay* to the students.
+
+#### Updates from students’ works
+
+- The [Seumalur (NBG
+  1912)](https://github.com/Holle-List/seumalur1912-holle-list) list has
+  been published ([DOI](http://dx.doi.org/10.25446/oxford.30924731))
+
+- proofreading the Mentawai list (not the “1933” list)
+  ([\#10](https://github.com/complexico/holle-list-barrier-islands/issues/10))
 
 ### References
 
