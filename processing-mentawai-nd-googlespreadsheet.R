@@ -43,6 +43,8 @@ mtw_nd_tb <- mtw_nd |>
   # add the English and Indonesian glosses for the additional data
   mutate(English = if_else(is.na(English) & str_detect(Index, "^add_"), de, English),
          Indonesian = if_else(is.na(Indonesian) & str_detect(Index, "^add_"), dv, Indonesian)) |> 
+  mutate(nt_comment = str_replace_all(nt_comment, "\"([^\"]+?)\"", "“\\1”")) |> 
+  mutate(across(where(is.character), ~str_replace_all(., "'", "ˈ"))) |> 
   # NFD transformation so that the diacritics can be searched via Keyman combining keystroke
   mutate(across(matches("(^Forms$|^remark$|^nt_)"), ~stringi::stri_trans_nfd(.)))
 
