@@ -118,6 +118,10 @@ the neighbouring languages.
   “1933”)](https://github.com/Holle-List/mentawai-nd-holle-list) list
   has been published ([DOI](http://dx.doi.org/10.25446/oxford.30928769))
 
+- The [Nias (NBG
+  1905)](https://github.com/Holle-List/nias1905-holle-list) list has
+  been published ([DOI](https://doi.org/10.25446/oxford.30978940))
+
 ### References
 
 <div id="refs" class="references csl-bib-body hanging-indent"
