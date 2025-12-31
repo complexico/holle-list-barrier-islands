@@ -93,7 +93,8 @@ These files will be supplemented with the following additional data from
 the neighbouring languages.
 
 - The digitisation for $`\textcolor{crimson}{\textsf{Mentawai}}`$ (not
-  the “1933” one),
+  the “1933” one)
+  ([page](https://github.com/Holle-List/mentawai-nd-holle-list)),
   $`\textcolor{crimson}{\textsf{Nias (1905 and 1911)}}`$,
   $`\textcolor{crimson}{\textsf{Salang and Sigule}}`$,
   $`\textcolor{crimson}{\textsf{Sigulei and Salang}}`$, and
@@ -113,8 +114,9 @@ the neighbouring languages.
   1912)](https://github.com/Holle-List/seumalur1912-holle-list) list has
   been published ([DOI](http://dx.doi.org/10.25446/oxford.30924731))
 
-- proofreading the Mentawai list (not the “1933” list)
-  ([\#10](https://github.com/complexico/holle-list-barrier-islands/issues/10))
+- The [Mentawai (not the
+  “1933”)](https://github.com/Holle-List/mentawai-nd-holle-list) list
+  has been published ([DOI](http://dx.doi.org/10.25446/oxford.30928769))
 
 ### References
 
