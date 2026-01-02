@@ -78,7 +78,7 @@ Please also cite the original sources in Stokhof
 
 ### Notes
 
-Files in the `plaintexts` directory below have been digitised and
+Files below inside the `plaintexts` directory have been digitised and
 manually checked:
 
 - lekon.txt (✅)
@@ -121,6 +121,13 @@ the neighbouring languages.
 - The [Nias (NBG
   1905)](https://github.com/Holle-List/nias1905-holle-list) list has
   been published ([DOI](https://doi.org/10.25446/oxford.30978940))
+
+- The [Nias (1911)](https://github.com/Holle-List/nias1905-holle-list)
+  list has been published
+  ([DOI](https://doi.org/10.5281/zenodo.18128740))
+
+- Two more lists to be proofread (`Salang and Sigule` and
+  `Sigulei and Salang`)
 
 ### References
 
