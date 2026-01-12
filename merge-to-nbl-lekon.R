@@ -5,6 +5,7 @@ library(tidyverse)
 library(readxl)
 
 source("merge-NBL-call.R") # run codes to retrieve the NBL and NBL's Concepticon mapping
+source("gloss-English-and-Indonesian-added-to-unsp-Dutch.R")
 
 lekon_words <- read_lines("plaintexts/lekon.txt")
 
@@ -120,9 +121,18 @@ tb <- tb |>
   mutate(nt_form = str_split(nt_form, ", ")) |> 
   unnest_longer(col = nt_form) |> 
   # add from note form the main Form that originally is empty/given note ID only
+  ## the FormsAll column stores all forms (from the main list and the note form)
   mutate(FormsAll = if_else(Forms == "" & nt_form != "",
                             nt_form,
                             Forms)) |> 
-  distinct()
+  distinct() |> 
+  left_join(nogloss3) |> # add the gloss for \ and - IDs
+  mutate(English = if_else(!is.na(English3), 
+                           English3, 
+                           English)) |>
+  mutate(Indonesian = if_else(!is.na(Indonesian3), 
+                              Indonesian3, 
+                              Indonesian)) |> 
+  select(-English3, -Indonesian3)
 
 write_tsv(tb, "data-output/lekon_tb.tsv")
