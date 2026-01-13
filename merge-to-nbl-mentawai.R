@@ -9,6 +9,7 @@ holle_1931 <- read_tsv("https://raw.githubusercontent.com/engganolang/digitised-
   mutate(across(where(is.character), ~replace_na(., "")))
 
 mtw33_words <- read_lines("plaintexts/mentawai1933.txt")
+source("gloss-English-and-Indonesian-added-to-unsp-Dutch.R")
 
 # Processing metadata ====
 metadata_tag <- str_which(mtw33_words, "metadata\\>")
@@ -183,10 +184,20 @@ tb <- tb |>
          ) |> 
   separate_longer_delim(Forms, stringr::regex("(\\s?, )")) |> 
   # add from note form the main Form that originally is empty/given note ID only
+  ## the FormsAll column stores all forms (from the main list and the note form)
   mutate(FormsAll = if_else(Forms == "" & nt_form != "",
                             nt_form,
                             Forms)) |> 
   distinct() |> 
-  mutate(across(matches("^v[0-9]"), ~str_replace(., "-", "")))
+  mutate(across(matches("^v[0-9]"), ~str_replace(., "-", ""))) |> 
+  left_join(nogloss3) |> # add the gloss for \ and - IDs
+  mutate(English = if_else(!is.na(English3), 
+                           English3, 
+                           English)) |>
+  mutate(Indonesian = if_else(!is.na(Indonesian3), 
+                              Indonesian3, 
+                              Indonesian)) |> 
+  select(-English3, -Indonesian3)
+
 
 write_tsv(tb, "data-output/mentawai1933_tb.tsv")
