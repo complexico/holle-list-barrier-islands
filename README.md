@@ -96,7 +96,8 @@ the neighbouring languages.
   the “1933” one)
   ([page](https://github.com/Holle-List/mentawai-nd-holle-list)),
   $`\textcolor{crimson}{\textsf{Nias (1905 and 1911)}}`$,
-  $`\textcolor{crimson}{\textsf{Salang and Sigule}}`$,
+  $`\textcolor{crimson}{\textsf{Salang and Sigule}}`$
+  ([page](https://github.com/Holle-List/salang-sigule-1920-holle-list)),
   $`\textcolor{crimson}{\textsf{Sigulei and Salang}}`$, and
   $`\textcolor{crimson}{\textsf{Seumalur (NBG 1912)}}`$
   ([page](https://github.com/Holle-List/seumalur1912-holle-list)) was
@@ -126,8 +127,12 @@ the neighbouring languages.
   list has been published
   ([DOI](https://doi.org/10.5281/zenodo.18128740))
 
-- Two more lists to be proofread (`Salang and Sigule` and
-  `Sigulei and Salang`)
+- The [Salang and Sigulè (NBG
+  1920)](https://github.com/Holle-List/salang-sigule-1920-holle-list)
+  list has been published
+  ([DOI](https://doi.org/10.5281/zenodo.18308216))
+
+- One more list is being proofread (`Sigulei and Salang`)
 
 ### References
 
