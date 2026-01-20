@@ -20,7 +20,9 @@ salang_sigule1920 <- maindb |>
          dv = if_else(dv_correct == "", dv, dv_correct),
          nt_eng = if_else(nt_eng_correct == "", nt_eng, nt_eng_correct),
          nt_idn = if_else(nt_idn_correct == "", nt_idn, nt_idn_correct),
-         nt_comment = if_else(nt_comment_correct == "", nt_comment, nt_comment_correct))
+         nt_comment = if_else(nt_comment_correct == "", nt_comment, nt_comment_correct)) |> 
+  # split multiple forms in a cell
+  separate_longer_delim(lx_all, "/")
 
 salang_sigule1920_tb <- salang_sigule1920 |> 
   select(-Index, -Dutch, -English, -Indonesian, -lx) |> 
