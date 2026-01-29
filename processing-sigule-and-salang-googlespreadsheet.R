@@ -50,8 +50,6 @@ sigule_salang1912_tb <- sigule_salang1912 |>
          Indonesian = if_else(is.na(Indonesian) & str_detect(Index, "^add_"), dv, Indonesian)) |> 
   mutate(across(where(is.character), ~str_replace_all(., "'", "ˈ"))) |>
   # If there is empty translation from the original English (e.g., due to Dutch ... <unsp.>), get the English and Indonesian from dv and de columns
-  # mutate(English_add2 = if_else(English == "" & str_detect(Dutch, "(unsp\\.)"), de, ""),
-  #        Indonesian_add2 = if_else(Indonesian == "" & str_detect(Dutch, "(unsp\\.)"), dv, "")) |> 
   # NFD transformation so that the diacritics can be searched via Keyman combining keystroke
   mutate(across(matches("(^Forms$|^remark$|^nt_)"), ~stringi::stri_trans_nfd(.)))
 
