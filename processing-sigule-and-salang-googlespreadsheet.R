@@ -20,11 +20,46 @@ sigule_salang1912 <- maindb |>
          dv = if_else(dv_correct == "", dv, dv_correct),
          nt_eng = if_else(nt_eng_correct == "", nt_eng, nt_eng_correct),
          nt_idn = if_else(nt_idn_correct == "", nt_idn, nt_idn_correct),
-         nt_comment = if_else(nt_comment_correct == "", nt_comment, nt_comment_correct)) |> 
-  # split multiple forms in a cell
-  separate_longer_delim(lx_all, ",") |> 
-  separate_longer_delim(lx_all, ";") |> 
-  separate_longer_delim(lx_all, "\\/")
+         nt_comment = if_else(nt_comment_correct == "", nt_comment, nt_comment_correct)) 
+
+# split multiple forms in a cell
+main_data_splitted_cells <- sigule_salang1912 |>
+  filter(str_detect(ID, "^add_", TRUE)) |> 
+  filter(str_detect(lx_all, "(, |; |\\/)")) |> 
+  separate_longer_delim(lx_all, ", ") |> 
+  separate_longer_delim(lx_all, "; ") |> 
+  separate_longer_delim(lx_all, "/")
+main_data_combined <- sigule_salang1912 |>
+  filter(str_detect(ID, "^add_", TRUE)) |> 
+  filter(str_detect(lx_all, "(, |; |\\/)", negate = TRUE)) |> 
+  bind_rows(main_data_splitted_cells) |> 
+  mutate(ID2 = ID,
+         ID2 = str_replace_all(ID2, "^(\\d$)", "000\\1"),
+         ID2 = str_replace_all(ID2, "^(\\d{2}$)", "00\\1"),
+         ID2 = str_replace_all(ID2, "^(\\d{3}$)", "0\\1")) |> 
+  arrange(ID2) |> 
+  select(-ID2)
+
+## additional data needing splitting
+add_data_splitted_cells_id <- sigule_salang1912 |>
+  filter(str_detect(ID, "^add_", FALSE)) |> 
+  filter(str_detect(lx_all, "(,|\\/)")) |> 
+  (\(x) x[1:18,])() |> 
+  pull(ID)
+add_data_splitted_cells_df <- sigule_salang1912 |>
+  filter(str_detect(ID, "^add_", FALSE)) |> 
+  filter(ID %in% add_data_splitted_cells_id) |> 
+  separate_longer_delim(lx_all, ", ") |> 
+  separate_longer_delim(lx_all, "/")
+add_data_all <- sigule_salang1912 |>
+  filter(str_detect(ID, "^add_", FALSE)) |> 
+  filter(!ID %in% add_data_splitted_cells_id) |> 
+  bind_rows(add_data_splitted_cells_df) |> 
+  mutate(ID = str_replace_all(ID, "_(\\d)$", "_00\\1"),
+         ID = str_replace_all(ID, "_(\\d{2})$", "_0\\1")) |> 
+  arrange(ID)
+sigule_salang1912 <- main_data_combined |> 
+  bind_rows(add_data_all)
 
 sigule_salang1912_tb <- sigule_salang1912 |> 
   select(-Index, -Dutch, -English, -Indonesian, -lx) |> 
