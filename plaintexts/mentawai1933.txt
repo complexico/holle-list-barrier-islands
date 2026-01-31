@@ -1129,7 +1129,7 @@ ll. <n><form>oetah</form></n> ; <n><form>gelek</form></n> ; <n><form>moeoetah</f
 55. <n><form>kiaibok, mainong</form>: <idn>beo</idn></n>
 55. <n><form>seggoei</form>: <idn>pianggang</idn></n>
 56. <n><form>teina</form>: <idn>peroetnja</idn></n>
-56. <n><form>poeti</form> <idn>ekornja</idn></n>
+56. <n><comment>poeti ekornja</comment></n>
 57. <n><form>papakpak</form></n> ; <n><form>moetapi</form></n> ; <n><form>loeloeloep</form></n> ; <n><form>moesesere</form></n> ; <n><form>pepekka</form></n>
 58. <n><form>moeiba</form></n> ; <n><form>moedjaring</form></n> ; <n><form>moedjalo</form></n> ; <n><form>mangabili</form></n> ; <n><form>mamanoe</form></n>
 59. <n><idn>djala</idn></n> ; <n><idn>djaring</idn></n> ; <n><form>panoe</form></n> ; <n><form>soebba</form></n>
