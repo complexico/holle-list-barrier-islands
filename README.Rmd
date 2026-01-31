@@ -49,9 +49,9 @@ Files below inside the `plaintexts` directory have been digitised and manually c
 
 These files will be supplemented with the following additional data from the neighbouring languages.
 
-- The digitisation for $\textcolor{crimson}{\textsf{Mentawai}}$ (not the "1933" one) ([page](https://github.com/Holle-List/mentawai-nd-holle-list)), $\textcolor{crimson}{\textsf{Nias (1905 and 1911)}}$, $\textcolor{crimson}{\textsf{Salang and Sigule}}$ ([page](https://github.com/Holle-List/salang-sigule-1920-holle-list)), $\textcolor{crimson}{\textsf{Sigulei and Salang}}$, and $\textcolor{crimson}{\textsf{Seumalur (NBG 1912)}}$ ([page](https://github.com/Holle-List/seumalur1912-holle-list)) was conducted by [my students](https://github.com/complexico/lexico-holle-list-barrier-islands?tab=readme-ov-file#student-contributors) as part of the English Lexicology and Lexicography course in the Bachelor of English Literature program, Faculty of Humanities, Udayana University. This is part of a [class project](https://github.com/complexico/lexico-holle-list-barrier-islands) to introduce *WeSay* to the students.
+- The digitisation for $\textcolor{crimson}{\textsf{Mentawai}}$ (not the "1933" one) ([page](http://dx.doi.org/10.25446/oxford.30928769)), $\textcolor{crimson}{\textsf{Nias (1905)}}$ ([page](http://dx.doi.org/10.25446/oxford.30978940)), $\textcolor{crimson}{\textsf{Nias (1911)}}$ ([page](https://doi.org/10.5281/zenodo.18128741)), $\textcolor{crimson}{\textsf{Salang and Sigule}}$ ([page](https://doi.org/10.5281/zenodo.18308216)), $\textcolor{crimson}{\textsf{Sigulei and Salang}}$ ([page](https://doi.org/10.5281/zenodo.18437402)), and $\textcolor{crimson}{\textsf{Seumalur (NBG 1912)}}$ ([page](http://dx.doi.org/10.25446/oxford.30924731)) was conducted by [my students](https://github.com/complexico/lexico-holle-list-barrier-islands?tab=readme-ov-file#student-contributors) as part of the English Lexicology and Lexicography course in the Bachelor of English Literature program, Faculty of Humanities, Udayana University. This is part of a [class project](https://github.com/complexico/lexico-holle-list-barrier-islands) to introduce *WeSay* to the students. The outputs of the digitisation were manually checked, edited, and fixed (by the first author, GPWR) before being published and archived as mentioned in the section below.
 
-#### Updates from students' works
+#### Updates from students' contributions
 
 - The [Seumalur (NBG 1912)](https://github.com/Holle-List/seumalur1912-holle-list) list has been published ([DOI](http://dx.doi.org/10.25446/oxford.30924731))
     
@@ -63,6 +63,10 @@ These files will be supplemented with the following additional data from the nei
 
 - The [Salang and Sigulè (NBG 1920)](https://github.com/Holle-List/salang-sigule-1920-holle-list) list has been published ([DOI](https://doi.org/10.5281/zenodo.18308216))
 
-- One more list is being proofread (`Sigulei and Salang`)
+- The [Sigulei and Salang (NBG 1912)](https://github.com/Holle-List/sigule-salang-1912-holle-list) list has been published ([DOI](https://doi.org/10.5281/zenodo.18437402))
+
+We have finished the manual checking and editing (via Google Spreadsheet) of students' digitisation works for the above regional lists of the Barrier Islands Languages of Sumatra, Indonesia.
+
+The future work is orthography standardisation and CLDF conversion for the complete set of the Barrier Islands Languages Holle List.
 
 ### References
