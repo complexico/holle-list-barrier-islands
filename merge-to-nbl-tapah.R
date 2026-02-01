@@ -49,7 +49,7 @@ tapah_notes_df <- tapah_notes_df |>
   unnest_longer(notes, keep_empty = TRUE) |> 
   select(-tapah_notes) |> 
   mutate(nt_form = str_extract(notes, "(?<=\\<form\\>)([^<]+?)(?=\\<\\/form\\>)"),
-         nt_english = str_extract(notes, "(?<=\\<eng\\>)([^<]+?)(?=\\<\\/eng\\>)"),
+         nt_eng = str_extract(notes, "(?<=\\<eng\\>)([^<]+?)(?=\\<\\/eng\\>)"),
          nt_comment = str_extract(notes, "(?<=\\<comment\\>)([^<]+?)(?=\\<\\/comment\\>)")) |> 
   select(-notes) |> 
   mutate(across(where(is.character), ~replace_na(., "")))

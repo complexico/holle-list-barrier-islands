@@ -48,7 +48,7 @@ simalur_notes_df <- simalur_notes_df |>
   unnest_longer(notes, keep_empty = TRUE) |> 
   select(-simalur_notes) |> 
   mutate(nt_form = str_extract(notes, "(?<=\\<form\\>)([^<]+?)(?=\\<\\/form\\>)"),
-         nt_english = str_extract(notes, "(?<=\\<eng\\>)([^<]+?)(?=\\<\\/eng\\>)"),
+         nt_eng = str_extract(notes, "(?<=\\<eng\\>)([^<]+?)(?=\\<\\/eng\\>)"),
          nt_comment = str_extract(notes, "(?<=\\<comment\\>)([^<]+?)(?=\\<\\/comment\\>)"),
          nt_xref = str_extract(notes, "(?<=\\<xr\\>)(.+?)(?=\\<\\/xr\\>)"),
          nt_xref = str_replace_all(nt_xref, "\\<\\/?ptr\\>", "")) |> 
@@ -114,6 +114,22 @@ tb <- tb |>
   mutate(FormsAll = if_else(Forms == "" & nt_form != "",
                             nt_form,
                             Forms)) |> 
-  distinct()
+  # make FormsAll into Forms and change Forms into FormsOrig, which store the original forms in the list that can contain empty forms due to reference to the notes.
+  rename(FormsOrig = Forms,
+         Forms = FormsAll) |> 
+  relocate(Forms, .after = Index) |> 
+  relocate(FormsOrig, .after = concept_url) |> 
+  distinct() |> 
+  # add codes to determine the types of the list based on the Index
+  mutate(list_type = "NBL",
+         list_type = if_else(Index %in% holle_1904_1911$Index,
+                             "added_list_1904_1911",
+                             list_type),
+         list_type = if_else(Index %in% holle_1931$Index,
+                             "added_list_1931",
+                             list_type),
+         list_type = if_else(str_detect(Index, "^add_"),
+                             "added_data",
+                             list_type))
 
 write_tsv(tb, "data-output/simalur_tb.tsv")

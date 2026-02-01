@@ -48,7 +48,7 @@ lekon_notes_df <- lekon_notes_df |>
   unnest_longer(notes, keep_empty = TRUE) |> 
   select(-lekon_notes) |> 
   mutate(nt_form = str_extract(notes, "(?<=\\<form\\>)([^<]+?)(?=\\<\\/form\\>)"),
-         nt_english = str_extract(notes, "(?<=\\<eng\\>)([^<]+?)(?=\\<\\/eng\\>)"),
+         nt_eng = str_extract(notes, "(?<=\\<eng\\>)([^<]+?)(?=\\<\\/eng\\>)"),
          nt_idn = str_extract(notes, "(?<=\\<idn\\>)([^<]+?)(?=\\<\\/idn\\>)"),
          nt_tapah = str_extract(notes, "(?<=\\<tapah\\>)([^<]+?)(?=\\<\\/tapah\\>)"),
          nt_tapah = str_replace(nt_tapah, "^T\\s", ""),
