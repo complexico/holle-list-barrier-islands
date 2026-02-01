@@ -197,7 +197,24 @@ tb <- tb |>
   mutate(Indonesian = if_else(!is.na(Indonesian3), 
                               Indonesian3, 
                               Indonesian)) |> 
-  select(-English3, -Indonesian3)
+  select(-English3, -Indonesian3) |> 
+  # make FormsAll into Forms and change Forms into FormsOrig, which store the original forms in the list that can contain empty forms due to reference to the notes.
+  rename(FormsOrig = Forms,
+         Forms = FormsAll) |> 
+  relocate(Forms, .after = Index) |> 
+  relocate(FormsOrig, .after = concept_url) |> 
+  distinct() |> 
+  # add codes to determine the types of the list based on the Index
+  mutate(list_type = "NBL",
+         list_type = if_else(Index %in% holle_1904_1911$Index,
+                             "added_list_1904_1911",
+                             list_type),
+         list_type = if_else(Index %in% holle_1931$Index,
+                             "added_list_1931",
+                             list_type),
+         list_type = if_else(str_detect(Index, "^add_"),
+                             "added_data",
+                             list_type))
 
 
 write_tsv(tb, "data-output/mentawai1933_tb.tsv")
