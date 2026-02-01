@@ -22,7 +22,18 @@ salang_sigule1920 <- maindb |>
          nt_idn = if_else(nt_idn_correct == "", nt_idn, nt_idn_correct),
          nt_comment = if_else(nt_comment_correct == "", nt_comment, nt_comment_correct)) |> 
   # split multiple forms in a cell
-  separate_longer_delim(lx_all, "/")
+  separate_longer_delim(lx_all, "/") |> 
+  # add codes to determine the types of the list based on the Index
+  mutate(list_type = "NBL",
+         list_type = if_else(ID %in% holle_1904_1911$Index,
+                             "added_list_1904_1911",
+                             list_type),
+         list_type = if_else(ID %in% holle_1931$Index,
+                             "added_list_1931",
+                             list_type),
+         list_type = if_else(str_detect(ID, "^add_"),
+                             "added_data",
+                             list_type))
 
 salang_sigule1920_tb <- salang_sigule1920 |> 
   select(-Index, -Dutch, -English, -Indonesian, -lx) |> 
@@ -59,7 +70,8 @@ salang_sigule1920_tb_out <- salang_sigule1920_tb |>
   select(cats, 2:13, 
          #English_add, 
          #Indonesian_add, 
-         matches("^nt_"), matches("oncept(icon)?_")) |> 
+         matches("^nt_"), matches("oncept(icon)?_"),
+         list_type) |> 
   select(-nt_lekon, -nt_simalur) |>  # remove because they are empty
   left_join(nogloss3) |> # add the gloss for \ and - IDs
   mutate(English = if_else(!is.na(English3), 

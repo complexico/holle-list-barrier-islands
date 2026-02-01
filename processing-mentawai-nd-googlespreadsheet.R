@@ -20,7 +20,18 @@ mtw_nd <- maindb |>
          dv = if_else(dv_correct == "", dv, dv_correct),
          nt_eng = if_else(nt_eng_correct == "", nt_eng, nt_eng_correct),
          nt_idn = if_else(nt_idn_correct == "", nt_idn, nt_idn_correct),
-         nt_comment = if_else(nt_comment_correct == "", nt_comment, nt_comment_correct))
+         nt_comment = if_else(nt_comment_correct == "", nt_comment, nt_comment_correct)) |> 
+  # add codes to determine the types of the list based on the Index
+  mutate(list_type = "NBL",
+         list_type = if_else(ID %in% holle_1904_1911$Index,
+                             "added_list_1904_1911",
+                             list_type),
+         list_type = if_else(ID %in% holle_1931$Index,
+                             "added_list_1931",
+                             list_type),
+         list_type = if_else(str_detect(ID, "^add_"),
+                             "added_data",
+                             list_type))
 
 mtw_nd_tb <- mtw_nd |> 
   select(-Index, -Dutch, -English, -Indonesian, -lx) |> 
@@ -56,7 +67,8 @@ mentawai_nd_tb_out <- mtw_nd_tb |>
   select(cats, 2:13, 
          #English_add, 
          #Indonesian_add, 
-         matches("^nt_"), matches("oncept(icon)?_")) |> 
+         matches("^nt_"), matches("oncept(icon)?_"),
+         list_type) |> 
   mutate(cats = "the Mentawai (Pagai & Sipora) list (no date)") |> 
   select(!matches("(tapah|lekon|simalur)")) |> 
   left_join(nogloss3) |> # add the gloss for \ and - IDs

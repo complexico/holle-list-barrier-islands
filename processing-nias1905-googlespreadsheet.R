@@ -19,7 +19,18 @@ nias1905 <- maindb |>
          dv = if_else(dv_correct == "", dv, dv_correct),
          nt_eng = if_else(nt_eng_correct == "", nt_eng, nt_eng_correct),
          nt_idn = if_else(nt_idn_correct == "", nt_idn, nt_idn_correct),
-         nt_comment = if_else(nt_comment_correct == "", nt_comment, nt_comment_correct))
+         nt_comment = if_else(nt_comment_correct == "", nt_comment, nt_comment_correct)) |> 
+  # add codes to determine the types of the list based on the Index
+  mutate(list_type = "NBL",
+         list_type = if_else(ID %in% holle_1904_1911$Index,
+                             "added_list_1904_1911",
+                             list_type),
+         list_type = if_else(ID %in% holle_1931$Index,
+                             "added_list_1931",
+                             list_type),
+         list_type = if_else(str_detect(ID, "^add_"),
+                             "added_data",
+                             list_type))
 
 nias1905_tb <- nias1905 |> 
   select(-Index, -Dutch, -English, -Indonesian, -lx) |> 
@@ -50,7 +61,8 @@ nias1905_tb_out <- nias1905_tb |>
   select(cats, 2:13, 
          #English_add, 
          #Indonesian_add, 
-         matches("^nt_"), matches("oncept(icon)?_")) |> 
+         matches("^nt_"), matches("oncept(icon)?_"),
+         list_type) |> 
   select(!matches("(tapah|lekon|simalur)")) |> 
   left_join(nogloss3) |> # add the gloss for \ and - IDs
   mutate(English = if_else(!is.na(English3), 

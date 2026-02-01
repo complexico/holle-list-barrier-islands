@@ -66,7 +66,20 @@ seumalur1912_tb_out <- seumalur1912_tb |>
                               Indonesian3, 
                               Indonesian)) |> 
   select(-English3, -Indonesian3) |> 
-  mutate(cats = replace(cats, cats == "", "the Seumalur 1912 list"))
+  mutate(cats = replace(cats, cats == "", "the Seumalur 1912 list")) |> 
+  # add codes to determine the types of the list based on the Index
+  mutate(list_type = "NBL",
+         list_type = if_else(Index %in% holle_1904_1911$Index,
+                             "added_list_1904_1911",
+                             list_type),
+         list_type = if_else(Index %in% holle_1931$Index,
+                             "added_list_1931",
+                             list_type),
+         list_type = if_else(str_detect(Index, "^add_"),
+                             "added_data",
+                             list_type)) |> 
+  mutate(Index = str_replace_all(Index, "(?<=^add_)(\\d)$", "00\\1"),
+         Index = str_replace_all(Index, "(?<=^add_)(\\d{2})$", "0\\1"))
 seumalur1912_tb_out
 seumalur1912_tb_out |> write_tsv("data-output/seumalur1912.tsv")
 seumalur1912_tb_out |> write_tsv("../seumalur1912-holle-list/raw/seumalur1912.tsv")

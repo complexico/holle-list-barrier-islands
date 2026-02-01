@@ -20,7 +20,9 @@ sigule_salang1912 <- maindb |>
          dv = if_else(dv_correct == "", dv, dv_correct),
          nt_eng = if_else(nt_eng_correct == "", nt_eng, nt_eng_correct),
          nt_idn = if_else(nt_idn_correct == "", nt_idn, nt_idn_correct),
-         nt_comment = if_else(nt_comment_correct == "", nt_comment, nt_comment_correct)) 
+         nt_comment = if_else(nt_comment_correct == "", nt_comment, nt_comment_correct)) |> 
+  mutate(reorder_ID = row_number()) |> 
+  select(reorder_ID, everything())
 
 # split multiple forms in a cell
 main_data_splitted_cells <- sigule_salang1912 |>
@@ -33,12 +35,13 @@ main_data_combined <- sigule_salang1912 |>
   filter(str_detect(ID, "^add_", TRUE)) |> 
   filter(str_detect(lx_all, "(, |; |\\/)", negate = TRUE)) |> 
   bind_rows(main_data_splitted_cells) |> 
-  mutate(ID2 = ID,
-         ID2 = str_replace_all(ID2, "^(\\d$)", "000\\1"),
-         ID2 = str_replace_all(ID2, "^(\\d{2}$)", "00\\1"),
-         ID2 = str_replace_all(ID2, "^(\\d{3}$)", "0\\1")) |> 
-  arrange(ID2) |> 
-  select(-ID2)
+  arrange(reorder_ID)
+  # mutate(ID2 = ID,
+  #        ID2 = str_replace_all(ID2, "^(\\d$)", "000\\1"),
+  #        ID2 = str_replace_all(ID2, "^(\\d{2}$)", "00\\1"),
+  #        ID2 = str_replace_all(ID2, "^(\\d{3}$)", "0\\1")) |> 
+  # arrange(ID2) |>
+  # select(-ID2)
 
 ## additional data needing splitting
 add_data_splitted_cells_id <- sigule_salang1912 |>
@@ -59,7 +62,8 @@ add_data_all <- sigule_salang1912 |>
          ID = str_replace_all(ID, "_(\\d{2})$", "_0\\1")) |> 
   arrange(ID)
 sigule_salang1912 <- main_data_combined |> 
-  bind_rows(add_data_all)
+  bind_rows(add_data_all) |> 
+  arrange(reorder_ID)
 
 sigule_salang1912_tb <- sigule_salang1912 |> 
   select(-Index, -Dutch, -English, -Indonesian, -lx) |> 
@@ -95,6 +99,9 @@ sigule_salang1912_tb <- sigule_salang1912 |>
 # setdiff(no_glosses_id, additional_glosses$Index)
 
 sigule_salang1912_tb_out <- sigule_salang1912_tb |> 
+  # re-arrange to follow the original order
+  arrange(reorder_ID) |> 
+  select(-reorder_ID) |> 
   select(cats, 2:13, 
          #English_add, 
          #Indonesian_add, 
@@ -107,7 +114,18 @@ sigule_salang1912_tb_out <- sigule_salang1912_tb |>
   mutate(Indonesian = if_else(!is.na(Indonesian3), 
                               Indonesian3, 
                               Indonesian)) |> 
-  select(-English3, -Indonesian3)
+  select(-English3, -Indonesian3) |> 
+  # add codes to determine the types of the list based on the Index
+  mutate(list_type = "NBL",
+         list_type = if_else(Index %in% holle_1904_1911$Index,
+                             "added_list_1904_1911",
+                             list_type),
+         list_type = if_else(Index %in% holle_1931$Index,
+                             "added_list_1931",
+                             list_type),
+         list_type = if_else(str_detect(Index, "^add_"),
+                             "added_data",
+                             list_type))
 sigule_salang1912_tb_out
 sigule_salang1912_tb_out |> write_tsv("data-output/sigule_salang1912.tsv")
 sigule_salang1912_tb_out |> write_tsv("../SiguleSalang1912-holle-list/raw/sigule_salang1912.tsv")
