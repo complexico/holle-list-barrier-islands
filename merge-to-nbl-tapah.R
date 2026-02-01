@@ -99,6 +99,9 @@ tb <- tb |>
 # Matching notes and forms for multiple forms and split forms in notes ====
 ## Highly customised, on a case-by-case basis!
 tb <- tb |> 
+  # fix note form for twenty one to allow form split
+  mutate(nt_form = replace(nt_form, Notes_id == "36" & nt_comment == "people",
+                           "doeò poeloeh mésa/doeò poeloeh asò")) |> 
   mutate(Forms = if_else(str_detect(Forms, "\\,\\s") & 
                            Notes_id != "" & 
                            str_detect(nt_form, "^toemoed"),
@@ -121,9 +124,9 @@ tb <- tb |>
                          Forms)) |> 
   # add from note form the main Form that originally is empty/given note ID only
   ## the FormsAll column stores all forms (from the main list and the note form)
-  mutate(Forms = if_else(Forms == "" & nt_form != "",
-                         nt_form,
-                         Forms)) |> 
+  mutate(FormsAll = if_else(Forms == "" & nt_form != "",
+                            nt_form,
+                            Forms)) |> 
   distinct() |> 
   left_join(nogloss3) |> # add the gloss for \ and - IDs
   mutate(English = if_else(!is.na(English3), 
@@ -132,6 +135,26 @@ tb <- tb |>
   mutate(Indonesian = if_else(!is.na(Indonesian3), 
                               Indonesian3, 
                               Indonesian)) |> 
-  select(-English3, -Indonesian3)
+  select(-English3, -Indonesian3) |> 
+  # make FormsAll into Forms and change Forms into FormsOrig, which store the original forms in the list that can contain empty forms due to reference to the notes.
+  rename(FormsOrig = Forms,
+         Forms = FormsAll) |> 
+  relocate(Forms, .after = Index) |> 
+  relocate(FormsOrig, .after = concept_url) |> 
+  # separate multiple forms in a cell
+  separate_longer_delim(Forms, ", ") |> 
+  separate_longer_delim(Forms, "/") |> 
+  distinct() |> 
+  # add codes to determine the types of the list based on the Index
+  mutate(list_type = "NBL",
+         list_type = if_else(Index %in% holle_1904_1911$Index,
+                             "added_list_1904_1911",
+                             list_type),
+         list_type = if_else(Index %in% holle_1931$Index,
+                             "added_list_1931",
+                             list_type),
+         list_type = if_else(str_detect(Index, "^add_"),
+                             "added_data",
+                             list_type))
 
 write_tsv(tb, "data-output/tapah_tb.tsv")
