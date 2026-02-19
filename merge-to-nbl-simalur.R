@@ -5,6 +5,7 @@ library(tidyverse)
 library(readxl)
 
 source("merge-NBL-call.R") # run codes to retrieve the NBL and NBL's Concepticon mapping
+source("gloss-English-and-Indonesian-added-to-unsp-Dutch.R")
 
 simalur_words <- read_lines("plaintexts/simalur.txt")
 
@@ -114,6 +115,15 @@ tb <- tb |>
   mutate(FormsAll = if_else(Forms == "" & nt_form != "",
                             nt_form,
                             Forms)) |> 
+  distinct() |> 
+  left_join(nogloss3) |> # add the gloss for \ and - IDs
+  mutate(English = if_else(!is.na(English3), 
+                           English3, 
+                           English)) |>
+  mutate(Indonesian = if_else(!is.na(Indonesian3), 
+                              Indonesian3, 
+                              Indonesian)) |> 
+  select(-English3, -Indonesian3) |> 
   # make FormsAll into Forms and change Forms into FormsOrig, which store the original forms in the list that can contain empty forms due to reference to the notes.
   rename(FormsOrig = Forms,
          Forms = FormsAll) |> 
