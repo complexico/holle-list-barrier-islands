@@ -1,5 +1,5 @@
-query	response	gen_info_type	gen_info_sectnum
-Language/dialect	Salang and Sigulè	Basic Data	1.1.
-Number of the list	229d	Basic Data	1.1.
-Mentioned in	NBG. 1920	Basic Data	1.1.
-Name of investigator	van der Linde	Basic Data	1.1.
+query,response,gen_info_type,gen_info_sectnum,lang_name
+Language/dialect,Salang and Sigulè,Basic Data,1.1.,salang-sigule
+Number of the list,229d,Basic Data,1.1.,salang-sigule
+Mentioned in,NBG. 1920,Basic Data,1.1.,salang-sigule
+Name of investigator,van der Linde,Basic Data,1.1.,salang-sigule

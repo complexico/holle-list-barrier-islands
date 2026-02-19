@@ -1,5 +1,5 @@
-query	response	gen_info_type	gen_info_sectnum
-Language/dialect	Tapah	Basic Data	1.1.
-Number of the list	229b	Basic Data	1.1.
-Mentioned in	NBG. 1920	Basic Data	1.1.
-Name of investigator	van der Linde	Basic Data	1.1.
+query,response,gen_info_type,gen_info_sectnum,lang_name
+Language/dialect,Tapah,Basic Data,1.1.,tapah
+Number of the list,229b,Basic Data,1.1.,tapah
+Mentioned in,NBG. 1920,Basic Data,1.1.,tapah
+Name of investigator,van der Linde,Basic Data,1.1.,tapah
